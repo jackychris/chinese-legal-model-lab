@@ -4,7 +4,7 @@
   "decision_rewritten": false,
   "rules": {
     "a_prefix_actual": "archived rule: false for null/empty or strings beginning with 无/没有/未发现/不存在/否; otherwise true",
-    "b_anywhere_negative": "false when a Chinese or English negative marker appears anywhere in the string",
+    "b_anywhere_negative": "booleans are preserved; null/empty strings are false; other strings are false when any exact substring in [无, 没有, 未发现, 不存在, 否] appears anywhere, otherwise true",
     "c_boolean_only": "only explicit booleans count; strings and nulls abstain; majority is computed among explicit boolean votes"
   },
   "arms": [
