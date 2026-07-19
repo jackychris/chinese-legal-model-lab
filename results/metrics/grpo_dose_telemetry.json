@@ -1,0 +1,218 @@
+{
+  "schema_version": "public_grpo_dose_telemetry_v1",
+  "global_steps": 600,
+  "window_size": 50,
+  "windows": [
+    {
+      "steps": [
+        1,
+        50
+      ],
+      "all_fail_group_fraction": 0.445,
+      "all_pass_group_fraction": 0.02,
+      "mean_reward": 0.22698076923076924,
+      "mean_completion_length": 841.69,
+      "mean_unsupported_citations": 18.08,
+      "mean_missing_required_citations": 4.68,
+      "mean_non_eos_or_truncated": 7.54,
+      "mean_repeated_paragraphs": 2.92,
+      "mean_clipped_ratio": 0.2159375,
+      "mean_kl": 0.0005214520496883779,
+      "mean_entropy": 0.6245487878657877
+    },
+    {
+      "steps": [
+        51,
+        100
+      ],
+      "all_fail_group_fraction": 0.41,
+      "all_pass_group_fraction": 0.02,
+      "mean_reward": 0.24515053050397878,
+      "mean_completion_length": 843.454375,
+      "mean_unsupported_citations": 17.08,
+      "mean_missing_required_citations": 5.82,
+      "mean_non_eos_or_truncated": 7.52,
+      "mean_repeated_paragraphs": 2.88,
+      "mean_clipped_ratio": 0.23375,
+      "mean_kl": 0.0005401134812564124,
+      "mean_entropy": 0.6068923095613719
+    },
+    {
+      "steps": [
+        101,
+        150
+      ],
+      "all_fail_group_fraction": 0.375,
+      "all_pass_group_fraction": 0.01,
+      "mean_reward": 0.2364186872909699,
+      "mean_completion_length": 852.13,
+      "mean_unsupported_citations": 17.84,
+      "mean_missing_required_citations": 5.74,
+      "mean_non_eos_or_truncated": 7.9,
+      "mean_repeated_paragraphs": 2.82,
+      "mean_clipped_ratio": 0.22125,
+      "mean_kl": 0.0005498159861963359,
+      "mean_entropy": 0.625000721681863
+    },
+    {
+      "steps": [
+        151,
+        200
+      ],
+      "all_fail_group_fraction": 0.4,
+      "all_pass_group_fraction": 0.01,
+      "mean_reward": 0.25517840719063545,
+      "mean_completion_length": 842.89375,
+      "mean_unsupported_citations": 17.56,
+      "mean_missing_required_citations": 5.38,
+      "mean_non_eos_or_truncated": 7.4,
+      "mean_repeated_paragraphs": 2.7,
+      "mean_clipped_ratio": 0.24125,
+      "mean_kl": 0.0005405412081017858,
+      "mean_entropy": 0.6083028383646161
+    },
+    {
+      "steps": [
+        201,
+        250
+      ],
+      "all_fail_group_fraction": 0.39,
+      "all_pass_group_fraction": 0.005,
+      "mean_reward": 0.24699101170568563,
+      "mean_completion_length": 851.974375,
+      "mean_unsupported_citations": 17.22,
+      "mean_missing_required_citations": 6.02,
+      "mean_non_eos_or_truncated": 7.5,
+      "mean_repeated_paragraphs": 3.06,
+      "mean_clipped_ratio": 0.226875,
+      "mean_kl": 0.0005456828711976414,
+      "mean_entropy": 0.6149902980029583
+    },
+    {
+      "steps": [
+        251,
+        300
+      ],
+      "all_fail_group_fraction": 0.42,
+      "all_pass_group_fraction": 0.005,
+      "mean_reward": 0.2545769230769231,
+      "mean_completion_length": 836.5475,
+      "mean_unsupported_citations": 17.2,
+      "mean_missing_required_citations": 5.98,
+      "mean_non_eos_or_truncated": 6.84,
+      "mean_repeated_paragraphs": 2.78,
+      "mean_clipped_ratio": 0.225,
+      "mean_kl": 0.0005572501907226979,
+      "mean_entropy": 0.6145433055981994
+    },
+    {
+      "steps": [
+        301,
+        350
+      ],
+      "all_fail_group_fraction": 0.385,
+      "all_pass_group_fraction": 0.03,
+      "mean_reward": 0.24480027173913044,
+      "mean_completion_length": 845.83375,
+      "mean_unsupported_citations": 17.58,
+      "mean_missing_required_citations": 5.9,
+      "mean_non_eos_or_truncated": 7.38,
+      "mean_repeated_paragraphs": 3.08,
+      "mean_clipped_ratio": 0.2196875,
+      "mean_kl": 0.0005477855848766922,
+      "mean_entropy": 0.6104296414367855
+    },
+    {
+      "steps": [
+        351,
+        400
+      ],
+      "all_fail_group_fraction": 0.425,
+      "all_pass_group_fraction": 0.03,
+      "mean_reward": 0.2306731958539961,
+      "mean_completion_length": 846.68625,
+      "mean_unsupported_citations": 17.74,
+      "mean_missing_required_citations": 5.68,
+      "mean_non_eos_or_truncated": 8.0,
+      "mean_repeated_paragraphs": 2.74,
+      "mean_clipped_ratio": 0.226875,
+      "mean_kl": 0.0005519097299657006,
+      "mean_entropy": 0.6233402842655777
+    },
+    {
+      "steps": [
+        401,
+        450
+      ],
+      "all_fail_group_fraction": 0.375,
+      "all_pass_group_fraction": 0.02,
+      "mean_reward": 0.26303616220735787,
+      "mean_completion_length": 828.60625,
+      "mean_unsupported_citations": 18.12,
+      "mean_missing_required_citations": 5.64,
+      "mean_non_eos_or_truncated": 6.62,
+      "mean_repeated_paragraphs": 2.22,
+      "mean_clipped_ratio": 0.204375,
+      "mean_kl": 0.0005549171173879586,
+      "mean_entropy": 0.6203146142698824
+    },
+    {
+      "steps": [
+        451,
+        500
+      ],
+      "all_fail_group_fraction": 0.4,
+      "all_pass_group_fraction": 0.015,
+      "mean_reward": 0.25910158862876254,
+      "mean_completion_length": 850.84125,
+      "mean_unsupported_citations": 16.52,
+      "mean_missing_required_citations": 5.56,
+      "mean_non_eos_or_truncated": 8.1,
+      "mean_repeated_paragraphs": 3.22,
+      "mean_clipped_ratio": 0.244375,
+      "mean_kl": 0.0005456601113837678,
+      "mean_entropy": 0.6078806723095477
+    },
+    {
+      "steps": [
+        501,
+        550
+      ],
+      "all_fail_group_fraction": 0.415,
+      "all_pass_group_fraction": 0.015,
+      "mean_reward": 0.2408284908026756,
+      "mean_completion_length": 851.220625,
+      "mean_unsupported_citations": 17.86,
+      "mean_missing_required_citations": 5.48,
+      "mean_non_eos_or_truncated": 7.12,
+      "mean_repeated_paragraphs": 2.44,
+      "mean_clipped_ratio": 0.2175,
+      "mean_kl": 0.0005520304025958466,
+      "mean_entropy": 0.6317973608337343
+    },
+    {
+      "steps": [
+        551,
+        600
+      ],
+      "all_fail_group_fraction": 0.4,
+      "all_pass_group_fraction": 0.02,
+      "mean_reward": 0.26134375,
+      "mean_completion_length": 836.723125,
+      "mean_unsupported_citations": 17.84,
+      "mean_missing_required_citations": 4.86,
+      "mean_non_eos_or_truncated": 6.4,
+      "mean_repeated_paragraphs": 2.8,
+      "mean_clipped_ratio": 0.221875,
+      "mean_kl": 0.0005535204538500693,
+      "mean_entropy": 0.6280794505216182
+    }
+  ],
+  "pre_registered_interpretation": {
+    "G3": "dose_sensitive_possible",
+    "G1": "uncertain_article_subgate_binding",
+    "G2": "runtime_grounding_or_architecture_likely_required",
+    "G4": "non_regression_only_not_directly_optimized",
+    "G5": "decoding_budget_and_termination_mismatch_likely"
+  }
+}

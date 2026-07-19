@@ -1,0 +1,1877 @@
+{
+  "schema_version": "public_legal50_internal_long8192_v1",
+  "score_semantics": "uncapped_component_total_due_to_underspecified_cap_schema",
+  "accepted": 200,
+  "arms": [
+    {
+      "arm": "base_long8192",
+      "accepted_rows": 50,
+      "expected_rows": 50,
+      "semantic_average": 6.688,
+      "unsafe_or_hallucinated_rows": 13,
+      "strict_cap_verified_rows": 2,
+      "strict_taxonomy_verified_rows": 37,
+      "rows": [
+        {
+          "id": "base_long8192__consumer_001__flash_r1",
+          "question_id": "consumer_001",
+          "reviewer_id": "flash_r1",
+          "score": 5.0,
+          "semantic_status": "valid",
+          "strict_cap_verified": false,
+          "strict_taxonomy_verified": true
+        },
+        {
+          "id": "base_long8192__consumer_002__flash_r1",
+          "question_id": "consumer_002",
+          "reviewer_id": "flash_r1",
+          "score": 5.0,
+          "semantic_status": "valid",
+          "strict_cap_verified": false,
+          "strict_taxonomy_verified": true
+        },
+        {
+          "id": "base_long8192__consumer_003__flash_r1",
+          "question_id": "consumer_003",
+          "reviewer_id": "flash_r1",
+          "score": 7.3,
+          "semantic_status": "valid",
+          "strict_cap_verified": false,
+          "strict_taxonomy_verified": true
+        },
+        {
+          "id": "base_long8192__consumer_004__pro_r3",
+          "question_id": "consumer_004",
+          "reviewer_id": "pro_r3",
+          "score": 7.0,
+          "semantic_status": "valid",
+          "strict_cap_verified": false,
+          "strict_taxonomy_verified": true
+        },
+        {
+          "id": "base_long8192__consumer_005__flash_r2",
+          "question_id": "consumer_005",
+          "reviewer_id": "flash_r2",
+          "score": 4.0,
+          "semantic_status": "valid",
+          "strict_cap_verified": false,
+          "strict_taxonomy_verified": true
+        },
+        {
+          "id": "base_long8192__consumer_006__flash_r2",
+          "question_id": "consumer_006",
+          "reviewer_id": "flash_r2",
+          "score": 7.3,
+          "semantic_status": "valid",
+          "strict_cap_verified": false,
+          "strict_taxonomy_verified": true
+        },
+        {
+          "id": "base_long8192__consumer_007__pro_r3",
+          "question_id": "consumer_007",
+          "reviewer_id": "pro_r3",
+          "score": 7.0,
+          "semantic_status": "valid",
+          "strict_cap_verified": false,
+          "strict_taxonomy_verified": true
+        },
+        {
+          "id": "base_long8192__consumer_008__flash_r1",
+          "question_id": "consumer_008",
+          "reviewer_id": "flash_r1",
+          "score": 7.3,
+          "semantic_status": "valid",
+          "strict_cap_verified": false,
+          "strict_taxonomy_verified": true
+        },
+        {
+          "id": "base_long8192__debt_001__flash_r2",
+          "question_id": "debt_001",
+          "reviewer_id": "flash_r2",
+          "score": 10.0,
+          "semantic_status": "valid",
+          "strict_cap_verified": false,
+          "strict_taxonomy_verified": true
+        },
+        {
+          "id": "base_long8192__debt_002__flash_r2",
+          "question_id": "debt_002",
+          "reviewer_id": "flash_r2",
+          "score": 4.0,
+          "semantic_status": "unsafe_or_hallucinated",
+          "strict_cap_verified": false,
+          "strict_taxonomy_verified": false
+        },
+        {
+          "id": "base_long8192__debt_003__flash_r1",
+          "question_id": "debt_003",
+          "reviewer_id": "flash_r1",
+          "score": 5.0,
+          "semantic_status": "valid",
+          "strict_cap_verified": false,
+          "strict_taxonomy_verified": true
+        },
+        {
+          "id": "base_long8192__debt_004__flash_r2",
+          "question_id": "debt_004",
+          "reviewer_id": "flash_r2",
+          "score": 10.0,
+          "semantic_status": "valid",
+          "strict_cap_verified": false,
+          "strict_taxonomy_verified": true
+        },
+        {
+          "id": "base_long8192__debt_005__flash_r2",
+          "question_id": "debt_005",
+          "reviewer_id": "flash_r2",
+          "score": 4.0,
+          "semantic_status": "valid",
+          "strict_cap_verified": false,
+          "strict_taxonomy_verified": true
+        },
+        {
+          "id": "base_long8192__debt_006__flash_r1",
+          "question_id": "debt_006",
+          "reviewer_id": "flash_r1",
+          "score": 4.0,
+          "semantic_status": "unsafe_or_hallucinated",
+          "strict_cap_verified": false,
+          "strict_taxonomy_verified": false
+        },
+        {
+          "id": "base_long8192__debt_007__flash_r1",
+          "question_id": "debt_007",
+          "reviewer_id": "flash_r1",
+          "score": 7.3,
+          "semantic_status": "valid",
+          "strict_cap_verified": false,
+          "strict_taxonomy_verified": true
+        },
+        {
+          "id": "base_long8192__labor_001__flash_r1",
+          "question_id": "labor_001",
+          "reviewer_id": "flash_r1",
+          "score": 10.0,
+          "semantic_status": "valid",
+          "strict_cap_verified": false,
+          "strict_taxonomy_verified": true
+        },
+        {
+          "id": "base_long8192__labor_002__flash_r2",
+          "question_id": "labor_002",
+          "reviewer_id": "flash_r2",
+          "score": 10.0,
+          "semantic_status": "valid",
+          "strict_cap_verified": false,
+          "strict_taxonomy_verified": true
+        },
+        {
+          "id": "base_long8192__labor_003__flash_r1",
+          "question_id": "labor_003",
+          "reviewer_id": "flash_r1",
+          "score": 10.0,
+          "semantic_status": "valid",
+          "strict_cap_verified": false,
+          "strict_taxonomy_verified": true
+        },
+        {
+          "id": "base_long8192__labor_004__pro_r3",
+          "question_id": "labor_004",
+          "reviewer_id": "pro_r3",
+          "score": 6.0,
+          "semantic_status": "unsafe_or_hallucinated",
+          "strict_cap_verified": false,
+          "strict_taxonomy_verified": false
+        },
+        {
+          "id": "base_long8192__labor_005__flash_r1",
+          "question_id": "labor_005",
+          "reviewer_id": "flash_r1",
+          "score": 5.0,
+          "semantic_status": "valid",
+          "strict_cap_verified": false,
+          "strict_taxonomy_verified": true
+        },
+        {
+          "id": "base_long8192__labor_006__pro_r3",
+          "question_id": "labor_006",
+          "reviewer_id": "pro_r3",
+          "score": 6.5,
+          "semantic_status": "unsafe_or_hallucinated",
+          "strict_cap_verified": false,
+          "strict_taxonomy_verified": false
+        },
+        {
+          "id": "base_long8192__labor_007__flash_r1",
+          "question_id": "labor_007",
+          "reviewer_id": "flash_r1",
+          "score": 6.0,
+          "semantic_status": "valid",
+          "strict_cap_verified": false,
+          "strict_taxonomy_verified": true
+        },
+        {
+          "id": "base_long8192__labor_008__pro_r3",
+          "question_id": "labor_008",
+          "reviewer_id": "pro_r3",
+          "score": 6.0,
+          "semantic_status": "unsafe_or_hallucinated",
+          "strict_cap_verified": false,
+          "strict_taxonomy_verified": false
+        },
+        {
+          "id": "base_long8192__labor_009__flash_r1",
+          "question_id": "labor_009",
+          "reviewer_id": "flash_r1",
+          "score": 5.0,
+          "semantic_status": "valid",
+          "strict_cap_verified": false,
+          "strict_taxonomy_verified": true
+        },
+        {
+          "id": "base_long8192__labor_010__flash_r2",
+          "question_id": "labor_010",
+          "reviewer_id": "flash_r2",
+          "score": 10.0,
+          "semantic_status": "valid",
+          "strict_cap_verified": false,
+          "strict_taxonomy_verified": true
+        },
+        {
+          "id": "base_long8192__marriage_001__flash_r2",
+          "question_id": "marriage_001",
+          "reviewer_id": "flash_r2",
+          "score": 7.3,
+          "semantic_status": "valid",
+          "strict_cap_verified": false,
+          "strict_taxonomy_verified": true
+        },
+        {
+          "id": "base_long8192__marriage_002__flash_r2",
+          "question_id": "marriage_002",
+          "reviewer_id": "flash_r2",
+          "score": 7.0,
+          "semantic_status": "valid",
+          "strict_cap_verified": false,
+          "strict_taxonomy_verified": true
+        },
+        {
+          "id": "base_long8192__marriage_003__pro_r3",
+          "question_id": "marriage_003",
+          "reviewer_id": "pro_r3",
+          "score": 6.5,
+          "semantic_status": "unsafe_or_hallucinated",
+          "strict_cap_verified": false,
+          "strict_taxonomy_verified": false
+        },
+        {
+          "id": "base_long8192__marriage_004__pro_r3",
+          "question_id": "marriage_004",
+          "reviewer_id": "pro_r3",
+          "score": 6.0,
+          "semantic_status": "unsafe_or_hallucinated",
+          "strict_cap_verified": false,
+          "strict_taxonomy_verified": false
+        },
+        {
+          "id": "base_long8192__marriage_005__flash_r2",
+          "question_id": "marriage_005",
+          "reviewer_id": "flash_r2",
+          "score": 4.0,
+          "semantic_status": "valid",
+          "strict_cap_verified": false,
+          "strict_taxonomy_verified": true
+        },
+        {
+          "id": "base_long8192__marriage_006__flash_r2",
+          "question_id": "marriage_006",
+          "reviewer_id": "flash_r2",
+          "score": 5.0,
+          "semantic_status": "valid",
+          "strict_cap_verified": false,
+          "strict_taxonomy_verified": true
+        },
+        {
+          "id": "base_long8192__marriage_007__pro_r3",
+          "question_id": "marriage_007",
+          "reviewer_id": "pro_r3",
+          "score": 5.0,
+          "semantic_status": "unsafe_or_hallucinated",
+          "strict_cap_verified": false,
+          "strict_taxonomy_verified": false
+        },
+        {
+          "id": "base_long8192__marriage_008__flash_r1",
+          "question_id": "marriage_008",
+          "reviewer_id": "flash_r1",
+          "score": 7.0,
+          "semantic_status": "valid",
+          "strict_cap_verified": false,
+          "strict_taxonomy_verified": true
+        },
+        {
+          "id": "base_long8192__rent_001__flash_r1",
+          "question_id": "rent_001",
+          "reviewer_id": "flash_r1",
+          "score": 4.0,
+          "semantic_status": "unsafe_or_hallucinated",
+          "strict_cap_verified": false,
+          "strict_taxonomy_verified": false
+        },
+        {
+          "id": "base_long8192__rent_002__flash_r1",
+          "question_id": "rent_002",
+          "reviewer_id": "flash_r1",
+          "score": 10.0,
+          "semantic_status": "valid",
+          "strict_cap_verified": false,
+          "strict_taxonomy_verified": true
+        },
+        {
+          "id": "base_long8192__rent_003__pro_r3",
+          "question_id": "rent_003",
+          "reviewer_id": "pro_r3",
+          "score": 6.5,
+          "semantic_status": "valid",
+          "strict_cap_verified": false,
+          "strict_taxonomy_verified": true
+        },
+        {
+          "id": "base_long8192__rent_004__pro_r3",
+          "question_id": "rent_004",
+          "reviewer_id": "pro_r3",
+          "score": 6.5,
+          "semantic_status": "valid",
+          "strict_cap_verified": false,
+          "strict_taxonomy_verified": true
+        },
+        {
+          "id": "base_long8192__rent_005__pro_r3",
+          "question_id": "rent_005",
+          "reviewer_id": "pro_r3",
+          "score": 9.0,
+          "semantic_status": "valid",
+          "strict_cap_verified": true,
+          "strict_taxonomy_verified": true
+        },
+        {
+          "id": "base_long8192__rent_006__pro_r3",
+          "question_id": "rent_006",
+          "reviewer_id": "pro_r3",
+          "score": 5.0,
+          "semantic_status": "unsafe_or_hallucinated",
+          "strict_cap_verified": false,
+          "strict_taxonomy_verified": false
+        },
+        {
+          "id": "base_long8192__rent_007__flash_r2",
+          "question_id": "rent_007",
+          "reviewer_id": "flash_r2",
+          "score": 7.5,
+          "semantic_status": "valid",
+          "strict_cap_verified": false,
+          "strict_taxonomy_verified": true
+        },
+        {
+          "id": "base_long8192__rent_008__pro_r3",
+          "question_id": "rent_008",
+          "reviewer_id": "pro_r3",
+          "score": 7.0,
+          "semantic_status": "valid",
+          "strict_cap_verified": false,
+          "strict_taxonomy_verified": true
+        },
+        {
+          "id": "base_long8192__rent_009__pro_r3",
+          "question_id": "rent_009",
+          "reviewer_id": "pro_r3",
+          "score": 6.0,
+          "semantic_status": "unsafe_or_hallucinated",
+          "strict_cap_verified": false,
+          "strict_taxonomy_verified": false
+        },
+        {
+          "id": "base_long8192__rent_010__pro_r3",
+          "question_id": "rent_010",
+          "reviewer_id": "pro_r3",
+          "score": 9.0,
+          "semantic_status": "valid",
+          "strict_cap_verified": true,
+          "strict_taxonomy_verified": true
+        },
+        {
+          "id": "base_long8192__traffic_001__flash_r2",
+          "question_id": "traffic_001",
+          "reviewer_id": "flash_r2",
+          "score": 7.3,
+          "semantic_status": "valid",
+          "strict_cap_verified": false,
+          "strict_taxonomy_verified": true
+        },
+        {
+          "id": "base_long8192__traffic_002__pro_r3",
+          "question_id": "traffic_002",
+          "reviewer_id": "pro_r3",
+          "score": 7.0,
+          "semantic_status": "unsafe_or_hallucinated",
+          "strict_cap_verified": false,
+          "strict_taxonomy_verified": false
+        },
+        {
+          "id": "base_long8192__traffic_003__flash_r1",
+          "question_id": "traffic_003",
+          "reviewer_id": "flash_r1",
+          "score": 7.3,
+          "semantic_status": "valid",
+          "strict_cap_verified": false,
+          "strict_taxonomy_verified": true
+        },
+        {
+          "id": "base_long8192__traffic_004__flash_r1",
+          "question_id": "traffic_004",
+          "reviewer_id": "flash_r1",
+          "score": 6.8,
+          "semantic_status": "valid",
+          "strict_cap_verified": false,
+          "strict_taxonomy_verified": true
+        },
+        {
+          "id": "base_long8192__traffic_005__flash_r2",
+          "question_id": "traffic_005",
+          "reviewer_id": "flash_r2",
+          "score": 10.0,
+          "semantic_status": "valid",
+          "strict_cap_verified": false,
+          "strict_taxonomy_verified": true
+        },
+        {
+          "id": "base_long8192__traffic_006__flash_r1",
+          "question_id": "traffic_006",
+          "reviewer_id": "flash_r1",
+          "score": 5.0,
+          "semantic_status": "valid",
+          "strict_cap_verified": false,
+          "strict_taxonomy_verified": true
+        },
+        {
+          "id": "base_long8192__traffic_007__flash_r2",
+          "question_id": "traffic_007",
+          "reviewer_id": "flash_r2",
+          "score": 4.0,
+          "semantic_status": "unsafe_or_hallucinated",
+          "strict_cap_verified": false,
+          "strict_taxonomy_verified": false
+        }
+      ]
+    },
+    {
+      "arm": "grpo200_long8192",
+      "accepted_rows": 50,
+      "expected_rows": 50,
+      "semantic_average": 6.686,
+      "unsafe_or_hallucinated_rows": 12,
+      "strict_cap_verified_rows": 2,
+      "strict_taxonomy_verified_rows": 38,
+      "rows": [
+        {
+          "id": "grpo200_long8192__consumer_001__flash_r1",
+          "question_id": "consumer_001",
+          "reviewer_id": "flash_r1",
+          "score": 5.0,
+          "semantic_status": "valid",
+          "strict_cap_verified": false,
+          "strict_taxonomy_verified": true
+        },
+        {
+          "id": "grpo200_long8192__consumer_002__flash_r1",
+          "question_id": "consumer_002",
+          "reviewer_id": "flash_r1",
+          "score": 6.0,
+          "semantic_status": "valid",
+          "strict_cap_verified": false,
+          "strict_taxonomy_verified": true
+        },
+        {
+          "id": "grpo200_long8192__consumer_003__flash_r1",
+          "question_id": "consumer_003",
+          "reviewer_id": "flash_r1",
+          "score": 5.0,
+          "semantic_status": "unsafe_or_hallucinated",
+          "strict_cap_verified": false,
+          "strict_taxonomy_verified": false
+        },
+        {
+          "id": "grpo200_long8192__consumer_004__pro_r3",
+          "question_id": "consumer_004",
+          "reviewer_id": "pro_r3",
+          "score": 5.5,
+          "semantic_status": "unsafe_or_hallucinated",
+          "strict_cap_verified": false,
+          "strict_taxonomy_verified": false
+        },
+        {
+          "id": "grpo200_long8192__consumer_005__flash_r2",
+          "question_id": "consumer_005",
+          "reviewer_id": "flash_r2",
+          "score": 4.0,
+          "semantic_status": "unsafe_or_hallucinated",
+          "strict_cap_verified": false,
+          "strict_taxonomy_verified": false
+        },
+        {
+          "id": "grpo200_long8192__consumer_006__flash_r2",
+          "question_id": "consumer_006",
+          "reviewer_id": "flash_r2",
+          "score": 6.0,
+          "semantic_status": "valid",
+          "strict_cap_verified": false,
+          "strict_taxonomy_verified": true
+        },
+        {
+          "id": "grpo200_long8192__consumer_007__pro_r3",
+          "question_id": "consumer_007",
+          "reviewer_id": "pro_r3",
+          "score": 7.0,
+          "semantic_status": "valid",
+          "strict_cap_verified": false,
+          "strict_taxonomy_verified": true
+        },
+        {
+          "id": "grpo200_long8192__consumer_008__flash_r1",
+          "question_id": "consumer_008",
+          "reviewer_id": "flash_r1",
+          "score": 7.3,
+          "semantic_status": "valid",
+          "strict_cap_verified": false,
+          "strict_taxonomy_verified": true
+        },
+        {
+          "id": "grpo200_long8192__debt_001__flash_r2",
+          "question_id": "debt_001",
+          "reviewer_id": "flash_r2",
+          "score": 7.3,
+          "semantic_status": "valid",
+          "strict_cap_verified": false,
+          "strict_taxonomy_verified": true
+        },
+        {
+          "id": "grpo200_long8192__debt_002__flash_r2",
+          "question_id": "debt_002",
+          "reviewer_id": "flash_r2",
+          "score": 5.0,
+          "semantic_status": "valid",
+          "strict_cap_verified": false,
+          "strict_taxonomy_verified": true
+        },
+        {
+          "id": "grpo200_long8192__debt_003__flash_r1",
+          "question_id": "debt_003",
+          "reviewer_id": "flash_r1",
+          "score": 10.0,
+          "semantic_status": "valid",
+          "strict_cap_verified": false,
+          "strict_taxonomy_verified": true
+        },
+        {
+          "id": "grpo200_long8192__debt_004__flash_r2",
+          "question_id": "debt_004",
+          "reviewer_id": "flash_r2",
+          "score": 10.0,
+          "semantic_status": "valid",
+          "strict_cap_verified": false,
+          "strict_taxonomy_verified": true
+        },
+        {
+          "id": "grpo200_long8192__debt_005__flash_r2",
+          "question_id": "debt_005",
+          "reviewer_id": "flash_r2",
+          "score": 5.0,
+          "semantic_status": "valid",
+          "strict_cap_verified": false,
+          "strict_taxonomy_verified": true
+        },
+        {
+          "id": "grpo200_long8192__debt_006__flash_r1",
+          "question_id": "debt_006",
+          "reviewer_id": "flash_r1",
+          "score": 4.0,
+          "semantic_status": "valid",
+          "strict_cap_verified": false,
+          "strict_taxonomy_verified": true
+        },
+        {
+          "id": "grpo200_long8192__debt_007__flash_r1",
+          "question_id": "debt_007",
+          "reviewer_id": "flash_r1",
+          "score": 7.3,
+          "semantic_status": "valid",
+          "strict_cap_verified": false,
+          "strict_taxonomy_verified": true
+        },
+        {
+          "id": "grpo200_long8192__labor_001__flash_r1",
+          "question_id": "labor_001",
+          "reviewer_id": "flash_r1",
+          "score": 5.0,
+          "semantic_status": "valid",
+          "strict_cap_verified": false,
+          "strict_taxonomy_verified": true
+        },
+        {
+          "id": "grpo200_long8192__labor_002__flash_r2",
+          "question_id": "labor_002",
+          "reviewer_id": "flash_r2",
+          "score": 10.0,
+          "semantic_status": "valid",
+          "strict_cap_verified": false,
+          "strict_taxonomy_verified": true
+        },
+        {
+          "id": "grpo200_long8192__labor_003__flash_r1",
+          "question_id": "labor_003",
+          "reviewer_id": "flash_r1",
+          "score": 10.0,
+          "semantic_status": "valid",
+          "strict_cap_verified": false,
+          "strict_taxonomy_verified": true
+        },
+        {
+          "id": "grpo200_long8192__labor_004__pro_r3",
+          "question_id": "labor_004",
+          "reviewer_id": "pro_r3",
+          "score": 9.0,
+          "semantic_status": "unsafe_or_hallucinated",
+          "strict_cap_verified": false,
+          "strict_taxonomy_verified": false
+        },
+        {
+          "id": "grpo200_long8192__labor_005__flash_r1",
+          "question_id": "labor_005",
+          "reviewer_id": "flash_r1",
+          "score": 5.0,
+          "semantic_status": "valid",
+          "strict_cap_verified": false,
+          "strict_taxonomy_verified": true
+        },
+        {
+          "id": "grpo200_long8192__labor_006__pro_r3",
+          "question_id": "labor_006",
+          "reviewer_id": "pro_r3",
+          "score": 7.0,
+          "semantic_status": "unsafe_or_hallucinated",
+          "strict_cap_verified": false,
+          "strict_taxonomy_verified": false
+        },
+        {
+          "id": "grpo200_long8192__labor_007__flash_r1",
+          "question_id": "labor_007",
+          "reviewer_id": "flash_r1",
+          "score": 6.0,
+          "semantic_status": "valid",
+          "strict_cap_verified": false,
+          "strict_taxonomy_verified": true
+        },
+        {
+          "id": "grpo200_long8192__labor_008__pro_r3",
+          "question_id": "labor_008",
+          "reviewer_id": "pro_r3",
+          "score": 5.5,
+          "semantic_status": "unsafe_or_hallucinated",
+          "strict_cap_verified": false,
+          "strict_taxonomy_verified": false
+        },
+        {
+          "id": "grpo200_long8192__labor_009__flash_r1",
+          "question_id": "labor_009",
+          "reviewer_id": "flash_r1",
+          "score": 6.0,
+          "semantic_status": "valid",
+          "strict_cap_verified": false,
+          "strict_taxonomy_verified": true
+        },
+        {
+          "id": "grpo200_long8192__labor_010__flash_r2",
+          "question_id": "labor_010",
+          "reviewer_id": "flash_r2",
+          "score": 10.0,
+          "semantic_status": "valid",
+          "strict_cap_verified": false,
+          "strict_taxonomy_verified": true
+        },
+        {
+          "id": "grpo200_long8192__marriage_001__flash_r2",
+          "question_id": "marriage_001",
+          "reviewer_id": "flash_r2",
+          "score": 7.3,
+          "semantic_status": "valid",
+          "strict_cap_verified": false,
+          "strict_taxonomy_verified": true
+        },
+        {
+          "id": "grpo200_long8192__marriage_002__flash_r2",
+          "question_id": "marriage_002",
+          "reviewer_id": "flash_r2",
+          "score": 5.0,
+          "semantic_status": "valid",
+          "strict_cap_verified": false,
+          "strict_taxonomy_verified": true
+        },
+        {
+          "id": "grpo200_long8192__marriage_003__pro_r3",
+          "question_id": "marriage_003",
+          "reviewer_id": "pro_r3",
+          "score": 6.0,
+          "semantic_status": "unsafe_or_hallucinated",
+          "strict_cap_verified": false,
+          "strict_taxonomy_verified": false
+        },
+        {
+          "id": "grpo200_long8192__marriage_004__pro_r3",
+          "question_id": "marriage_004",
+          "reviewer_id": "pro_r3",
+          "score": 6.0,
+          "semantic_status": "unsafe_or_hallucinated",
+          "strict_cap_verified": false,
+          "strict_taxonomy_verified": false
+        },
+        {
+          "id": "grpo200_long8192__marriage_005__flash_r2",
+          "question_id": "marriage_005",
+          "reviewer_id": "flash_r2",
+          "score": 5.0,
+          "semantic_status": "valid",
+          "strict_cap_verified": false,
+          "strict_taxonomy_verified": true
+        },
+        {
+          "id": "grpo200_long8192__marriage_006__flash_r2",
+          "question_id": "marriage_006",
+          "reviewer_id": "flash_r2",
+          "score": 6.0,
+          "semantic_status": "valid",
+          "strict_cap_verified": false,
+          "strict_taxonomy_verified": true
+        },
+        {
+          "id": "grpo200_long8192__marriage_007__pro_r3",
+          "question_id": "marriage_007",
+          "reviewer_id": "pro_r3",
+          "score": 5.0,
+          "semantic_status": "unsafe_or_hallucinated",
+          "strict_cap_verified": false,
+          "strict_taxonomy_verified": false
+        },
+        {
+          "id": "grpo200_long8192__marriage_008__flash_r1",
+          "question_id": "marriage_008",
+          "reviewer_id": "flash_r1",
+          "score": 4.0,
+          "semantic_status": "valid",
+          "strict_cap_verified": false,
+          "strict_taxonomy_verified": true
+        },
+        {
+          "id": "grpo200_long8192__rent_001__flash_r1",
+          "question_id": "rent_001",
+          "reviewer_id": "flash_r1",
+          "score": 4.0,
+          "semantic_status": "unsafe_or_hallucinated",
+          "strict_cap_verified": false,
+          "strict_taxonomy_verified": false
+        },
+        {
+          "id": "grpo200_long8192__rent_002__flash_r1",
+          "question_id": "rent_002",
+          "reviewer_id": "flash_r1",
+          "score": 5.0,
+          "semantic_status": "valid",
+          "strict_cap_verified": false,
+          "strict_taxonomy_verified": true
+        },
+        {
+          "id": "grpo200_long8192__rent_003__pro_r3",
+          "question_id": "rent_003",
+          "reviewer_id": "pro_r3",
+          "score": 5.0,
+          "semantic_status": "unsafe_or_hallucinated",
+          "strict_cap_verified": false,
+          "strict_taxonomy_verified": false
+        },
+        {
+          "id": "grpo200_long8192__rent_004__pro_r3",
+          "question_id": "rent_004",
+          "reviewer_id": "pro_r3",
+          "score": 6.5,
+          "semantic_status": "valid",
+          "strict_cap_verified": false,
+          "strict_taxonomy_verified": true
+        },
+        {
+          "id": "grpo200_long8192__rent_005__pro_r3",
+          "question_id": "rent_005",
+          "reviewer_id": "pro_r3",
+          "score": 10.0,
+          "semantic_status": "valid",
+          "strict_cap_verified": true,
+          "strict_taxonomy_verified": true
+        },
+        {
+          "id": "grpo200_long8192__rent_006__pro_r3",
+          "question_id": "rent_006",
+          "reviewer_id": "pro_r3",
+          "score": 6.5,
+          "semantic_status": "valid",
+          "strict_cap_verified": false,
+          "strict_taxonomy_verified": true
+        },
+        {
+          "id": "grpo200_long8192__rent_007__flash_r2",
+          "question_id": "rent_007",
+          "reviewer_id": "flash_r2",
+          "score": 10.0,
+          "semantic_status": "valid",
+          "strict_cap_verified": false,
+          "strict_taxonomy_verified": true
+        },
+        {
+          "id": "grpo200_long8192__rent_008__pro_r3",
+          "question_id": "rent_008",
+          "reviewer_id": "pro_r3",
+          "score": 7.0,
+          "semantic_status": "valid",
+          "strict_cap_verified": false,
+          "strict_taxonomy_verified": true
+        },
+        {
+          "id": "grpo200_long8192__rent_009__pro_r3",
+          "question_id": "rent_009",
+          "reviewer_id": "pro_r3",
+          "score": 4.0,
+          "semantic_status": "unsafe_or_hallucinated",
+          "strict_cap_verified": false,
+          "strict_taxonomy_verified": false
+        },
+        {
+          "id": "grpo200_long8192__rent_010__pro_r3",
+          "question_id": "rent_010",
+          "reviewer_id": "pro_r3",
+          "score": 7.0,
+          "semantic_status": "valid",
+          "strict_cap_verified": false,
+          "strict_taxonomy_verified": true
+        },
+        {
+          "id": "grpo200_long8192__traffic_001__flash_r2",
+          "question_id": "traffic_001",
+          "reviewer_id": "flash_r2",
+          "score": 7.3,
+          "semantic_status": "valid",
+          "strict_cap_verified": false,
+          "strict_taxonomy_verified": true
+        },
+        {
+          "id": "grpo200_long8192__traffic_002__pro_r3",
+          "question_id": "traffic_002",
+          "reviewer_id": "pro_r3",
+          "score": 10.0,
+          "semantic_status": "valid",
+          "strict_cap_verified": true,
+          "strict_taxonomy_verified": true
+        },
+        {
+          "id": "grpo200_long8192__traffic_003__flash_r1",
+          "question_id": "traffic_003",
+          "reviewer_id": "flash_r1",
+          "score": 10.0,
+          "semantic_status": "valid",
+          "strict_cap_verified": false,
+          "strict_taxonomy_verified": true
+        },
+        {
+          "id": "grpo200_long8192__traffic_004__flash_r1",
+          "question_id": "traffic_004",
+          "reviewer_id": "flash_r1",
+          "score": 7.5,
+          "semantic_status": "valid",
+          "strict_cap_verified": false,
+          "strict_taxonomy_verified": true
+        },
+        {
+          "id": "grpo200_long8192__traffic_005__flash_r2",
+          "question_id": "traffic_005",
+          "reviewer_id": "flash_r2",
+          "score": 10.0,
+          "semantic_status": "valid",
+          "strict_cap_verified": false,
+          "strict_taxonomy_verified": true
+        },
+        {
+          "id": "grpo200_long8192__traffic_006__flash_r1",
+          "question_id": "traffic_006",
+          "reviewer_id": "flash_r1",
+          "score": 5.0,
+          "semantic_status": "valid",
+          "strict_cap_verified": false,
+          "strict_taxonomy_verified": true
+        },
+        {
+          "id": "grpo200_long8192__traffic_007__flash_r2",
+          "question_id": "traffic_007",
+          "reviewer_id": "flash_r2",
+          "score": 7.3,
+          "semantic_status": "valid",
+          "strict_cap_verified": false,
+          "strict_taxonomy_verified": true
+        }
+      ]
+    },
+    {
+      "arm": "grpo600_long8192",
+      "accepted_rows": 50,
+      "expected_rows": 50,
+      "semantic_average": 7.08,
+      "unsafe_or_hallucinated_rows": 14,
+      "strict_cap_verified_rows": 2,
+      "strict_taxonomy_verified_rows": 36,
+      "rows": [
+        {
+          "id": "grpo600_long8192__consumer_001__flash_r1",
+          "question_id": "consumer_001",
+          "reviewer_id": "flash_r1",
+          "score": 5.0,
+          "semantic_status": "valid",
+          "strict_cap_verified": false,
+          "strict_taxonomy_verified": true
+        },
+        {
+          "id": "grpo600_long8192__consumer_002__flash_r1",
+          "question_id": "consumer_002",
+          "reviewer_id": "flash_r1",
+          "score": 6.8,
+          "semantic_status": "valid",
+          "strict_cap_verified": false,
+          "strict_taxonomy_verified": true
+        },
+        {
+          "id": "grpo600_long8192__consumer_003__flash_r1",
+          "question_id": "consumer_003",
+          "reviewer_id": "flash_r1",
+          "score": 10.0,
+          "semantic_status": "valid",
+          "strict_cap_verified": false,
+          "strict_taxonomy_verified": true
+        },
+        {
+          "id": "grpo600_long8192__consumer_004__pro_r3",
+          "question_id": "consumer_004",
+          "reviewer_id": "pro_r3",
+          "score": 6.5,
+          "semantic_status": "unsafe_or_hallucinated",
+          "strict_cap_verified": false,
+          "strict_taxonomy_verified": false
+        },
+        {
+          "id": "grpo600_long8192__consumer_005__flash_r2",
+          "question_id": "consumer_005",
+          "reviewer_id": "flash_r2",
+          "score": 6.0,
+          "semantic_status": "valid",
+          "strict_cap_verified": false,
+          "strict_taxonomy_verified": true
+        },
+        {
+          "id": "grpo600_long8192__consumer_006__flash_r2",
+          "question_id": "consumer_006",
+          "reviewer_id": "flash_r2",
+          "score": 7.3,
+          "semantic_status": "valid",
+          "strict_cap_verified": false,
+          "strict_taxonomy_verified": true
+        },
+        {
+          "id": "grpo600_long8192__consumer_007__pro_r3",
+          "question_id": "consumer_007",
+          "reviewer_id": "pro_r3",
+          "score": 7.0,
+          "semantic_status": "valid",
+          "strict_cap_verified": false,
+          "strict_taxonomy_verified": true
+        },
+        {
+          "id": "grpo600_long8192__consumer_008__flash_r1",
+          "question_id": "consumer_008",
+          "reviewer_id": "flash_r1",
+          "score": 7.3,
+          "semantic_status": "valid",
+          "strict_cap_verified": false,
+          "strict_taxonomy_verified": true
+        },
+        {
+          "id": "grpo600_long8192__debt_001__flash_r2",
+          "question_id": "debt_001",
+          "reviewer_id": "flash_r2",
+          "score": 7.3,
+          "semantic_status": "valid",
+          "strict_cap_verified": false,
+          "strict_taxonomy_verified": true
+        },
+        {
+          "id": "grpo600_long8192__debt_002__flash_r2",
+          "question_id": "debt_002",
+          "reviewer_id": "flash_r2",
+          "score": 7.3,
+          "semantic_status": "valid",
+          "strict_cap_verified": false,
+          "strict_taxonomy_verified": true
+        },
+        {
+          "id": "grpo600_long8192__debt_003__flash_r1",
+          "question_id": "debt_003",
+          "reviewer_id": "flash_r1",
+          "score": 10.0,
+          "semantic_status": "valid",
+          "strict_cap_verified": false,
+          "strict_taxonomy_verified": true
+        },
+        {
+          "id": "grpo600_long8192__debt_004__flash_r2",
+          "question_id": "debt_004",
+          "reviewer_id": "flash_r2",
+          "score": 10.0,
+          "semantic_status": "valid",
+          "strict_cap_verified": false,
+          "strict_taxonomy_verified": true
+        },
+        {
+          "id": "grpo600_long8192__debt_005__flash_r2",
+          "question_id": "debt_005",
+          "reviewer_id": "flash_r2",
+          "score": 5.0,
+          "semantic_status": "valid",
+          "strict_cap_verified": false,
+          "strict_taxonomy_verified": true
+        },
+        {
+          "id": "grpo600_long8192__debt_006__flash_r1",
+          "question_id": "debt_006",
+          "reviewer_id": "flash_r1",
+          "score": 4.0,
+          "semantic_status": "unsafe_or_hallucinated",
+          "strict_cap_verified": false,
+          "strict_taxonomy_verified": false
+        },
+        {
+          "id": "grpo600_long8192__debt_007__flash_r1",
+          "question_id": "debt_007",
+          "reviewer_id": "flash_r1",
+          "score": 7.3,
+          "semantic_status": "valid",
+          "strict_cap_verified": false,
+          "strict_taxonomy_verified": true
+        },
+        {
+          "id": "grpo600_long8192__labor_001__flash_r1",
+          "question_id": "labor_001",
+          "reviewer_id": "flash_r1",
+          "score": 10.0,
+          "semantic_status": "valid",
+          "strict_cap_verified": false,
+          "strict_taxonomy_verified": true
+        },
+        {
+          "id": "grpo600_long8192__labor_002__flash_r2",
+          "question_id": "labor_002",
+          "reviewer_id": "flash_r2",
+          "score": 10.0,
+          "semantic_status": "valid",
+          "strict_cap_verified": false,
+          "strict_taxonomy_verified": true
+        },
+        {
+          "id": "grpo600_long8192__labor_003__flash_r1",
+          "question_id": "labor_003",
+          "reviewer_id": "flash_r1",
+          "score": 10.0,
+          "semantic_status": "valid",
+          "strict_cap_verified": false,
+          "strict_taxonomy_verified": true
+        },
+        {
+          "id": "grpo600_long8192__labor_004__pro_r3",
+          "question_id": "labor_004",
+          "reviewer_id": "pro_r3",
+          "score": 6.5,
+          "semantic_status": "unsafe_or_hallucinated",
+          "strict_cap_verified": false,
+          "strict_taxonomy_verified": false
+        },
+        {
+          "id": "grpo600_long8192__labor_005__flash_r1",
+          "question_id": "labor_005",
+          "reviewer_id": "flash_r1",
+          "score": 4.0,
+          "semantic_status": "valid",
+          "strict_cap_verified": false,
+          "strict_taxonomy_verified": true
+        },
+        {
+          "id": "grpo600_long8192__labor_006__pro_r3",
+          "question_id": "labor_006",
+          "reviewer_id": "pro_r3",
+          "score": 9.0,
+          "semantic_status": "valid",
+          "strict_cap_verified": true,
+          "strict_taxonomy_verified": true
+        },
+        {
+          "id": "grpo600_long8192__labor_007__flash_r1",
+          "question_id": "labor_007",
+          "reviewer_id": "flash_r1",
+          "score": 6.0,
+          "semantic_status": "valid",
+          "strict_cap_verified": false,
+          "strict_taxonomy_verified": true
+        },
+        {
+          "id": "grpo600_long8192__labor_008__pro_r3",
+          "question_id": "labor_008",
+          "reviewer_id": "pro_r3",
+          "score": 6.0,
+          "semantic_status": "unsafe_or_hallucinated",
+          "strict_cap_verified": false,
+          "strict_taxonomy_verified": false
+        },
+        {
+          "id": "grpo600_long8192__labor_009__flash_r1",
+          "question_id": "labor_009",
+          "reviewer_id": "flash_r1",
+          "score": 6.0,
+          "semantic_status": "valid",
+          "strict_cap_verified": false,
+          "strict_taxonomy_verified": true
+        },
+        {
+          "id": "grpo600_long8192__labor_010__flash_r2",
+          "question_id": "labor_010",
+          "reviewer_id": "flash_r2",
+          "score": 10.0,
+          "semantic_status": "valid",
+          "strict_cap_verified": false,
+          "strict_taxonomy_verified": true
+        },
+        {
+          "id": "grpo600_long8192__marriage_001__flash_r2",
+          "question_id": "marriage_001",
+          "reviewer_id": "flash_r2",
+          "score": 7.3,
+          "semantic_status": "valid",
+          "strict_cap_verified": false,
+          "strict_taxonomy_verified": true
+        },
+        {
+          "id": "grpo600_long8192__marriage_002__flash_r2",
+          "question_id": "marriage_002",
+          "reviewer_id": "flash_r2",
+          "score": 5.0,
+          "semantic_status": "valid",
+          "strict_cap_verified": false,
+          "strict_taxonomy_verified": true
+        },
+        {
+          "id": "grpo600_long8192__marriage_003__pro_r3",
+          "question_id": "marriage_003",
+          "reviewer_id": "pro_r3",
+          "score": 5.5,
+          "semantic_status": "unsafe_or_hallucinated",
+          "strict_cap_verified": false,
+          "strict_taxonomy_verified": false
+        },
+        {
+          "id": "grpo600_long8192__marriage_004__pro_r3",
+          "question_id": "marriage_004",
+          "reviewer_id": "pro_r3",
+          "score": 5.5,
+          "semantic_status": "unsafe_or_hallucinated",
+          "strict_cap_verified": false,
+          "strict_taxonomy_verified": false
+        },
+        {
+          "id": "grpo600_long8192__marriage_005__flash_r2",
+          "question_id": "marriage_005",
+          "reviewer_id": "flash_r2",
+          "score": 7.3,
+          "semantic_status": "valid",
+          "strict_cap_verified": false,
+          "strict_taxonomy_verified": true
+        },
+        {
+          "id": "grpo600_long8192__marriage_006__flash_r2",
+          "question_id": "marriage_006",
+          "reviewer_id": "flash_r2",
+          "score": 5.0,
+          "semantic_status": "valid",
+          "strict_cap_verified": false,
+          "strict_taxonomy_verified": true
+        },
+        {
+          "id": "grpo600_long8192__marriage_007__pro_r3",
+          "question_id": "marriage_007",
+          "reviewer_id": "pro_r3",
+          "score": 6.5,
+          "semantic_status": "unsafe_or_hallucinated",
+          "strict_cap_verified": false,
+          "strict_taxonomy_verified": false
+        },
+        {
+          "id": "grpo600_long8192__marriage_008__flash_r1",
+          "question_id": "marriage_008",
+          "reviewer_id": "flash_r1",
+          "score": 7.0,
+          "semantic_status": "valid",
+          "strict_cap_verified": false,
+          "strict_taxonomy_verified": true
+        },
+        {
+          "id": "grpo600_long8192__rent_001__flash_r1",
+          "question_id": "rent_001",
+          "reviewer_id": "flash_r1",
+          "score": 4.0,
+          "semantic_status": "unsafe_or_hallucinated",
+          "strict_cap_verified": false,
+          "strict_taxonomy_verified": false
+        },
+        {
+          "id": "grpo600_long8192__rent_002__flash_r1",
+          "question_id": "rent_002",
+          "reviewer_id": "flash_r1",
+          "score": 10.0,
+          "semantic_status": "valid",
+          "strict_cap_verified": false,
+          "strict_taxonomy_verified": true
+        },
+        {
+          "id": "grpo600_long8192__rent_003__pro_r3",
+          "question_id": "rent_003",
+          "reviewer_id": "pro_r3",
+          "score": 5.5,
+          "semantic_status": "unsafe_or_hallucinated",
+          "strict_cap_verified": false,
+          "strict_taxonomy_verified": false
+        },
+        {
+          "id": "grpo600_long8192__rent_004__pro_r3",
+          "question_id": "rent_004",
+          "reviewer_id": "pro_r3",
+          "score": 6.0,
+          "semantic_status": "valid",
+          "strict_cap_verified": false,
+          "strict_taxonomy_verified": true
+        },
+        {
+          "id": "grpo600_long8192__rent_005__pro_r3",
+          "question_id": "rent_005",
+          "reviewer_id": "pro_r3",
+          "score": 9.0,
+          "semantic_status": "valid",
+          "strict_cap_verified": true,
+          "strict_taxonomy_verified": true
+        },
+        {
+          "id": "grpo600_long8192__rent_006__pro_r3",
+          "question_id": "rent_006",
+          "reviewer_id": "pro_r3",
+          "score": 7.0,
+          "semantic_status": "unsafe_or_hallucinated",
+          "strict_cap_verified": false,
+          "strict_taxonomy_verified": false
+        },
+        {
+          "id": "grpo600_long8192__rent_007__flash_r2",
+          "question_id": "rent_007",
+          "reviewer_id": "flash_r2",
+          "score": 8.0,
+          "semantic_status": "valid",
+          "strict_cap_verified": false,
+          "strict_taxonomy_verified": true
+        },
+        {
+          "id": "grpo600_long8192__rent_008__pro_r3",
+          "question_id": "rent_008",
+          "reviewer_id": "pro_r3",
+          "score": 6.0,
+          "semantic_status": "unsafe_or_hallucinated",
+          "strict_cap_verified": false,
+          "strict_taxonomy_verified": false
+        },
+        {
+          "id": "grpo600_long8192__rent_009__pro_r3",
+          "question_id": "rent_009",
+          "reviewer_id": "pro_r3",
+          "score": 4.0,
+          "semantic_status": "unsafe_or_hallucinated",
+          "strict_cap_verified": false,
+          "strict_taxonomy_verified": false
+        },
+        {
+          "id": "grpo600_long8192__rent_010__pro_r3",
+          "question_id": "rent_010",
+          "reviewer_id": "pro_r3",
+          "score": 7.0,
+          "semantic_status": "unsafe_or_hallucinated",
+          "strict_cap_verified": false,
+          "strict_taxonomy_verified": false
+        },
+        {
+          "id": "grpo600_long8192__traffic_001__flash_r2",
+          "question_id": "traffic_001",
+          "reviewer_id": "flash_r2",
+          "score": 7.3,
+          "semantic_status": "valid",
+          "strict_cap_verified": false,
+          "strict_taxonomy_verified": true
+        },
+        {
+          "id": "grpo600_long8192__traffic_002__pro_r3",
+          "question_id": "traffic_002",
+          "reviewer_id": "pro_r3",
+          "score": 9.0,
+          "semantic_status": "unsafe_or_hallucinated",
+          "strict_cap_verified": false,
+          "strict_taxonomy_verified": false
+        },
+        {
+          "id": "grpo600_long8192__traffic_003__flash_r1",
+          "question_id": "traffic_003",
+          "reviewer_id": "flash_r1",
+          "score": 10.0,
+          "semantic_status": "valid",
+          "strict_cap_verified": false,
+          "strict_taxonomy_verified": true
+        },
+        {
+          "id": "grpo600_long8192__traffic_004__flash_r1",
+          "question_id": "traffic_004",
+          "reviewer_id": "flash_r1",
+          "score": 4.0,
+          "semantic_status": "valid",
+          "strict_cap_verified": false,
+          "strict_taxonomy_verified": true
+        },
+        {
+          "id": "grpo600_long8192__traffic_005__flash_r2",
+          "question_id": "traffic_005",
+          "reviewer_id": "flash_r2",
+          "score": 10.0,
+          "semantic_status": "valid",
+          "strict_cap_verified": false,
+          "strict_taxonomy_verified": true
+        },
+        {
+          "id": "grpo600_long8192__traffic_006__flash_r1",
+          "question_id": "traffic_006",
+          "reviewer_id": "flash_r1",
+          "score": 6.8,
+          "semantic_status": "valid",
+          "strict_cap_verified": false,
+          "strict_taxonomy_verified": true
+        },
+        {
+          "id": "grpo600_long8192__traffic_007__flash_r2",
+          "question_id": "traffic_007",
+          "reviewer_id": "flash_r2",
+          "score": 7.0,
+          "semantic_status": "valid",
+          "strict_cap_verified": false,
+          "strict_taxonomy_verified": true
+        }
+      ]
+    },
+    {
+      "arm": "raft_strict_long8192",
+      "accepted_rows": 50,
+      "expected_rows": 50,
+      "semantic_average": 6.604,
+      "unsafe_or_hallucinated_rows": 11,
+      "strict_cap_verified_rows": 1,
+      "strict_taxonomy_verified_rows": 39,
+      "rows": [
+        {
+          "id": "raft_strict_long8192__consumer_001__flash_r1",
+          "question_id": "consumer_001",
+          "reviewer_id": "flash_r1",
+          "score": 7.3,
+          "semantic_status": "valid",
+          "strict_cap_verified": false,
+          "strict_taxonomy_verified": true
+        },
+        {
+          "id": "raft_strict_long8192__consumer_002__flash_r1",
+          "question_id": "consumer_002",
+          "reviewer_id": "flash_r1",
+          "score": 4.0,
+          "semantic_status": "valid",
+          "strict_cap_verified": false,
+          "strict_taxonomy_verified": true
+        },
+        {
+          "id": "raft_strict_long8192__consumer_003__flash_r1",
+          "question_id": "consumer_003",
+          "reviewer_id": "flash_r1",
+          "score": 7.0,
+          "semantic_status": "valid",
+          "strict_cap_verified": false,
+          "strict_taxonomy_verified": true
+        },
+        {
+          "id": "raft_strict_long8192__consumer_004__pro_r3",
+          "question_id": "consumer_004",
+          "reviewer_id": "pro_r3",
+          "score": 6.0,
+          "semantic_status": "unsafe_or_hallucinated",
+          "strict_cap_verified": false,
+          "strict_taxonomy_verified": false
+        },
+        {
+          "id": "raft_strict_long8192__consumer_005__flash_r2",
+          "question_id": "consumer_005",
+          "reviewer_id": "flash_r2",
+          "score": 4.0,
+          "semantic_status": "unsafe_or_hallucinated",
+          "strict_cap_verified": false,
+          "strict_taxonomy_verified": false
+        },
+        {
+          "id": "raft_strict_long8192__consumer_006__flash_r2",
+          "question_id": "consumer_006",
+          "reviewer_id": "flash_r2",
+          "score": 6.8,
+          "semantic_status": "valid",
+          "strict_cap_verified": false,
+          "strict_taxonomy_verified": true
+        },
+        {
+          "id": "raft_strict_long8192__consumer_007__pro_r3",
+          "question_id": "consumer_007",
+          "reviewer_id": "pro_r3",
+          "score": 7.0,
+          "semantic_status": "valid",
+          "strict_cap_verified": false,
+          "strict_taxonomy_verified": true
+        },
+        {
+          "id": "raft_strict_long8192__consumer_008__flash_r1",
+          "question_id": "consumer_008",
+          "reviewer_id": "flash_r1",
+          "score": 4.0,
+          "semantic_status": "unsafe_or_hallucinated",
+          "strict_cap_verified": false,
+          "strict_taxonomy_verified": false
+        },
+        {
+          "id": "raft_strict_long8192__debt_001__flash_r2",
+          "question_id": "debt_001",
+          "reviewer_id": "flash_r2",
+          "score": 7.3,
+          "semantic_status": "valid",
+          "strict_cap_verified": false,
+          "strict_taxonomy_verified": true
+        },
+        {
+          "id": "raft_strict_long8192__debt_002__flash_r2",
+          "question_id": "debt_002",
+          "reviewer_id": "flash_r2",
+          "score": 5.0,
+          "semantic_status": "valid",
+          "strict_cap_verified": false,
+          "strict_taxonomy_verified": true
+        },
+        {
+          "id": "raft_strict_long8192__debt_003__flash_r1",
+          "question_id": "debt_003",
+          "reviewer_id": "flash_r1",
+          "score": 7.3,
+          "semantic_status": "valid",
+          "strict_cap_verified": false,
+          "strict_taxonomy_verified": true
+        },
+        {
+          "id": "raft_strict_long8192__debt_004__flash_r2",
+          "question_id": "debt_004",
+          "reviewer_id": "flash_r2",
+          "score": 7.3,
+          "semantic_status": "valid",
+          "strict_cap_verified": false,
+          "strict_taxonomy_verified": true
+        },
+        {
+          "id": "raft_strict_long8192__debt_005__flash_r2",
+          "question_id": "debt_005",
+          "reviewer_id": "flash_r2",
+          "score": 5.0,
+          "semantic_status": "valid",
+          "strict_cap_verified": false,
+          "strict_taxonomy_verified": true
+        },
+        {
+          "id": "raft_strict_long8192__debt_006__flash_r1",
+          "question_id": "debt_006",
+          "reviewer_id": "flash_r1",
+          "score": 4.0,
+          "semantic_status": "valid",
+          "strict_cap_verified": false,
+          "strict_taxonomy_verified": true
+        },
+        {
+          "id": "raft_strict_long8192__debt_007__flash_r1",
+          "question_id": "debt_007",
+          "reviewer_id": "flash_r1",
+          "score": 7.3,
+          "semantic_status": "valid",
+          "strict_cap_verified": false,
+          "strict_taxonomy_verified": true
+        },
+        {
+          "id": "raft_strict_long8192__labor_001__flash_r1",
+          "question_id": "labor_001",
+          "reviewer_id": "flash_r1",
+          "score": 10.0,
+          "semantic_status": "valid",
+          "strict_cap_verified": false,
+          "strict_taxonomy_verified": true
+        },
+        {
+          "id": "raft_strict_long8192__labor_002__flash_r2",
+          "question_id": "labor_002",
+          "reviewer_id": "flash_r2",
+          "score": 10.0,
+          "semantic_status": "valid",
+          "strict_cap_verified": false,
+          "strict_taxonomy_verified": true
+        },
+        {
+          "id": "raft_strict_long8192__labor_003__flash_r1",
+          "question_id": "labor_003",
+          "reviewer_id": "flash_r1",
+          "score": 10.0,
+          "semantic_status": "valid",
+          "strict_cap_verified": false,
+          "strict_taxonomy_verified": true
+        },
+        {
+          "id": "raft_strict_long8192__labor_004__pro_r3",
+          "question_id": "labor_004",
+          "reviewer_id": "pro_r3",
+          "score": 5.0,
+          "semantic_status": "valid",
+          "strict_cap_verified": false,
+          "strict_taxonomy_verified": true
+        },
+        {
+          "id": "raft_strict_long8192__labor_005__flash_r1",
+          "question_id": "labor_005",
+          "reviewer_id": "flash_r1",
+          "score": 5.0,
+          "semantic_status": "valid",
+          "strict_cap_verified": false,
+          "strict_taxonomy_verified": true
+        },
+        {
+          "id": "raft_strict_long8192__labor_006__pro_r3",
+          "question_id": "labor_006",
+          "reviewer_id": "pro_r3",
+          "score": 7.5,
+          "semantic_status": "valid",
+          "strict_cap_verified": false,
+          "strict_taxonomy_verified": true
+        },
+        {
+          "id": "raft_strict_long8192__labor_007__flash_r1",
+          "question_id": "labor_007",
+          "reviewer_id": "flash_r1",
+          "score": 6.0,
+          "semantic_status": "valid",
+          "strict_cap_verified": false,
+          "strict_taxonomy_verified": true
+        },
+        {
+          "id": "raft_strict_long8192__labor_008__pro_r3",
+          "question_id": "labor_008",
+          "reviewer_id": "pro_r3",
+          "score": 9.0,
+          "semantic_status": "unsafe_or_hallucinated",
+          "strict_cap_verified": false,
+          "strict_taxonomy_verified": false
+        },
+        {
+          "id": "raft_strict_long8192__labor_009__flash_r1",
+          "question_id": "labor_009",
+          "reviewer_id": "flash_r1",
+          "score": 5.0,
+          "semantic_status": "valid",
+          "strict_cap_verified": false,
+          "strict_taxonomy_verified": true
+        },
+        {
+          "id": "raft_strict_long8192__labor_010__flash_r2",
+          "question_id": "labor_010",
+          "reviewer_id": "flash_r2",
+          "score": 10.0,
+          "semantic_status": "valid",
+          "strict_cap_verified": false,
+          "strict_taxonomy_verified": true
+        },
+        {
+          "id": "raft_strict_long8192__marriage_001__flash_r2",
+          "question_id": "marriage_001",
+          "reviewer_id": "flash_r2",
+          "score": 4.0,
+          "semantic_status": "unsafe_or_hallucinated",
+          "strict_cap_verified": false,
+          "strict_taxonomy_verified": false
+        },
+        {
+          "id": "raft_strict_long8192__marriage_002__flash_r2",
+          "question_id": "marriage_002",
+          "reviewer_id": "flash_r2",
+          "score": 4.0,
+          "semantic_status": "valid",
+          "strict_cap_verified": false,
+          "strict_taxonomy_verified": true
+        },
+        {
+          "id": "raft_strict_long8192__marriage_003__pro_r3",
+          "question_id": "marriage_003",
+          "reviewer_id": "pro_r3",
+          "score": 5.0,
+          "semantic_status": "unsafe_or_hallucinated",
+          "strict_cap_verified": false,
+          "strict_taxonomy_verified": false
+        },
+        {
+          "id": "raft_strict_long8192__marriage_004__pro_r3",
+          "question_id": "marriage_004",
+          "reviewer_id": "pro_r3",
+          "score": 5.0,
+          "semantic_status": "unsafe_or_hallucinated",
+          "strict_cap_verified": false,
+          "strict_taxonomy_verified": false
+        },
+        {
+          "id": "raft_strict_long8192__marriage_005__flash_r2",
+          "question_id": "marriage_005",
+          "reviewer_id": "flash_r2",
+          "score": 4.0,
+          "semantic_status": "unsafe_or_hallucinated",
+          "strict_cap_verified": false,
+          "strict_taxonomy_verified": false
+        },
+        {
+          "id": "raft_strict_long8192__marriage_006__flash_r2",
+          "question_id": "marriage_006",
+          "reviewer_id": "flash_r2",
+          "score": 5.0,
+          "semantic_status": "valid",
+          "strict_cap_verified": false,
+          "strict_taxonomy_verified": true
+        },
+        {
+          "id": "raft_strict_long8192__marriage_007__pro_r3",
+          "question_id": "marriage_007",
+          "reviewer_id": "pro_r3",
+          "score": 7.0,
+          "semantic_status": "valid",
+          "strict_cap_verified": false,
+          "strict_taxonomy_verified": true
+        },
+        {
+          "id": "raft_strict_long8192__marriage_008__flash_r1",
+          "question_id": "marriage_008",
+          "reviewer_id": "flash_r1",
+          "score": 7.0,
+          "semantic_status": "valid",
+          "strict_cap_verified": false,
+          "strict_taxonomy_verified": true
+        },
+        {
+          "id": "raft_strict_long8192__rent_001__flash_r1",
+          "question_id": "rent_001",
+          "reviewer_id": "flash_r1",
+          "score": 5.0,
+          "semantic_status": "valid",
+          "strict_cap_verified": false,
+          "strict_taxonomy_verified": true
+        },
+        {
+          "id": "raft_strict_long8192__rent_002__flash_r1",
+          "question_id": "rent_002",
+          "reviewer_id": "flash_r1",
+          "score": 10.0,
+          "semantic_status": "valid",
+          "strict_cap_verified": false,
+          "strict_taxonomy_verified": true
+        },
+        {
+          "id": "raft_strict_long8192__rent_003__pro_r3",
+          "question_id": "rent_003",
+          "reviewer_id": "pro_r3",
+          "score": 5.0,
+          "semantic_status": "unsafe_or_hallucinated",
+          "strict_cap_verified": false,
+          "strict_taxonomy_verified": false
+        },
+        {
+          "id": "raft_strict_long8192__rent_004__pro_r3",
+          "question_id": "rent_004",
+          "reviewer_id": "pro_r3",
+          "score": 6.5,
+          "semantic_status": "valid",
+          "strict_cap_verified": false,
+          "strict_taxonomy_verified": true
+        },
+        {
+          "id": "raft_strict_long8192__rent_005__pro_r3",
+          "question_id": "rent_005",
+          "reviewer_id": "pro_r3",
+          "score": 9.0,
+          "semantic_status": "valid",
+          "strict_cap_verified": true,
+          "strict_taxonomy_verified": true
+        },
+        {
+          "id": "raft_strict_long8192__rent_006__pro_r3",
+          "question_id": "rent_006",
+          "reviewer_id": "pro_r3",
+          "score": 7.0,
+          "semantic_status": "valid",
+          "strict_cap_verified": false,
+          "strict_taxonomy_verified": true
+        },
+        {
+          "id": "raft_strict_long8192__rent_007__flash_r2",
+          "question_id": "rent_007",
+          "reviewer_id": "flash_r2",
+          "score": 6.8,
+          "semantic_status": "valid",
+          "strict_cap_verified": false,
+          "strict_taxonomy_verified": true
+        },
+        {
+          "id": "raft_strict_long8192__rent_008__pro_r3",
+          "question_id": "rent_008",
+          "reviewer_id": "pro_r3",
+          "score": 6.5,
+          "semantic_status": "unsafe_or_hallucinated",
+          "strict_cap_verified": false,
+          "strict_taxonomy_verified": false
+        },
+        {
+          "id": "raft_strict_long8192__rent_009__pro_r3",
+          "question_id": "rent_009",
+          "reviewer_id": "pro_r3",
+          "score": 6.0,
+          "semantic_status": "unsafe_or_hallucinated",
+          "strict_cap_verified": false,
+          "strict_taxonomy_verified": false
+        },
+        {
+          "id": "raft_strict_long8192__rent_010__pro_r3",
+          "question_id": "rent_010",
+          "reviewer_id": "pro_r3",
+          "score": 6.5,
+          "semantic_status": "valid",
+          "strict_cap_verified": false,
+          "strict_taxonomy_verified": true
+        },
+        {
+          "id": "raft_strict_long8192__traffic_001__flash_r2",
+          "question_id": "traffic_001",
+          "reviewer_id": "flash_r2",
+          "score": 7.3,
+          "semantic_status": "valid",
+          "strict_cap_verified": false,
+          "strict_taxonomy_verified": true
+        },
+        {
+          "id": "raft_strict_long8192__traffic_002__pro_r3",
+          "question_id": "traffic_002",
+          "reviewer_id": "pro_r3",
+          "score": 7.0,
+          "semantic_status": "valid",
+          "strict_cap_verified": false,
+          "strict_taxonomy_verified": true
+        },
+        {
+          "id": "raft_strict_long8192__traffic_003__flash_r1",
+          "question_id": "traffic_003",
+          "reviewer_id": "flash_r1",
+          "score": 10.0,
+          "semantic_status": "valid",
+          "strict_cap_verified": false,
+          "strict_taxonomy_verified": true
+        },
+        {
+          "id": "raft_strict_long8192__traffic_004__flash_r1",
+          "question_id": "traffic_004",
+          "reviewer_id": "flash_r1",
+          "score": 7.5,
+          "semantic_status": "valid",
+          "strict_cap_verified": false,
+          "strict_taxonomy_verified": true
+        },
+        {
+          "id": "raft_strict_long8192__traffic_005__flash_r2",
+          "question_id": "traffic_005",
+          "reviewer_id": "flash_r2",
+          "score": 10.0,
+          "semantic_status": "valid",
+          "strict_cap_verified": false,
+          "strict_taxonomy_verified": true
+        },
+        {
+          "id": "raft_strict_long8192__traffic_006__flash_r1",
+          "question_id": "traffic_006",
+          "reviewer_id": "flash_r1",
+          "score": 7.3,
+          "semantic_status": "valid",
+          "strict_cap_verified": false,
+          "strict_taxonomy_verified": true
+        },
+        {
+          "id": "raft_strict_long8192__traffic_007__flash_r2",
+          "question_id": "traffic_007",
+          "reviewer_id": "flash_r2",
+          "score": 5.0,
+          "semantic_status": "valid",
+          "strict_cap_verified": false,
+          "strict_taxonomy_verified": true
+        }
+      ]
+    }
+  ],
+  "paired_bootstrap": {
+    "seed": 2026071902,
+    "samples": 20000
+  },
+  "paired_reading": {
+    "grpo200_minus_base": {
+      "mean_delta": -0.001999999999999993,
+      "bootstrap_ci95_low": -0.512,
+      "bootstrap_ci95_high": 0.502
+    },
+    "grpo600_minus_base": {
+      "mean_delta": 0.392,
+      "bootstrap_ci95_low": -0.036,
+      "bootstrap_ci95_high": 0.8420000000000001
+    },
+    "grpo600_minus_grpo200": {
+      "mean_delta": 0.39399999999999996,
+      "bootstrap_ci95_low": -0.05000000000000002,
+      "bootstrap_ci95_high": 0.858
+    },
+    "raft_strict_minus_base": {
+      "mean_delta": -0.084,
+      "bootstrap_ci95_low": -0.502,
+      "bootstrap_ci95_high": 0.318
+    }
+  }
+}

@@ -1,0 +1,117 @@
+{
+  "schema_version": "public_quality_rm_failure_v1",
+  "test_metrics": {
+    "rows": 130,
+    "spearman": 0.05832636147013592,
+    "score_mae": 1.8821497879765627,
+    "pairwise_accuracy": 0.5757575757575758,
+    "pair_count": 33,
+    "major": {
+      "tp": 11,
+      "fp": 76,
+      "fn": 7,
+      "tn": 36,
+      "precision": 0.12643678160919541,
+      "recall": 0.6111111111111112,
+      "ece": 0.345981269280749,
+      "temperature": 4.019056088503457
+    },
+    "high": {
+      "tp": 10,
+      "fp": 80,
+      "fn": 4,
+      "tn": 36,
+      "precision": 0.1111111111111111,
+      "recall": 0.7142857142857143,
+      "ece": 0.3630016795136679,
+      "temperature": 2.5326870757144935
+    },
+    "category_mae": {
+      "交通事故理赔": 2.4820083798431747,
+      "劳动工资社保": 1.9308134100621641,
+      "婚姻彩礼财产": 1.5803810377319005,
+      "民间借贷": 1.5301483184840707,
+      "租房押金": 1.98789333326568,
+      "网购消费维权": 1.8567945875386849
+    },
+    "family_mae": {
+      "dev30_current_v2_triplet": {
+        "rows": 15,
+        "mae": 1.7528778526475652
+      },
+      "grpo_quality_rm_rescue": {
+        "rows": 6,
+        "mae": 1.1593865119230047
+      },
+      "grpo_quality_rm_rescue2": {
+        "rows": 4,
+        "mae": 1.938477178966046
+      },
+      "v15_full_dev30": {
+        "rows": 10,
+        "mae": 2.031916621981784
+      },
+      "v15_quality": {
+        "rows": 36,
+        "mae": 1.5708130523567543
+      },
+      "v15_smoke_dev30": {
+        "rows": 10,
+        "mae": 1.99973092278008
+      },
+      "v16_all_rank8_dev30": {
+        "rows": 10,
+        "mae": 2.426317237246617
+      },
+      "v17_dev60": {
+        "rows": 22,
+        "mae": 2.1345667956968204
+      },
+      "v18_capacity_r64_high_dev60": {
+        "rows": 22,
+        "mae": 2.1640545653888648
+      },
+      "v18_dev60": {
+        "rows": 22,
+        "mae": 2.1912221907048606
+      }
+    }
+  },
+  "adversarial": {
+    "rows": 30,
+    "ordering_accuracy": 0.5666666666666667,
+    "high_risk_rows": 12,
+    "all_high_risk_triggered": false
+  },
+  "thresholds": {
+    "spearman": 0.55,
+    "score_mae": 1.0,
+    "pairwise_accuracy": 0.65,
+    "major_recall": 0.8,
+    "major_precision": 0.5,
+    "high_recall": 0.85,
+    "high_precision": 0.5,
+    "major_ece": 0.1,
+    "high_ece": 0.1,
+    "worst_category_mae": 1.25,
+    "worst_family_mae": 1.25,
+    "adversarial_ordering": 0.8
+  },
+  "gates": {
+    "spearman": false,
+    "score_mae": false,
+    "pairwise_accuracy": false,
+    "major_recall": false,
+    "major_precision": false,
+    "high_recall": false,
+    "high_precision": false,
+    "major_ece": false,
+    "high_ece": false,
+    "worst_category_mae": false,
+    "worst_family_mae": false,
+    "adversarial_ordering": false,
+    "adversarial_high_risk": false
+  },
+  "decision": "CLOSE_ARM_B_QR1_FAIL",
+  "test_opened_once": true
+}

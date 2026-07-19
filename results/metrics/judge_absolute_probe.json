@@ -1,0 +1,87 @@
+{
+  "schema_version": "public_judge_absolute_probe_v1",
+  "requests": 480,
+  "successful": 480,
+  "paired_units": 240,
+  "metrics": {
+    "repeat_quality_spearman": 0.9308977575832768,
+    "repeat_quality_mae_0_1": 0.017604166666666674,
+    "risk_vector_exact_agreement": 0.9916666666666667,
+    "severe_risk_agreement": 0.9958333333333333,
+    "median_within_prompt_quality_std": 0.06283808032509788,
+    "median_distinct_scores_per_k8": 5.0,
+    "mode_median_within_prompt_std": {
+      "no_context": 0.05991897853342752,
+      "rag_clean": 0.06911958590823307,
+      "rag_distractor": 0.06704174099173808
+    },
+    "per_quality_dimension": {
+      "Q1": {
+        "mae_0_4": 0.03333333333333333,
+        "exact_agreement": 0.9666666666666667
+      },
+      "Q2": {
+        "mae_0_4": 0.05,
+        "exact_agreement": 0.95
+      },
+      "Q3": {
+        "mae_0_4": 0.058333333333333334,
+        "exact_agreement": 0.9416666666666667
+      },
+      "Q4": {
+        "mae_0_4": 0.041666666666666664,
+        "exact_agreement": 0.9583333333333334
+      },
+      "Q5": {
+        "mae_0_4": 0.05,
+        "exact_agreement": 0.95
+      },
+      "Q6": {
+        "mae_0_4": 0.0875,
+        "exact_agreement": 0.9125
+      },
+      "Q7": {
+        "mae_0_4": 0.08333333333333333,
+        "exact_agreement": 0.9166666666666666
+      },
+      "Q8": {
+        "mae_0_4": 0.0625,
+        "exact_agreement": 0.9375
+      },
+      "Q9": {
+        "mae_0_4": 0.14166666666666666,
+        "exact_agreement": 0.8625
+      },
+      "Q10": {
+        "mae_0_4": 0.1125,
+        "exact_agreement": 0.8875
+      }
+    },
+    "risk_prevalence": {
+      "R1": 0.004166666666666667,
+      "R2": 0.075,
+      "R3": 0.0125,
+      "R4": 0.0,
+      "R5": 0.004166666666666667,
+      "R6": 0.004166666666666667
+    },
+    "major_error_rate": 0.07916666666666666,
+    "high_risk_rate": 0.07916666666666666,
+    "finish_reason_counts": {
+      "stop": 182,
+      "length": 58
+    }
+  },
+  "gates": {
+    "strict_json_coverage": true,
+    "two_repeat_coverage": true,
+    "repeat_quality_spearman": true,
+    "repeat_quality_mae": true,
+    "risk_vector_agreement": true,
+    "severe_risk_agreement": true,
+    "within_prompt_quality_std": true,
+    "within_prompt_distinct_scores": true,
+    "per_mode_resolution": true
+  },
+  "decision": "ABSOLUTE_RUBRIC_AP0_PASS"
+}

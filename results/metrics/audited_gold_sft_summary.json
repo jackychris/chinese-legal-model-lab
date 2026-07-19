@@ -1,0 +1,22 @@
+{
+  "schema_version": "public_audited_gold_sft_summary_v1",
+  "rows": 50,
+  "training_rows": 77,
+  "base_semantic_average": 6.81,
+  "pilot_semantic_average": 7.33,
+  "semantic_delta": 0.52,
+  "pairwise": {
+    "wins": 29,
+    "ties": 11,
+    "losses": 10
+  },
+  "high_risk_rows": {
+    "base": 5,
+    "pilot": 3
+  },
+  "mean_answer_chars": {
+    "base": 831,
+    "pilot": 972
+  },
+  "status": "research_positive_not_production_ready"
+}

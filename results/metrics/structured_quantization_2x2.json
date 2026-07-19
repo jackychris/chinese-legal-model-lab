@@ -1,0 +1,931 @@
+{
+  "schema_version": "public_structured_quantization_2x2_v1",
+  "evidence_role": "post_hoc_quantization_study",
+  "decision": null,
+  "official_v24_status_unchanged": "ARCHIVED_FINAL_FAIL",
+  "cells": {
+    "base_bf16": {
+      "rows": 120,
+      "json_valid_rows": 120,
+      "json_valid_rate": 1.0,
+      "case_type_correct_rows": 120,
+      "case_type_accuracy": 1.0,
+      "extraction": {
+        "tp": 135,
+        "fp": 125,
+        "fn": 56,
+        "precision": 0.5192307692307693,
+        "recall": 0.7068062827225131,
+        "micro_f1": 0.598669623059867
+      },
+      "hallucination": {
+        "items": 14,
+        "output_items": 260,
+        "rate": 0.05384615384615385
+      },
+      "generated_fields": {
+        "claims_avg_items": 1.65,
+        "claims_empty_rate": 0.0,
+        "evidence_avg_items": 2.9833333333333334,
+        "evidence_empty_rate": 0.0
+      },
+      "categories": {
+        "交通事故理赔": {
+          "rows": 20,
+          "json_valid_rate": 1.0,
+          "case_type_accuracy": 1.0
+        },
+        "劳动工资社保": {
+          "rows": 20,
+          "json_valid_rate": 1.0,
+          "case_type_accuracy": 1.0
+        },
+        "婚姻彩礼财产": {
+          "rows": 20,
+          "json_valid_rate": 1.0,
+          "case_type_accuracy": 1.0
+        },
+        "民间借贷": {
+          "rows": 20,
+          "json_valid_rate": 1.0,
+          "case_type_accuracy": 1.0
+        },
+        "租房押金": {
+          "rows": 20,
+          "json_valid_rate": 1.0,
+          "case_type_accuracy": 1.0
+        },
+        "网购消费维权": {
+          "rows": 20,
+          "json_valid_rate": 1.0,
+          "case_type_accuracy": 1.0
+        }
+      },
+      "fields": {
+        "amounts": {
+          "tp": 55,
+          "fp": 58,
+          "fn": 13,
+          "precision": 0.48672566371681414,
+          "recall": 0.8088235294117647,
+          "f1": 0.6077348066298343
+        },
+        "time_elements": {
+          "tp": 80,
+          "fp": 67,
+          "fn": 43,
+          "precision": 0.54421768707483,
+          "recall": 0.6504065040650406,
+          "f1": 0.5925925925925926
+        }
+      },
+      "surface_buckets": {
+        "both": {
+          "rows": 24,
+          "exact_rows": 7,
+          "exact_rate": 0.2916666666666667,
+          "tp": 74,
+          "fp": 12,
+          "fn": 19,
+          "precision": 0.8604651162790697,
+          "recall": 0.7956989247311828,
+          "f1": 0.8268156424581005
+        },
+        "money_only": {
+          "rows": 24,
+          "exact_rows": 11,
+          "exact_rate": 0.4583333333333333,
+          "tp": 27,
+          "fp": 13,
+          "fn": 8,
+          "precision": 0.675,
+          "recall": 0.7714285714285715,
+          "f1": 0.72
+        },
+        "negative": {
+          "rows": 48,
+          "exact_rows": 12,
+          "exact_rate": 0.25,
+          "tp": 5,
+          "fp": 59,
+          "fn": 4,
+          "precision": 0.078125,
+          "recall": 0.5555555555555556,
+          "f1": 0.136986301369863
+        },
+        "time_only": {
+          "rows": 24,
+          "exact_rows": 2,
+          "exact_rate": 0.08333333333333333,
+          "tp": 29,
+          "fp": 41,
+          "fn": 25,
+          "precision": 0.4142857142857143,
+          "recall": 0.5370370370370371,
+          "f1": 0.467741935483871
+        }
+      },
+      "category_extraction": {
+        "交通事故理赔": {
+          "rows": 20,
+          "exact_rows": 3,
+          "exact_rate": 0.15,
+          "tp": 22,
+          "fp": 28,
+          "fn": 6,
+          "precision": 0.44,
+          "recall": 0.7857142857142857,
+          "f1": 0.5641025641025641
+        },
+        "劳动工资社保": {
+          "rows": 20,
+          "exact_rows": 6,
+          "exact_rate": 0.3,
+          "tp": 24,
+          "fp": 14,
+          "fn": 10,
+          "precision": 0.631578947368421,
+          "recall": 0.7058823529411765,
+          "f1": 0.6666666666666667
+        },
+        "婚姻彩礼财产": {
+          "rows": 20,
+          "exact_rows": 11,
+          "exact_rate": 0.55,
+          "tp": 25,
+          "fp": 11,
+          "fn": 5,
+          "precision": 0.6944444444444444,
+          "recall": 0.8333333333333334,
+          "f1": 0.7575757575757577
+        },
+        "民间借贷": {
+          "rows": 20,
+          "exact_rows": 2,
+          "exact_rate": 0.1,
+          "tp": 24,
+          "fp": 27,
+          "fn": 8,
+          "precision": 0.47058823529411764,
+          "recall": 0.75,
+          "f1": 0.5783132530120481
+        },
+        "租房押金": {
+          "rows": 20,
+          "exact_rows": 3,
+          "exact_rate": 0.15,
+          "tp": 20,
+          "fp": 28,
+          "fn": 14,
+          "precision": 0.4166666666666667,
+          "recall": 0.5882352941176471,
+          "f1": 0.48780487804878053
+        },
+        "网购消费维权": {
+          "rows": 20,
+          "exact_rows": 7,
+          "exact_rate": 0.35,
+          "tp": 20,
+          "fp": 17,
+          "fn": 13,
+          "precision": 0.5405405405405406,
+          "recall": 0.6060606060606061,
+          "f1": 0.5714285714285714
+        }
+      }
+    },
+    "base_awq": {
+      "rows": 120,
+      "json_valid_rows": 120,
+      "json_valid_rate": 1.0,
+      "case_type_correct_rows": 120,
+      "case_type_accuracy": 1.0,
+      "extraction": {
+        "tp": 135,
+        "fp": 99,
+        "fn": 56,
+        "precision": 0.5769230769230769,
+        "recall": 0.7068062827225131,
+        "micro_f1": 0.6352941176470589
+      },
+      "hallucination": {
+        "items": 18,
+        "output_items": 234,
+        "rate": 0.07692307692307693
+      },
+      "generated_fields": {
+        "claims_avg_items": 1.5333333333333334,
+        "claims_empty_rate": 0.0,
+        "evidence_avg_items": 2.9166666666666665,
+        "evidence_empty_rate": 0.0
+      },
+      "categories": {
+        "交通事故理赔": {
+          "rows": 20,
+          "json_valid_rate": 1.0,
+          "case_type_accuracy": 1.0
+        },
+        "劳动工资社保": {
+          "rows": 20,
+          "json_valid_rate": 1.0,
+          "case_type_accuracy": 1.0
+        },
+        "婚姻彩礼财产": {
+          "rows": 20,
+          "json_valid_rate": 1.0,
+          "case_type_accuracy": 1.0
+        },
+        "民间借贷": {
+          "rows": 20,
+          "json_valid_rate": 1.0,
+          "case_type_accuracy": 1.0
+        },
+        "租房押金": {
+          "rows": 20,
+          "json_valid_rate": 1.0,
+          "case_type_accuracy": 1.0
+        },
+        "网购消费维权": {
+          "rows": 20,
+          "json_valid_rate": 1.0,
+          "case_type_accuracy": 1.0
+        }
+      },
+      "fields": {
+        "amounts": {
+          "tp": 54,
+          "fp": 48,
+          "fn": 14,
+          "precision": 0.5294117647058824,
+          "recall": 0.7941176470588235,
+          "f1": 0.6352941176470589
+        },
+        "time_elements": {
+          "tp": 81,
+          "fp": 51,
+          "fn": 42,
+          "precision": 0.6136363636363636,
+          "recall": 0.6585365853658537,
+          "f1": 0.6352941176470588
+        }
+      },
+      "surface_buckets": {
+        "both": {
+          "rows": 24,
+          "exact_rows": 8,
+          "exact_rate": 0.3333333333333333,
+          "tp": 71,
+          "fp": 13,
+          "fn": 22,
+          "precision": 0.8452380952380952,
+          "recall": 0.7634408602150538,
+          "f1": 0.8022598870056498
+        },
+        "money_only": {
+          "rows": 24,
+          "exact_rows": 16,
+          "exact_rate": 0.6666666666666666,
+          "tp": 28,
+          "fp": 6,
+          "fn": 7,
+          "precision": 0.8235294117647058,
+          "recall": 0.8,
+          "f1": 0.8115942028985507
+        },
+        "negative": {
+          "rows": 48,
+          "exact_rows": 18,
+          "exact_rate": 0.375,
+          "tp": 3,
+          "fp": 45,
+          "fn": 6,
+          "precision": 0.0625,
+          "recall": 0.3333333333333333,
+          "f1": 0.10526315789473684
+        },
+        "time_only": {
+          "rows": 24,
+          "exact_rows": 2,
+          "exact_rate": 0.08333333333333333,
+          "tp": 33,
+          "fp": 35,
+          "fn": 21,
+          "precision": 0.4852941176470588,
+          "recall": 0.6111111111111112,
+          "f1": 0.540983606557377
+        }
+      },
+      "category_extraction": {
+        "交通事故理赔": {
+          "rows": 20,
+          "exact_rows": 5,
+          "exact_rate": 0.25,
+          "tp": 23,
+          "fp": 23,
+          "fn": 5,
+          "precision": 0.5,
+          "recall": 0.8214285714285714,
+          "f1": 0.6216216216216216
+        },
+        "劳动工资社保": {
+          "rows": 20,
+          "exact_rows": 10,
+          "exact_rate": 0.5,
+          "tp": 23,
+          "fp": 9,
+          "fn": 11,
+          "precision": 0.71875,
+          "recall": 0.6764705882352942,
+          "f1": 0.696969696969697
+        },
+        "婚姻彩礼财产": {
+          "rows": 20,
+          "exact_rows": 11,
+          "exact_rate": 0.55,
+          "tp": 24,
+          "fp": 5,
+          "fn": 6,
+          "precision": 0.8275862068965517,
+          "recall": 0.8,
+          "f1": 0.8135593220338982
+        },
+        "民间借贷": {
+          "rows": 20,
+          "exact_rows": 4,
+          "exact_rate": 0.2,
+          "tp": 23,
+          "fp": 21,
+          "fn": 9,
+          "precision": 0.5227272727272727,
+          "recall": 0.71875,
+          "f1": 0.6052631578947368
+        },
+        "租房押金": {
+          "rows": 20,
+          "exact_rows": 5,
+          "exact_rate": 0.25,
+          "tp": 19,
+          "fp": 28,
+          "fn": 15,
+          "precision": 0.40425531914893614,
+          "recall": 0.5588235294117647,
+          "f1": 0.4691358024691358
+        },
+        "网购消费维权": {
+          "rows": 20,
+          "exact_rows": 9,
+          "exact_rate": 0.45,
+          "tp": 23,
+          "fp": 13,
+          "fn": 10,
+          "precision": 0.6388888888888888,
+          "recall": 0.696969696969697,
+          "f1": 0.6666666666666666
+        }
+      }
+    },
+    "v24_bf16_merged": {
+      "rows": 120,
+      "json_valid_rows": 120,
+      "json_valid_rate": 1.0,
+      "case_type_correct_rows": 120,
+      "case_type_accuracy": 1.0,
+      "extraction": {
+        "tp": 158,
+        "fp": 109,
+        "fn": 33,
+        "precision": 0.5917602996254682,
+        "recall": 0.8272251308900523,
+        "micro_f1": 0.6899563318777292
+      },
+      "hallucination": {
+        "items": 4,
+        "output_items": 267,
+        "rate": 0.0149812734082397
+      },
+      "generated_fields": {
+        "claims_avg_items": 1.3666666666666667,
+        "claims_empty_rate": 0.0,
+        "evidence_avg_items": 2.8666666666666667,
+        "evidence_empty_rate": 0.0
+      },
+      "categories": {
+        "交通事故理赔": {
+          "rows": 20,
+          "json_valid_rate": 1.0,
+          "case_type_accuracy": 1.0
+        },
+        "劳动工资社保": {
+          "rows": 20,
+          "json_valid_rate": 1.0,
+          "case_type_accuracy": 1.0
+        },
+        "婚姻彩礼财产": {
+          "rows": 20,
+          "json_valid_rate": 1.0,
+          "case_type_accuracy": 1.0
+        },
+        "民间借贷": {
+          "rows": 20,
+          "json_valid_rate": 1.0,
+          "case_type_accuracy": 1.0
+        },
+        "租房押金": {
+          "rows": 20,
+          "json_valid_rate": 1.0,
+          "case_type_accuracy": 1.0
+        },
+        "网购消费维权": {
+          "rows": 20,
+          "json_valid_rate": 1.0,
+          "case_type_accuracy": 1.0
+        }
+      },
+      "fields": {
+        "amounts": {
+          "tp": 61,
+          "fp": 21,
+          "fn": 7,
+          "precision": 0.7439024390243902,
+          "recall": 0.8970588235294118,
+          "f1": 0.8133333333333334
+        },
+        "time_elements": {
+          "tp": 97,
+          "fp": 88,
+          "fn": 26,
+          "precision": 0.5243243243243243,
+          "recall": 0.7886178861788617,
+          "f1": 0.6298701298701299
+        }
+      },
+      "surface_buckets": {
+        "both": {
+          "rows": 24,
+          "exact_rows": 8,
+          "exact_rate": 0.3333333333333333,
+          "tp": 80,
+          "fp": 15,
+          "fn": 13,
+          "precision": 0.8421052631578947,
+          "recall": 0.8602150537634409,
+          "f1": 0.8510638297872339
+        },
+        "money_only": {
+          "rows": 24,
+          "exact_rows": 13,
+          "exact_rate": 0.5416666666666666,
+          "tp": 31,
+          "fp": 13,
+          "fn": 4,
+          "precision": 0.7045454545454546,
+          "recall": 0.8857142857142857,
+          "f1": 0.7848101265822784
+        },
+        "negative": {
+          "rows": 48,
+          "exact_rows": 12,
+          "exact_rate": 0.25,
+          "tp": 7,
+          "fp": 49,
+          "fn": 2,
+          "precision": 0.125,
+          "recall": 0.7777777777777778,
+          "f1": 0.2153846153846154
+        },
+        "time_only": {
+          "rows": 24,
+          "exact_rows": 4,
+          "exact_rate": 0.16666666666666666,
+          "tp": 40,
+          "fp": 32,
+          "fn": 14,
+          "precision": 0.5555555555555556,
+          "recall": 0.7407407407407407,
+          "f1": 0.634920634920635
+        }
+      },
+      "category_extraction": {
+        "交通事故理赔": {
+          "rows": 20,
+          "exact_rows": 4,
+          "exact_rate": 0.2,
+          "tp": 25,
+          "fp": 24,
+          "fn": 3,
+          "precision": 0.5102040816326531,
+          "recall": 0.8928571428571429,
+          "f1": 0.6493506493506493
+        },
+        "劳动工资社保": {
+          "rows": 20,
+          "exact_rows": 5,
+          "exact_rate": 0.25,
+          "tp": 30,
+          "fp": 21,
+          "fn": 4,
+          "precision": 0.5882352941176471,
+          "recall": 0.8823529411764706,
+          "f1": 0.7058823529411764
+        },
+        "婚姻彩礼财产": {
+          "rows": 20,
+          "exact_rows": 11,
+          "exact_rate": 0.55,
+          "tp": 26,
+          "fp": 10,
+          "fn": 4,
+          "precision": 0.7222222222222222,
+          "recall": 0.8666666666666667,
+          "f1": 0.7878787878787877
+        },
+        "民间借贷": {
+          "rows": 20,
+          "exact_rows": 4,
+          "exact_rate": 0.2,
+          "tp": 28,
+          "fp": 21,
+          "fn": 4,
+          "precision": 0.5714285714285714,
+          "recall": 0.875,
+          "f1": 0.691358024691358
+        },
+        "租房押金": {
+          "rows": 20,
+          "exact_rows": 5,
+          "exact_rate": 0.25,
+          "tp": 24,
+          "fp": 20,
+          "fn": 10,
+          "precision": 0.5454545454545454,
+          "recall": 0.7058823529411765,
+          "f1": 0.6153846153846153
+        },
+        "网购消费维权": {
+          "rows": 20,
+          "exact_rows": 8,
+          "exact_rate": 0.4,
+          "tp": 25,
+          "fp": 13,
+          "fn": 8,
+          "precision": 0.6578947368421053,
+          "recall": 0.7575757575757576,
+          "f1": 0.704225352112676
+        }
+      }
+    },
+    "v24_awq": {
+      "rows": 120,
+      "json_valid_rows": 120,
+      "json_valid_rate": 1.0,
+      "case_type_correct_rows": 120,
+      "case_type_accuracy": 1.0,
+      "extraction": {
+        "tp": 160,
+        "fp": 99,
+        "fn": 31,
+        "precision": 0.6177606177606177,
+        "recall": 0.837696335078534,
+        "micro_f1": 0.711111111111111
+      },
+      "hallucination": {
+        "items": 7,
+        "output_items": 259,
+        "rate": 0.02702702702702703
+      },
+      "generated_fields": {
+        "claims_avg_items": 1.3333333333333333,
+        "claims_empty_rate": 0.0,
+        "evidence_avg_items": 2.8666666666666667,
+        "evidence_empty_rate": 0.0
+      },
+      "categories": {
+        "交通事故理赔": {
+          "rows": 20,
+          "json_valid_rate": 1.0,
+          "case_type_accuracy": 1.0
+        },
+        "劳动工资社保": {
+          "rows": 20,
+          "json_valid_rate": 1.0,
+          "case_type_accuracy": 1.0
+        },
+        "婚姻彩礼财产": {
+          "rows": 20,
+          "json_valid_rate": 1.0,
+          "case_type_accuracy": 1.0
+        },
+        "民间借贷": {
+          "rows": 20,
+          "json_valid_rate": 1.0,
+          "case_type_accuracy": 1.0
+        },
+        "租房押金": {
+          "rows": 20,
+          "json_valid_rate": 1.0,
+          "case_type_accuracy": 1.0
+        },
+        "网购消费维权": {
+          "rows": 20,
+          "json_valid_rate": 1.0,
+          "case_type_accuracy": 1.0
+        }
+      },
+      "fields": {
+        "amounts": {
+          "tp": 61,
+          "fp": 28,
+          "fn": 7,
+          "precision": 0.6853932584269663,
+          "recall": 0.8970588235294118,
+          "f1": 0.7770700636942676
+        },
+        "time_elements": {
+          "tp": 99,
+          "fp": 71,
+          "fn": 24,
+          "precision": 0.5823529411764706,
+          "recall": 0.8048780487804879,
+          "f1": 0.6757679180887374
+        }
+      },
+      "surface_buckets": {
+        "both": {
+          "rows": 24,
+          "exact_rows": 8,
+          "exact_rate": 0.3333333333333333,
+          "tp": 84,
+          "fp": 15,
+          "fn": 9,
+          "precision": 0.8484848484848485,
+          "recall": 0.9032258064516129,
+          "f1": 0.875
+        },
+        "money_only": {
+          "rows": 24,
+          "exact_rows": 13,
+          "exact_rate": 0.5416666666666666,
+          "tp": 29,
+          "fp": 10,
+          "fn": 6,
+          "precision": 0.7435897435897436,
+          "recall": 0.8285714285714286,
+          "f1": 0.7837837837837838
+        },
+        "negative": {
+          "rows": 48,
+          "exact_rows": 20,
+          "exact_rate": 0.4166666666666667,
+          "tp": 7,
+          "fp": 41,
+          "fn": 2,
+          "precision": 0.14583333333333334,
+          "recall": 0.7777777777777778,
+          "f1": 0.24561403508771928
+        },
+        "time_only": {
+          "rows": 24,
+          "exact_rows": 4,
+          "exact_rate": 0.16666666666666666,
+          "tp": 40,
+          "fp": 33,
+          "fn": 14,
+          "precision": 0.547945205479452,
+          "recall": 0.7407407407407407,
+          "f1": 0.6299212598425197
+        }
+      },
+      "category_extraction": {
+        "交通事故理赔": {
+          "rows": 20,
+          "exact_rows": 1,
+          "exact_rate": 0.05,
+          "tp": 22,
+          "fp": 26,
+          "fn": 6,
+          "precision": 0.4583333333333333,
+          "recall": 0.7857142857142857,
+          "f1": 0.5789473684210527
+        },
+        "劳动工资社保": {
+          "rows": 20,
+          "exact_rows": 8,
+          "exact_rate": 0.4,
+          "tp": 33,
+          "fp": 15,
+          "fn": 1,
+          "precision": 0.6875,
+          "recall": 0.9705882352941176,
+          "f1": 0.8048780487804877
+        },
+        "婚姻彩礼财产": {
+          "rows": 20,
+          "exact_rows": 11,
+          "exact_rate": 0.55,
+          "tp": 24,
+          "fp": 7,
+          "fn": 6,
+          "precision": 0.7741935483870968,
+          "recall": 0.8,
+          "f1": 0.7868852459016393
+        },
+        "民间借贷": {
+          "rows": 20,
+          "exact_rows": 6,
+          "exact_rate": 0.3,
+          "tp": 28,
+          "fp": 21,
+          "fn": 4,
+          "precision": 0.5714285714285714,
+          "recall": 0.875,
+          "f1": 0.691358024691358
+        },
+        "租房押金": {
+          "rows": 20,
+          "exact_rows": 8,
+          "exact_rate": 0.4,
+          "tp": 28,
+          "fp": 19,
+          "fn": 6,
+          "precision": 0.5957446808510638,
+          "recall": 0.8235294117647058,
+          "f1": 0.691358024691358
+        },
+        "网购消费维权": {
+          "rows": 20,
+          "exact_rows": 11,
+          "exact_rate": 0.55,
+          "tp": 25,
+          "fp": 11,
+          "fn": 8,
+          "precision": 0.6944444444444444,
+          "recall": 0.7575757575757576,
+          "f1": 0.7246376811594203
+        }
+      }
+    }
+  },
+  "derived": {
+    "quantization_deltas": {
+      "base": {
+        "json_valid_rate": 0.0,
+        "case_type_accuracy": 0.0,
+        "overall_tp": 0.0,
+        "overall_fp": -26.0,
+        "overall_fn": 0.0,
+        "overall_f1": 0.03662449458719186,
+        "amount_tp": -1.0,
+        "amount_fp": -10.0,
+        "amount_fn": 1.0,
+        "amount_precision": 0.04268610098906822,
+        "amount_recall": -0.014705882352941235,
+        "amount_f1": 0.02755931101722464,
+        "time_tp": 1.0,
+        "time_fp": -16.0,
+        "time_fn": -1.0,
+        "time_precision": 0.06941867656153367,
+        "time_recall": 0.008130081300813052,
+        "time_f1": 0.04270152505446623,
+        "unsupported_items": 4.0,
+        "unsupported_rate": 0.023076923076923078,
+        "total_output_items": -26.0,
+        "negative_exact_rate": 0.125
+      },
+      "v24": {
+        "json_valid_rate": 0.0,
+        "case_type_accuracy": 0.0,
+        "overall_tp": 2.0,
+        "overall_fp": -10.0,
+        "overall_fn": -2.0,
+        "overall_f1": 0.021154779233381826,
+        "amount_tp": 0.0,
+        "amount_fp": 7.0,
+        "amount_fn": 0.0,
+        "amount_precision": -0.05850918059742394,
+        "amount_recall": 0.0,
+        "amount_f1": -0.03626326963906579,
+        "time_tp": 2.0,
+        "time_fp": -17.0,
+        "time_fn": -2.0,
+        "time_precision": 0.05802861685214633,
+        "time_recall": 0.016260162601626105,
+        "time_f1": 0.04589778821860746,
+        "unsupported_items": 3.0,
+        "unsupported_rate": 0.012045753618787328,
+        "total_output_items": -8.0,
+        "negative_exact_rate": 0.16666666666666669
+      }
+    },
+    "adapter_deltas": {
+      "bf16": {
+        "json_valid_rate": 0.0,
+        "case_type_accuracy": 0.0,
+        "overall_tp": 23.0,
+        "overall_fp": -16.0,
+        "overall_fn": -23.0,
+        "overall_f1": 0.09128670881786216,
+        "amount_tp": 6.0,
+        "amount_fp": -37.0,
+        "amount_fn": -6.0,
+        "amount_precision": 0.2571767753075761,
+        "amount_recall": 0.08823529411764708,
+        "amount_f1": 0.2055985267034991,
+        "time_tp": 17.0,
+        "time_fp": 21.0,
+        "time_fn": -17.0,
+        "time_precision": -0.019893362750505683,
+        "time_recall": 0.1382113821138211,
+        "time_f1": 0.037277537277537354,
+        "unsupported_items": -10.0,
+        "unsupported_rate": -0.03886488043791415,
+        "total_output_items": 7.0,
+        "negative_exact_rate": 0.0
+      },
+      "awq": {
+        "json_valid_rate": 0.0,
+        "case_type_accuracy": 0.0,
+        "overall_tp": 25.0,
+        "overall_fp": 0.0,
+        "overall_fn": -25.0,
+        "overall_f1": 0.07581699346405213,
+        "amount_tp": 7.0,
+        "amount_fp": -20.0,
+        "amount_fn": -7.0,
+        "amount_precision": 0.15598149372108394,
+        "amount_recall": 0.10294117647058831,
+        "amount_f1": 0.14177594604720867,
+        "time_tp": 18.0,
+        "time_fp": 20.0,
+        "time_fn": -18.0,
+        "time_precision": -0.03128342245989302,
+        "time_recall": 0.14634146341463417,
+        "time_f1": 0.04047380044167859,
+        "unsupported_items": -11.0,
+        "unsupported_rate": -0.0498960498960499,
+        "total_output_items": 25.0,
+        "negative_exact_rate": 0.041666666666666685
+      }
+    },
+    "retention_fraction": {
+      "overall_f1": 0.8305370458181853,
+      "amount_f1": 0.689576663414854,
+      "time_recall": 1.058823529411765
+    },
+    "interaction": {
+      "total_output_items": 18.0,
+      "time_fp": -1.0,
+      "negative_exact_rate": 0.041666666666666685
+    }
+  },
+  "serving_stack_drift": {
+    "base_bf16_regenerated_minus_official": {
+      "json_valid_rate": 0.0,
+      "case_type_accuracy": 0.0,
+      "overall_tp": -1.0,
+      "overall_fp": 1.0,
+      "overall_fn": 1.0,
+      "overall_f1": -0.0044345898004434225,
+      "amount_tp": 0.0,
+      "amount_fp": 0.0,
+      "amount_fn": 0.0,
+      "amount_precision": 0.0,
+      "amount_recall": 0.0,
+      "amount_f1": 0.0,
+      "time_tp": -1.0,
+      "time_fp": 1.0,
+      "time_fn": 1.0,
+      "time_precision": -0.006802721088435271,
+      "time_recall": -0.008130081300813052,
+      "time_f1": -0.007407407407407418,
+      "unsupported_items": 0.0,
+      "unsupported_rate": 0.0,
+      "total_output_items": 0.0,
+      "negative_exact_rate": 0.0
+    },
+    "v24_bf16_merged_regenerated_minus_official": {
+      "json_valid_rate": 0.0,
+      "case_type_accuracy": 0.0,
+      "overall_tp": -2.0,
+      "overall_fp": 4.0,
+      "overall_fn": 2.0,
+      "overall_f1": -0.011798054087183152,
+      "amount_tp": -2.0,
+      "amount_fp": 11.0,
+      "amount_fn": 2.0,
+      "amount_precision": -0.11911125960574676,
+      "amount_recall": -0.02941176470588236,
+      "amount_f1": -0.08028368794326246,
+      "time_tp": 0.0,
+      "time_fp": -7.0,
+      "time_fn": 0.0,
+      "time_precision": 0.019115990990990928,
+      "time_recall": 0.0,
+      "time_f1": 0.013997113997114119,
+      "unsupported_items": 2.0,
+      "unsupported_rate": 0.007434103596918946,
+      "total_output_items": 2.0,
+      "negative_exact_rate": 0.0625
+    }
+  },
+  "non_promotion_clause": "An uncontrolled inference-side weight perturbation shifting the failure boundary is evidence that the residual failure mode (over-inclusion of constitution-excluded temporal spans) is propensity-like and sensitive to inference-side conditions. It points at inference/runtime-side control, not at a training rescue, and it does not constitute a pass of any gate."
+}

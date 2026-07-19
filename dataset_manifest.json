@@ -1,0 +1,92 @@
+{
+  "schema_version": "public_showcase_dataset_manifest_v1",
+  "counts": {
+    "legal50": {
+      "questions": 50
+    },
+    "gold": {
+      "rows": 86
+    },
+    "structured": {
+      "all": 594,
+      "train": 564,
+      "dev": 30,
+      "confirm120": 120
+    },
+    "grounded": {
+      "train900": 900,
+      "dev84": 84,
+      "authority_articles": 2249,
+      "authority_documents": 13
+    },
+    "citation_sft_dpo": {
+      "sft_train": 203,
+      "sft_val": 22,
+      "dpo_pairs": 119
+    },
+    "raft_strict": {
+      "train": 639,
+      "skipped": 261,
+      "candidate_scores": 7374
+    },
+    "quality_rm_failed": {
+      "pairwise_train": 597,
+      "pairwise_calibration": 130,
+      "pairwise_test": 130,
+      "pairwise_adversarial30": 30,
+      "pairwise_test_predictions": 130,
+      "absolute_train_full": 5760,
+      "absolute_train": 500,
+      "absolute_calibration": 720,
+      "absolute_test": 720
+    },
+    "judge_probes": {
+      "pairwise_pairs": 896,
+      "pairwise_judgments": 21504,
+      "absolute_requests": 480,
+      "absolute_answers": 1012
+    }
+  },
+  "files": [
+    "datasets/README.md",
+    "datasets/audited_gold_sft/README.md",
+    "datasets/audited_gold_sft/train.jsonl",
+    "datasets/citation_sft_dpo/README.md",
+    "datasets/citation_sft_dpo/dpo_pairs.jsonl",
+    "datasets/citation_sft_dpo/sft_train.jsonl",
+    "datasets/citation_sft_dpo/sft_val.jsonl",
+    "datasets/grounded_citation/README.md",
+    "datasets/grounded_citation/authority_articles.jsonl",
+    "datasets/grounded_citation/authority_documents.jsonl",
+    "datasets/grounded_citation/dev84.jsonl",
+    "datasets/grounded_citation/reward_contract.md",
+    "datasets/grounded_citation/train900.jsonl",
+    "datasets/judge_probes/README.md",
+    "datasets/judge_probes/absolute_answers.jsonl",
+    "datasets/judge_probes/absolute_requests.jsonl",
+    "datasets/judge_probes/pairwise_judgments.jsonl",
+    "datasets/judge_probes/pairwise_pairs.jsonl",
+    "datasets/legal50/README.md",
+    "datasets/legal50/questions.jsonl",
+    "datasets/legal50/rubric.md",
+    "datasets/quality_rm_failed/README.md",
+    "datasets/quality_rm_failed/absolute_calibration.jsonl",
+    "datasets/quality_rm_failed/absolute_test.jsonl",
+    "datasets/quality_rm_failed/absolute_train_sample500.jsonl",
+    "datasets/quality_rm_failed/pairwise_adversarial30.jsonl",
+    "datasets/quality_rm_failed/pairwise_calibration.jsonl",
+    "datasets/quality_rm_failed/pairwise_test.jsonl",
+    "datasets/quality_rm_failed/pairwise_test_predictions.jsonl",
+    "datasets/quality_rm_failed/pairwise_train.jsonl",
+    "datasets/raft_strict/README.md",
+    "datasets/raft_strict/candidate_scores.jsonl",
+    "datasets/raft_strict/skipped.jsonl",
+    "datasets/raft_strict/train.jsonl",
+    "datasets/structured_intake/README.md",
+    "datasets/structured_intake/confirm120.jsonl",
+    "datasets/structured_intake/contract.md",
+    "datasets/structured_intake/sft_all.jsonl",
+    "datasets/structured_intake/sft_dev.jsonl",
+    "datasets/structured_intake/sft_train.jsonl"
+  ]
+}

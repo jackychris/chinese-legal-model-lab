@@ -1,0 +1,4114 @@
+{
+  "schema_version": "public_legal50_external_strict_v1",
+  "score_semantics": "strict_semantic_score_with_explicit_caps",
+  "arms": [
+    {
+      "model": "z-ai/glm-5.2",
+      "answer_asset": "legacy_complete_archive",
+      "accepted_rows": 50,
+      "expected_rows": 50,
+      "strict_semantic_average": 9.427999999999999,
+      "same_sitting_raw_component_average": 9.454,
+      "cap_reason_rows": 10,
+      "binding_cap_rows": 2,
+      "cap_reason_counts": {
+        "evidence_action_insufficient": 1,
+        "generic_legal_direction": 2,
+        "template_like": 8
+      },
+      "unsafe_or_hallucinated_rows": 0,
+      "rows": [
+        {
+          "id": "consumer_001",
+          "raw_component_total": 10.0,
+          "strict_score": 10.0,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "consumer_002",
+          "raw_component_total": 10.0,
+          "strict_score": 10.0,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "consumer_003",
+          "raw_component_total": 10.0,
+          "strict_score": 10.0,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "consumer_004",
+          "raw_component_total": 7.5,
+          "strict_score": 7.0,
+          "cap_reasons": [
+            "generic_legal_direction"
+          ],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "consumer_005",
+          "raw_component_total": 10.0,
+          "strict_score": 10.0,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "consumer_006",
+          "raw_component_total": 8.0,
+          "strict_score": 8.0,
+          "cap_reasons": [
+            "template_like"
+          ],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "consumer_007",
+          "raw_component_total": 9.5,
+          "strict_score": 9.5,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "consumer_008",
+          "raw_component_total": 10.0,
+          "strict_score": 10.0,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "debt_001",
+          "raw_component_total": 10.0,
+          "strict_score": 10.0,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "debt_002",
+          "raw_component_total": 8.0,
+          "strict_score": 8.0,
+          "cap_reasons": [
+            "template_like"
+          ],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "debt_003",
+          "raw_component_total": 10.0,
+          "strict_score": 10.0,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "debt_004",
+          "raw_component_total": 8.0,
+          "strict_score": 8.0,
+          "cap_reasons": [
+            "template_like"
+          ],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "debt_005",
+          "raw_component_total": 10.0,
+          "strict_score": 10.0,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "debt_006",
+          "raw_component_total": 10.0,
+          "strict_score": 10.0,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "debt_007",
+          "raw_component_total": 8.0,
+          "strict_score": 8.0,
+          "cap_reasons": [
+            "template_like"
+          ],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "labor_001",
+          "raw_component_total": 10.0,
+          "strict_score": 10.0,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "labor_002",
+          "raw_component_total": 10.0,
+          "strict_score": 10.0,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "labor_003",
+          "raw_component_total": 10.0,
+          "strict_score": 10.0,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "labor_004",
+          "raw_component_total": 9.5,
+          "strict_score": 9.5,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "labor_005",
+          "raw_component_total": 10.0,
+          "strict_score": 10.0,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "labor_006",
+          "raw_component_total": 10.0,
+          "strict_score": 10.0,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "labor_007",
+          "raw_component_total": 10.0,
+          "strict_score": 10.0,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "labor_008",
+          "raw_component_total": 10.0,
+          "strict_score": 10.0,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "labor_009",
+          "raw_component_total": 10.0,
+          "strict_score": 10.0,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "labor_010",
+          "raw_component_total": 10.0,
+          "strict_score": 10.0,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "marriage_001",
+          "raw_component_total": 8.0,
+          "strict_score": 8.0,
+          "cap_reasons": [
+            "template_like"
+          ],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "marriage_002",
+          "raw_component_total": 10.0,
+          "strict_score": 10.0,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "marriage_003",
+          "raw_component_total": 10.0,
+          "strict_score": 10.0,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "marriage_004",
+          "raw_component_total": 10.0,
+          "strict_score": 10.0,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "marriage_005",
+          "raw_component_total": 8.0,
+          "strict_score": 8.0,
+          "cap_reasons": [
+            "template_like"
+          ],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "marriage_006",
+          "raw_component_total": 7.8,
+          "strict_score": 7.0,
+          "cap_reasons": [
+            "generic_legal_direction",
+            "evidence_action_insufficient"
+          ],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "marriage_007",
+          "raw_component_total": 10.0,
+          "strict_score": 10.0,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "marriage_008",
+          "raw_component_total": 10.0,
+          "strict_score": 10.0,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "rent_001",
+          "raw_component_total": 8.0,
+          "strict_score": 8.0,
+          "cap_reasons": [
+            "template_like"
+          ],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "rent_002",
+          "raw_component_total": 10.0,
+          "strict_score": 10.0,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "rent_003",
+          "raw_component_total": 9.5,
+          "strict_score": 9.5,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "rent_004",
+          "raw_component_total": 10.0,
+          "strict_score": 10.0,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "rent_005",
+          "raw_component_total": 9.5,
+          "strict_score": 9.5,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "rent_006",
+          "raw_component_total": 9.0,
+          "strict_score": 9.0,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "rent_007",
+          "raw_component_total": 10.0,
+          "strict_score": 10.0,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "rent_008",
+          "raw_component_total": 7.9,
+          "strict_score": 7.9,
+          "cap_reasons": [
+            "template_like"
+          ],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "rent_009",
+          "raw_component_total": 9.5,
+          "strict_score": 9.5,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "rent_010",
+          "raw_component_total": 7.5,
+          "strict_score": 7.5,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "traffic_001",
+          "raw_component_total": 10.0,
+          "strict_score": 10.0,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "traffic_002",
+          "raw_component_total": 9.5,
+          "strict_score": 9.5,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "traffic_003",
+          "raw_component_total": 10.0,
+          "strict_score": 10.0,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "traffic_004",
+          "raw_component_total": 10.0,
+          "strict_score": 10.0,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "traffic_005",
+          "raw_component_total": 10.0,
+          "strict_score": 10.0,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "traffic_006",
+          "raw_component_total": 10.0,
+          "strict_score": 10.0,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "traffic_007",
+          "raw_component_total": 10.0,
+          "strict_score": 10.0,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        }
+      ]
+    },
+    {
+      "model": "anthropic/claude-fable-5",
+      "answer_asset": "legacy_complete_archive",
+      "accepted_rows": 50,
+      "expected_rows": 50,
+      "strict_semantic_average": 9.322000000000001,
+      "same_sitting_raw_component_average": 9.338,
+      "cap_reason_rows": 12,
+      "binding_cap_rows": 1,
+      "cap_reason_counts": {
+        "evidence_action_insufficient": 1,
+        "generic_legal_direction": 1,
+        "specific_article_weak_analysis": 1,
+        "template_like": 11
+      },
+      "unsafe_or_hallucinated_rows": 0,
+      "rows": [
+        {
+          "id": "consumer_001",
+          "raw_component_total": 10.0,
+          "strict_score": 10.0,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "consumer_002",
+          "raw_component_total": 10.0,
+          "strict_score": 10.0,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "consumer_003",
+          "raw_component_total": 10.0,
+          "strict_score": 10.0,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "consumer_004",
+          "raw_component_total": 8.0,
+          "strict_score": 8.0,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "consumer_005",
+          "raw_component_total": 8.0,
+          "strict_score": 8.0,
+          "cap_reasons": [
+            "template_like"
+          ],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "consumer_006",
+          "raw_component_total": 8.0,
+          "strict_score": 8.0,
+          "cap_reasons": [
+            "template_like"
+          ],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "consumer_007",
+          "raw_component_total": 10.0,
+          "strict_score": 10.0,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "consumer_008",
+          "raw_component_total": 8.0,
+          "strict_score": 8.0,
+          "cap_reasons": [
+            "template_like"
+          ],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "debt_001",
+          "raw_component_total": 10.0,
+          "strict_score": 10.0,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "debt_002",
+          "raw_component_total": 10.0,
+          "strict_score": 10.0,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "debt_003",
+          "raw_component_total": 10.0,
+          "strict_score": 10.0,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "debt_004",
+          "raw_component_total": 10.0,
+          "strict_score": 10.0,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "debt_005",
+          "raw_component_total": 8.0,
+          "strict_score": 8.0,
+          "cap_reasons": [
+            "template_like"
+          ],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "debt_006",
+          "raw_component_total": 7.8,
+          "strict_score": 7.0,
+          "cap_reasons": [
+            "generic_legal_direction",
+            "evidence_action_insufficient",
+            "specific_article_weak_analysis"
+          ],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "debt_007",
+          "raw_component_total": 10.0,
+          "strict_score": 10.0,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "labor_001",
+          "raw_component_total": 10.0,
+          "strict_score": 10.0,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "labor_002",
+          "raw_component_total": 10.0,
+          "strict_score": 10.0,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "labor_003",
+          "raw_component_total": 10.0,
+          "strict_score": 10.0,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "labor_004",
+          "raw_component_total": 10.0,
+          "strict_score": 10.0,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "labor_005",
+          "raw_component_total": 10.0,
+          "strict_score": 10.0,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "labor_006",
+          "raw_component_total": 10.0,
+          "strict_score": 10.0,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "labor_007",
+          "raw_component_total": 10.0,
+          "strict_score": 10.0,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "labor_008",
+          "raw_component_total": 10.0,
+          "strict_score": 10.0,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "labor_009",
+          "raw_component_total": 10.0,
+          "strict_score": 10.0,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "labor_010",
+          "raw_component_total": 10.0,
+          "strict_score": 10.0,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "marriage_001",
+          "raw_component_total": 8.0,
+          "strict_score": 8.0,
+          "cap_reasons": [
+            "template_like"
+          ],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "marriage_002",
+          "raw_component_total": 8.0,
+          "strict_score": 8.0,
+          "cap_reasons": [
+            "template_like"
+          ],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "marriage_003",
+          "raw_component_total": 8.0,
+          "strict_score": 8.0,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "marriage_004",
+          "raw_component_total": 9.5,
+          "strict_score": 9.5,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "marriage_005",
+          "raw_component_total": 8.0,
+          "strict_score": 8.0,
+          "cap_reasons": [
+            "template_like"
+          ],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "marriage_006",
+          "raw_component_total": 8.0,
+          "strict_score": 8.0,
+          "cap_reasons": [
+            "template_like"
+          ],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "marriage_007",
+          "raw_component_total": 9.1,
+          "strict_score": 9.1,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "marriage_008",
+          "raw_component_total": 8.0,
+          "strict_score": 8.0,
+          "cap_reasons": [
+            "template_like"
+          ],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "rent_001",
+          "raw_component_total": 8.0,
+          "strict_score": 8.0,
+          "cap_reasons": [
+            "template_like"
+          ],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "rent_002",
+          "raw_component_total": 10.0,
+          "strict_score": 10.0,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "rent_003",
+          "raw_component_total": 9.5,
+          "strict_score": 9.5,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "rent_004",
+          "raw_component_total": 9.5,
+          "strict_score": 9.5,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "rent_005",
+          "raw_component_total": 9.5,
+          "strict_score": 9.5,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "rent_006",
+          "raw_component_total": 10.0,
+          "strict_score": 10.0,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "rent_007",
+          "raw_component_total": 10.0,
+          "strict_score": 10.0,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "rent_008",
+          "raw_component_total": 9.5,
+          "strict_score": 9.5,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "rent_009",
+          "raw_component_total": 10.0,
+          "strict_score": 10.0,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "rent_010",
+          "raw_component_total": 9.0,
+          "strict_score": 9.0,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "traffic_001",
+          "raw_component_total": 10.0,
+          "strict_score": 10.0,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "traffic_002",
+          "raw_component_total": 9.5,
+          "strict_score": 9.5,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "traffic_003",
+          "raw_component_total": 10.0,
+          "strict_score": 10.0,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "traffic_004",
+          "raw_component_total": 10.0,
+          "strict_score": 10.0,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "traffic_005",
+          "raw_component_total": 10.0,
+          "strict_score": 10.0,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "traffic_006",
+          "raw_component_total": 10.0,
+          "strict_score": 10.0,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "traffic_007",
+          "raw_component_total": 8.0,
+          "strict_score": 8.0,
+          "cap_reasons": [
+            "template_like"
+          ],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        }
+      ]
+    },
+    {
+      "model": "moonshotai/kimi-k2.6",
+      "answer_asset": "long_budget_retest_8192",
+      "accepted_rows": 50,
+      "expected_rows": 50,
+      "strict_semantic_average": 9.282,
+      "same_sitting_raw_component_average": 9.298,
+      "cap_reason_rows": 12,
+      "binding_cap_rows": 1,
+      "cap_reason_counts": {
+        "evidence_action_insufficient": 1,
+        "generic_legal_direction": 1,
+        "template_like": 11
+      },
+      "unsafe_or_hallucinated_rows": 0,
+      "rows": [
+        {
+          "id": "consumer_001",
+          "raw_component_total": 9.0,
+          "strict_score": 9.0,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "consumer_002",
+          "raw_component_total": 10.0,
+          "strict_score": 10.0,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "consumer_003",
+          "raw_component_total": 10.0,
+          "strict_score": 10.0,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "consumer_004",
+          "raw_component_total": 8.0,
+          "strict_score": 8.0,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "consumer_005",
+          "raw_component_total": 8.0,
+          "strict_score": 8.0,
+          "cap_reasons": [
+            "template_like"
+          ],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "consumer_006",
+          "raw_component_total": 8.0,
+          "strict_score": 8.0,
+          "cap_reasons": [
+            "template_like"
+          ],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "consumer_007",
+          "raw_component_total": 8.0,
+          "strict_score": 8.0,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "consumer_008",
+          "raw_component_total": 10.0,
+          "strict_score": 10.0,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "debt_001",
+          "raw_component_total": 10.0,
+          "strict_score": 10.0,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "debt_002",
+          "raw_component_total": 10.0,
+          "strict_score": 10.0,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "debt_003",
+          "raw_component_total": 10.0,
+          "strict_score": 10.0,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "debt_004",
+          "raw_component_total": 10.0,
+          "strict_score": 10.0,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "debt_005",
+          "raw_component_total": 8.0,
+          "strict_score": 8.0,
+          "cap_reasons": [
+            "template_like"
+          ],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "debt_006",
+          "raw_component_total": 10.0,
+          "strict_score": 10.0,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "debt_007",
+          "raw_component_total": 8.0,
+          "strict_score": 8.0,
+          "cap_reasons": [
+            "template_like"
+          ],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "labor_001",
+          "raw_component_total": 10.0,
+          "strict_score": 10.0,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "labor_002",
+          "raw_component_total": 10.0,
+          "strict_score": 10.0,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "labor_003",
+          "raw_component_total": 10.0,
+          "strict_score": 10.0,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "labor_004",
+          "raw_component_total": 10.0,
+          "strict_score": 10.0,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "labor_005",
+          "raw_component_total": 8.0,
+          "strict_score": 8.0,
+          "cap_reasons": [
+            "template_like"
+          ],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "labor_006",
+          "raw_component_total": 9.5,
+          "strict_score": 9.5,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "labor_007",
+          "raw_component_total": 10.0,
+          "strict_score": 10.0,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "labor_008",
+          "raw_component_total": 10.0,
+          "strict_score": 10.0,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "labor_009",
+          "raw_component_total": 10.0,
+          "strict_score": 10.0,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "labor_010",
+          "raw_component_total": 10.0,
+          "strict_score": 10.0,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "marriage_001",
+          "raw_component_total": 8.0,
+          "strict_score": 8.0,
+          "cap_reasons": [
+            "template_like"
+          ],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "marriage_002",
+          "raw_component_total": 10.0,
+          "strict_score": 10.0,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "marriage_003",
+          "raw_component_total": 9.5,
+          "strict_score": 9.5,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "marriage_004",
+          "raw_component_total": 10.0,
+          "strict_score": 10.0,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "marriage_005",
+          "raw_component_total": 8.0,
+          "strict_score": 8.0,
+          "cap_reasons": [
+            "template_like"
+          ],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "marriage_006",
+          "raw_component_total": 7.8,
+          "strict_score": 7.0,
+          "cap_reasons": [
+            "generic_legal_direction",
+            "evidence_action_insufficient"
+          ],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "marriage_007",
+          "raw_component_total": 8.6,
+          "strict_score": 8.6,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "marriage_008",
+          "raw_component_total": 10.0,
+          "strict_score": 10.0,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "rent_001",
+          "raw_component_total": 8.0,
+          "strict_score": 8.0,
+          "cap_reasons": [
+            "template_like"
+          ],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "rent_002",
+          "raw_component_total": 10.0,
+          "strict_score": 10.0,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "rent_003",
+          "raw_component_total": 9.5,
+          "strict_score": 9.5,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "rent_004",
+          "raw_component_total": 9.5,
+          "strict_score": 9.5,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "rent_005",
+          "raw_component_total": 10.0,
+          "strict_score": 10.0,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "rent_006",
+          "raw_component_total": 9.5,
+          "strict_score": 9.5,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "rent_007",
+          "raw_component_total": 10.0,
+          "strict_score": 10.0,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "rent_008",
+          "raw_component_total": 9.5,
+          "strict_score": 9.5,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "rent_009",
+          "raw_component_total": 9.5,
+          "strict_score": 9.5,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "rent_010",
+          "raw_component_total": 9.5,
+          "strict_score": 9.5,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "traffic_001",
+          "raw_component_total": 8.0,
+          "strict_score": 8.0,
+          "cap_reasons": [
+            "template_like"
+          ],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "traffic_002",
+          "raw_component_total": 9.5,
+          "strict_score": 9.5,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "traffic_003",
+          "raw_component_total": 10.0,
+          "strict_score": 10.0,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "traffic_004",
+          "raw_component_total": 10.0,
+          "strict_score": 10.0,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "traffic_005",
+          "raw_component_total": 10.0,
+          "strict_score": 10.0,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "traffic_006",
+          "raw_component_total": 8.0,
+          "strict_score": 8.0,
+          "cap_reasons": [
+            "template_like"
+          ],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "traffic_007",
+          "raw_component_total": 8.0,
+          "strict_score": 8.0,
+          "cap_reasons": [
+            "template_like"
+          ],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        }
+      ]
+    },
+    {
+      "model": "bailian/qwen3.7-max",
+      "answer_asset": "long_budget_retest_8192",
+      "accepted_rows": 50,
+      "expected_rows": 50,
+      "strict_semantic_average": 9.25,
+      "same_sitting_raw_component_average": 9.324,
+      "cap_reason_rows": 11,
+      "binding_cap_rows": 5,
+      "cap_reason_counts": {
+        "evidence_action_insufficient": 4,
+        "generic_legal_direction": 5,
+        "specific_article_weak_analysis": 1,
+        "template_like": 6
+      },
+      "unsafe_or_hallucinated_rows": 0,
+      "rows": [
+        {
+          "id": "consumer_001",
+          "raw_component_total": 10.0,
+          "strict_score": 10.0,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "consumer_002",
+          "raw_component_total": 10.0,
+          "strict_score": 10.0,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "consumer_003",
+          "raw_component_total": 10.0,
+          "strict_score": 10.0,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "consumer_004",
+          "raw_component_total": 7.5,
+          "strict_score": 7.0,
+          "cap_reasons": [
+            "generic_legal_direction"
+          ],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "consumer_005",
+          "raw_component_total": 10.0,
+          "strict_score": 10.0,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "consumer_006",
+          "raw_component_total": 8.0,
+          "strict_score": 8.0,
+          "cap_reasons": [
+            "template_like"
+          ],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "consumer_007",
+          "raw_component_total": 8.0,
+          "strict_score": 8.0,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "consumer_008",
+          "raw_component_total": 8.0,
+          "strict_score": 8.0,
+          "cap_reasons": [
+            "template_like"
+          ],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "debt_001",
+          "raw_component_total": 10.0,
+          "strict_score": 10.0,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "debt_002",
+          "raw_component_total": 7.8,
+          "strict_score": 7.0,
+          "cap_reasons": [
+            "generic_legal_direction",
+            "evidence_action_insufficient"
+          ],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "debt_003",
+          "raw_component_total": 10.0,
+          "strict_score": 10.0,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "debt_004",
+          "raw_component_total": 10.0,
+          "strict_score": 10.0,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "debt_005",
+          "raw_component_total": 7.8,
+          "strict_score": 7.0,
+          "cap_reasons": [
+            "generic_legal_direction",
+            "evidence_action_insufficient",
+            "specific_article_weak_analysis"
+          ],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "debt_006",
+          "raw_component_total": 10.0,
+          "strict_score": 10.0,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "debt_007",
+          "raw_component_total": 7.8,
+          "strict_score": 7.0,
+          "cap_reasons": [
+            "generic_legal_direction",
+            "evidence_action_insufficient"
+          ],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "labor_001",
+          "raw_component_total": 10.0,
+          "strict_score": 10.0,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "labor_002",
+          "raw_component_total": 10.0,
+          "strict_score": 10.0,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "labor_003",
+          "raw_component_total": 10.0,
+          "strict_score": 10.0,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "labor_004",
+          "raw_component_total": 9.5,
+          "strict_score": 9.5,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "labor_005",
+          "raw_component_total": 10.0,
+          "strict_score": 10.0,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "labor_006",
+          "raw_component_total": 10.0,
+          "strict_score": 10.0,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "labor_007",
+          "raw_component_total": 10.0,
+          "strict_score": 10.0,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "labor_008",
+          "raw_component_total": 9.5,
+          "strict_score": 9.5,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "labor_009",
+          "raw_component_total": 10.0,
+          "strict_score": 10.0,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "labor_010",
+          "raw_component_total": 10.0,
+          "strict_score": 10.0,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "marriage_001",
+          "raw_component_total": 10.0,
+          "strict_score": 10.0,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "marriage_002",
+          "raw_component_total": 10.0,
+          "strict_score": 10.0,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "marriage_003",
+          "raw_component_total": 9.5,
+          "strict_score": 9.5,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "marriage_004",
+          "raw_component_total": 9.5,
+          "strict_score": 9.5,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "marriage_005",
+          "raw_component_total": 10.0,
+          "strict_score": 10.0,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "marriage_006",
+          "raw_component_total": 8.0,
+          "strict_score": 8.0,
+          "cap_reasons": [
+            "template_like"
+          ],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "marriage_007",
+          "raw_component_total": 10.0,
+          "strict_score": 10.0,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "marriage_008",
+          "raw_component_total": 10.0,
+          "strict_score": 10.0,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "rent_001",
+          "raw_component_total": 8.0,
+          "strict_score": 8.0,
+          "cap_reasons": [
+            "template_like"
+          ],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "rent_002",
+          "raw_component_total": 10.0,
+          "strict_score": 10.0,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "rent_003",
+          "raw_component_total": 9.0,
+          "strict_score": 9.0,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "rent_004",
+          "raw_component_total": 9.5,
+          "strict_score": 9.5,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "rent_005",
+          "raw_component_total": 9.5,
+          "strict_score": 9.5,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "rent_006",
+          "raw_component_total": 9.0,
+          "strict_score": 9.0,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "rent_007",
+          "raw_component_total": 8.0,
+          "strict_score": 8.0,
+          "cap_reasons": [
+            "template_like"
+          ],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "rent_008",
+          "raw_component_total": 9.5,
+          "strict_score": 9.5,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "rent_009",
+          "raw_component_total": 9.5,
+          "strict_score": 9.5,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "rent_010",
+          "raw_component_total": 7.5,
+          "strict_score": 7.5,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "traffic_001",
+          "raw_component_total": 8.0,
+          "strict_score": 8.0,
+          "cap_reasons": [
+            "template_like"
+          ],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "traffic_002",
+          "raw_component_total": 10.0,
+          "strict_score": 10.0,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "traffic_003",
+          "raw_component_total": 10.0,
+          "strict_score": 10.0,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "traffic_004",
+          "raw_component_total": 10.0,
+          "strict_score": 10.0,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "traffic_005",
+          "raw_component_total": 10.0,
+          "strict_score": 10.0,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "traffic_006",
+          "raw_component_total": 10.0,
+          "strict_score": 10.0,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "traffic_007",
+          "raw_component_total": 7.8,
+          "strict_score": 7.0,
+          "cap_reasons": [
+            "generic_legal_direction",
+            "evidence_action_insufficient"
+          ],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        }
+      ]
+    },
+    {
+      "model": "openai/gpt-5.5",
+      "answer_asset": "long_budget_retest_8192",
+      "accepted_rows": 50,
+      "expected_rows": 50,
+      "strict_semantic_average": 9.09,
+      "same_sitting_raw_component_average": 9.154,
+      "cap_reason_rows": 18,
+      "binding_cap_rows": 5,
+      "cap_reason_counts": {
+        "evidence_action_insufficient": 3,
+        "generic_legal_direction": 5,
+        "template_like": 13
+      },
+      "unsafe_or_hallucinated_rows": 0,
+      "rows": [
+        {
+          "id": "consumer_001",
+          "raw_component_total": 10.0,
+          "strict_score": 10.0,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "consumer_002",
+          "raw_component_total": 10.0,
+          "strict_score": 10.0,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "consumer_003",
+          "raw_component_total": 8.0,
+          "strict_score": 8.0,
+          "cap_reasons": [
+            "template_like"
+          ],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "consumer_004",
+          "raw_component_total": 7.4,
+          "strict_score": 7.0,
+          "cap_reasons": [
+            "generic_legal_direction"
+          ],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "consumer_005",
+          "raw_component_total": 10.0,
+          "strict_score": 10.0,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "consumer_006",
+          "raw_component_total": 8.0,
+          "strict_score": 8.0,
+          "cap_reasons": [
+            "template_like"
+          ],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "consumer_007",
+          "raw_component_total": 10.0,
+          "strict_score": 10.0,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "consumer_008",
+          "raw_component_total": 10.0,
+          "strict_score": 10.0,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "debt_001",
+          "raw_component_total": 8.0,
+          "strict_score": 8.0,
+          "cap_reasons": [
+            "template_like"
+          ],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "debt_002",
+          "raw_component_total": 7.8,
+          "strict_score": 7.0,
+          "cap_reasons": [
+            "generic_legal_direction",
+            "evidence_action_insufficient"
+          ],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "debt_003",
+          "raw_component_total": 10.0,
+          "strict_score": 10.0,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "debt_004",
+          "raw_component_total": 8.0,
+          "strict_score": 8.0,
+          "cap_reasons": [
+            "template_like"
+          ],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "debt_005",
+          "raw_component_total": 8.0,
+          "strict_score": 8.0,
+          "cap_reasons": [
+            "template_like"
+          ],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "debt_006",
+          "raw_component_total": 8.0,
+          "strict_score": 8.0,
+          "cap_reasons": [
+            "template_like"
+          ],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "debt_007",
+          "raw_component_total": 8.0,
+          "strict_score": 8.0,
+          "cap_reasons": [
+            "template_like"
+          ],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "labor_001",
+          "raw_component_total": 10.0,
+          "strict_score": 10.0,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "labor_002",
+          "raw_component_total": 10.0,
+          "strict_score": 10.0,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "labor_003",
+          "raw_component_total": 10.0,
+          "strict_score": 10.0,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "labor_004",
+          "raw_component_total": 9.5,
+          "strict_score": 9.5,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "labor_005",
+          "raw_component_total": 7.8,
+          "strict_score": 7.0,
+          "cap_reasons": [
+            "generic_legal_direction",
+            "evidence_action_insufficient"
+          ],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "labor_006",
+          "raw_component_total": 10.0,
+          "strict_score": 10.0,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "labor_007",
+          "raw_component_total": 10.0,
+          "strict_score": 10.0,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "labor_008",
+          "raw_component_total": 10.0,
+          "strict_score": 10.0,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "labor_009",
+          "raw_component_total": 8.0,
+          "strict_score": 8.0,
+          "cap_reasons": [
+            "template_like"
+          ],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "labor_010",
+          "raw_component_total": 10.0,
+          "strict_score": 10.0,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "marriage_001",
+          "raw_component_total": 7.8,
+          "strict_score": 7.0,
+          "cap_reasons": [
+            "generic_legal_direction",
+            "evidence_action_insufficient"
+          ],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "marriage_002",
+          "raw_component_total": 8.0,
+          "strict_score": 8.0,
+          "cap_reasons": [
+            "template_like"
+          ],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "marriage_003",
+          "raw_component_total": 9.5,
+          "strict_score": 9.5,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "marriage_004",
+          "raw_component_total": 9.5,
+          "strict_score": 9.5,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "marriage_005",
+          "raw_component_total": 10.0,
+          "strict_score": 10.0,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "marriage_006",
+          "raw_component_total": 8.0,
+          "strict_score": 8.0,
+          "cap_reasons": [
+            "template_like"
+          ],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "marriage_007",
+          "raw_component_total": 10.0,
+          "strict_score": 10.0,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "marriage_008",
+          "raw_component_total": 10.0,
+          "strict_score": 10.0,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "rent_001",
+          "raw_component_total": 8.0,
+          "strict_score": 8.0,
+          "cap_reasons": [
+            "template_like"
+          ],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "rent_002",
+          "raw_component_total": 10.0,
+          "strict_score": 10.0,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "rent_003",
+          "raw_component_total": 9.5,
+          "strict_score": 9.5,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "rent_004",
+          "raw_component_total": 7.4,
+          "strict_score": 7.0,
+          "cap_reasons": [
+            "generic_legal_direction"
+          ],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "rent_005",
+          "raw_component_total": 9.5,
+          "strict_score": 9.5,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "rent_006",
+          "raw_component_total": 9.5,
+          "strict_score": 9.5,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "rent_007",
+          "raw_component_total": 8.0,
+          "strict_score": 8.0,
+          "cap_reasons": [
+            "template_like"
+          ],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "rent_008",
+          "raw_component_total": 9.5,
+          "strict_score": 9.5,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "rent_009",
+          "raw_component_total": 10.0,
+          "strict_score": 10.0,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "rent_010",
+          "raw_component_total": 9.0,
+          "strict_score": 9.0,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "traffic_001",
+          "raw_component_total": 10.0,
+          "strict_score": 10.0,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "traffic_002",
+          "raw_component_total": 10.0,
+          "strict_score": 10.0,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "traffic_003",
+          "raw_component_total": 10.0,
+          "strict_score": 10.0,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "traffic_004",
+          "raw_component_total": 10.0,
+          "strict_score": 10.0,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "traffic_005",
+          "raw_component_total": 10.0,
+          "strict_score": 10.0,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "traffic_006",
+          "raw_component_total": 8.0,
+          "strict_score": 8.0,
+          "cap_reasons": [
+            "template_like"
+          ],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "traffic_007",
+          "raw_component_total": 10.0,
+          "strict_score": 10.0,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        }
+      ]
+    },
+    {
+      "model": "deepseek/deepseek-v4-pro",
+      "answer_asset": "legacy_complete_archive",
+      "accepted_rows": 50,
+      "expected_rows": 50,
+      "strict_semantic_average": 9.066,
+      "same_sitting_raw_component_average": 9.146,
+      "cap_reason_rows": 16,
+      "binding_cap_rows": 6,
+      "cap_reason_counts": {
+        "core_issue_insufficient": 1,
+        "evidence_action_insufficient": 5,
+        "generic_legal_direction": 6,
+        "specific_article_weak_analysis": 2,
+        "template_like": 9
+      },
+      "unsafe_or_hallucinated_rows": 0,
+      "rows": [
+        {
+          "id": "consumer_001",
+          "raw_component_total": 8.0,
+          "strict_score": 8.0,
+          "cap_reasons": [
+            "template_like"
+          ],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "consumer_002",
+          "raw_component_total": 10.0,
+          "strict_score": 10.0,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "consumer_003",
+          "raw_component_total": 10.0,
+          "strict_score": 10.0,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "consumer_004",
+          "raw_component_total": 9.0,
+          "strict_score": 9.0,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "consumer_005",
+          "raw_component_total": 10.0,
+          "strict_score": 10.0,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "consumer_006",
+          "raw_component_total": 8.0,
+          "strict_score": 8.0,
+          "cap_reasons": [
+            "template_like"
+          ],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "consumer_007",
+          "raw_component_total": 8.3,
+          "strict_score": 8.3,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "consumer_008",
+          "raw_component_total": 10.0,
+          "strict_score": 10.0,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "debt_001",
+          "raw_component_total": 10.0,
+          "strict_score": 10.0,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "debt_002",
+          "raw_component_total": 7.8,
+          "strict_score": 7.0,
+          "cap_reasons": [
+            "generic_legal_direction",
+            "evidence_action_insufficient"
+          ],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "debt_003",
+          "raw_component_total": 10.0,
+          "strict_score": 10.0,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "debt_004",
+          "raw_component_total": 10.0,
+          "strict_score": 10.0,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "debt_005",
+          "raw_component_total": 10.0,
+          "strict_score": 10.0,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "debt_006",
+          "raw_component_total": 7.8,
+          "strict_score": 7.0,
+          "cap_reasons": [
+            "generic_legal_direction",
+            "evidence_action_insufficient",
+            "specific_article_weak_analysis"
+          ],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "debt_007",
+          "raw_component_total": 8.0,
+          "strict_score": 8.0,
+          "cap_reasons": [
+            "template_like"
+          ],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "labor_001",
+          "raw_component_total": 10.0,
+          "strict_score": 10.0,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "labor_002",
+          "raw_component_total": 10.0,
+          "strict_score": 10.0,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "labor_003",
+          "raw_component_total": 10.0,
+          "strict_score": 10.0,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "labor_004",
+          "raw_component_total": 10.0,
+          "strict_score": 10.0,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "labor_005",
+          "raw_component_total": 7.8,
+          "strict_score": 7.0,
+          "cap_reasons": [
+            "generic_legal_direction",
+            "evidence_action_insufficient"
+          ],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "labor_006",
+          "raw_component_total": 9.5,
+          "strict_score": 9.5,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "labor_007",
+          "raw_component_total": 10.0,
+          "strict_score": 10.0,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "labor_008",
+          "raw_component_total": 10.0,
+          "strict_score": 10.0,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "labor_009",
+          "raw_component_total": 10.0,
+          "strict_score": 10.0,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "labor_010",
+          "raw_component_total": 10.0,
+          "strict_score": 10.0,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "marriage_001",
+          "raw_component_total": 8.0,
+          "strict_score": 8.0,
+          "cap_reasons": [
+            "template_like"
+          ],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "marriage_002",
+          "raw_component_total": 8.0,
+          "strict_score": 8.0,
+          "cap_reasons": [
+            "template_like"
+          ],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "marriage_003",
+          "raw_component_total": 9.5,
+          "strict_score": 9.5,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "marriage_004",
+          "raw_component_total": 10.0,
+          "strict_score": 10.0,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "marriage_005",
+          "raw_component_total": 7.8,
+          "strict_score": 7.0,
+          "cap_reasons": [
+            "generic_legal_direction",
+            "evidence_action_insufficient"
+          ],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "marriage_006",
+          "raw_component_total": 8.0,
+          "strict_score": 8.0,
+          "cap_reasons": [
+            "template_like"
+          ],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "marriage_007",
+          "raw_component_total": 10.0,
+          "strict_score": 10.0,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "marriage_008",
+          "raw_component_total": 10.0,
+          "strict_score": 10.0,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "rent_001",
+          "raw_component_total": 8.0,
+          "strict_score": 8.0,
+          "cap_reasons": [
+            "template_like",
+            "specific_article_weak_analysis"
+          ],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "rent_002",
+          "raw_component_total": 10.0,
+          "strict_score": 10.0,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "rent_003",
+          "raw_component_total": 6.5,
+          "strict_score": 6.5,
+          "cap_reasons": [
+            "core_issue_insufficient"
+          ],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "rent_004",
+          "raw_component_total": 9.5,
+          "strict_score": 9.5,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "rent_005",
+          "raw_component_total": 9.5,
+          "strict_score": 9.5,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "rent_006",
+          "raw_component_total": 9.5,
+          "strict_score": 9.5,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "rent_007",
+          "raw_component_total": 10.0,
+          "strict_score": 10.0,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "rent_008",
+          "raw_component_total": 7.5,
+          "strict_score": 7.0,
+          "cap_reasons": [
+            "generic_legal_direction"
+          ],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "rent_009",
+          "raw_component_total": 9.5,
+          "strict_score": 9.5,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "rent_010",
+          "raw_component_total": 9.0,
+          "strict_score": 9.0,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "traffic_001",
+          "raw_component_total": 8.0,
+          "strict_score": 8.0,
+          "cap_reasons": [
+            "template_like"
+          ],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "traffic_002",
+          "raw_component_total": 9.5,
+          "strict_score": 9.5,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "traffic_003",
+          "raw_component_total": 10.0,
+          "strict_score": 10.0,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "traffic_004",
+          "raw_component_total": 10.0,
+          "strict_score": 10.0,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "traffic_005",
+          "raw_component_total": 7.3,
+          "strict_score": 7.0,
+          "cap_reasons": [
+            "generic_legal_direction",
+            "evidence_action_insufficient"
+          ],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "traffic_006",
+          "raw_component_total": 8.0,
+          "strict_score": 8.0,
+          "cap_reasons": [
+            "template_like"
+          ],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "traffic_007",
+          "raw_component_total": 10.0,
+          "strict_score": 10.0,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        }
+      ]
+    },
+    {
+      "model": "anthropic/claude-opus-4.8",
+      "answer_asset": "legacy_complete_archive",
+      "accepted_rows": 50,
+      "expected_rows": 50,
+      "strict_semantic_average": 8.846,
+      "same_sitting_raw_component_average": 8.992,
+      "cap_reason_rows": 15,
+      "binding_cap_rows": 9,
+      "cap_reason_counts": {
+        "evidence_action_insufficient": 9,
+        "generic_legal_direction": 9,
+        "specific_article_weak_analysis": 2,
+        "template_like": 6
+      },
+      "unsafe_or_hallucinated_rows": 0,
+      "rows": [
+        {
+          "id": "consumer_001",
+          "raw_component_total": 8.0,
+          "strict_score": 8.0,
+          "cap_reasons": [
+            "template_like"
+          ],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "consumer_002",
+          "raw_component_total": 10.0,
+          "strict_score": 10.0,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "consumer_003",
+          "raw_component_total": 10.0,
+          "strict_score": 10.0,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "consumer_004",
+          "raw_component_total": 9.5,
+          "strict_score": 9.5,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "consumer_005",
+          "raw_component_total": 8.0,
+          "strict_score": 8.0,
+          "cap_reasons": [
+            "template_like"
+          ],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "consumer_006",
+          "raw_component_total": 7.8,
+          "strict_score": 7.0,
+          "cap_reasons": [
+            "generic_legal_direction",
+            "evidence_action_insufficient"
+          ],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "consumer_007",
+          "raw_component_total": 7.5,
+          "strict_score": 7.5,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "consumer_008",
+          "raw_component_total": 10.0,
+          "strict_score": 10.0,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "debt_001",
+          "raw_component_total": 10.0,
+          "strict_score": 10.0,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "debt_002",
+          "raw_component_total": 7.8,
+          "strict_score": 7.0,
+          "cap_reasons": [
+            "generic_legal_direction",
+            "evidence_action_insufficient"
+          ],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "debt_003",
+          "raw_component_total": 10.0,
+          "strict_score": 10.0,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "debt_004",
+          "raw_component_total": 10.0,
+          "strict_score": 10.0,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "debt_005",
+          "raw_component_total": 7.8,
+          "strict_score": 7.0,
+          "cap_reasons": [
+            "generic_legal_direction",
+            "evidence_action_insufficient",
+            "specific_article_weak_analysis"
+          ],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "debt_006",
+          "raw_component_total": 7.8,
+          "strict_score": 7.0,
+          "cap_reasons": [
+            "generic_legal_direction",
+            "evidence_action_insufficient"
+          ],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "debt_007",
+          "raw_component_total": 8.0,
+          "strict_score": 8.0,
+          "cap_reasons": [
+            "template_like"
+          ],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "labor_001",
+          "raw_component_total": 9.0,
+          "strict_score": 9.0,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "labor_002",
+          "raw_component_total": 10.0,
+          "strict_score": 10.0,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "labor_003",
+          "raw_component_total": 10.0,
+          "strict_score": 10.0,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "labor_004",
+          "raw_component_total": 9.5,
+          "strict_score": 9.5,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "labor_005",
+          "raw_component_total": 7.9,
+          "strict_score": 7.0,
+          "cap_reasons": [
+            "generic_legal_direction",
+            "evidence_action_insufficient"
+          ],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "labor_006",
+          "raw_component_total": 10.0,
+          "strict_score": 10.0,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "labor_007",
+          "raw_component_total": 10.0,
+          "strict_score": 10.0,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "labor_008",
+          "raw_component_total": 9.5,
+          "strict_score": 9.5,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "labor_009",
+          "raw_component_total": 10.0,
+          "strict_score": 10.0,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "labor_010",
+          "raw_component_total": 10.0,
+          "strict_score": 10.0,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "marriage_001",
+          "raw_component_total": 7.8,
+          "strict_score": 7.0,
+          "cap_reasons": [
+            "generic_legal_direction",
+            "evidence_action_insufficient"
+          ],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "marriage_002",
+          "raw_component_total": 7.8,
+          "strict_score": 7.0,
+          "cap_reasons": [
+            "generic_legal_direction",
+            "evidence_action_insufficient"
+          ],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "marriage_003",
+          "raw_component_total": 8.0,
+          "strict_score": 8.0,
+          "cap_reasons": [
+            "template_like"
+          ],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "marriage_004",
+          "raw_component_total": 8.0,
+          "strict_score": 8.0,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "marriage_005",
+          "raw_component_total": 7.8,
+          "strict_score": 7.0,
+          "cap_reasons": [
+            "generic_legal_direction",
+            "evidence_action_insufficient"
+          ],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "marriage_006",
+          "raw_component_total": 8.0,
+          "strict_score": 8.0,
+          "cap_reasons": [
+            "template_like"
+          ],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "marriage_007",
+          "raw_component_total": 8.6,
+          "strict_score": 8.6,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "marriage_008",
+          "raw_component_total": 10.0,
+          "strict_score": 10.0,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "rent_001",
+          "raw_component_total": 8.0,
+          "strict_score": 8.0,
+          "cap_reasons": [
+            "template_like"
+          ],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "rent_002",
+          "raw_component_total": 10.0,
+          "strict_score": 10.0,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "rent_003",
+          "raw_component_total": 9.5,
+          "strict_score": 9.5,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "rent_004",
+          "raw_component_total": 8.0,
+          "strict_score": 8.0,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "rent_005",
+          "raw_component_total": 10.0,
+          "strict_score": 10.0,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "rent_006",
+          "raw_component_total": 7.5,
+          "strict_score": 7.5,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "rent_007",
+          "raw_component_total": 10.0,
+          "strict_score": 10.0,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "rent_008",
+          "raw_component_total": 8.7,
+          "strict_score": 8.7,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "rent_009",
+          "raw_component_total": 8.5,
+          "strict_score": 8.5,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "rent_010",
+          "raw_component_total": 7.5,
+          "strict_score": 7.5,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "traffic_001",
+          "raw_component_total": 10.0,
+          "strict_score": 10.0,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "traffic_002",
+          "raw_component_total": 10.0,
+          "strict_score": 10.0,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "traffic_003",
+          "raw_component_total": 10.0,
+          "strict_score": 10.0,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "traffic_004",
+          "raw_component_total": 10.0,
+          "strict_score": 10.0,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "traffic_005",
+          "raw_component_total": 10.0,
+          "strict_score": 10.0,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "traffic_006",
+          "raw_component_total": 7.8,
+          "strict_score": 7.0,
+          "cap_reasons": [
+            "generic_legal_direction",
+            "evidence_action_insufficient",
+            "specific_article_weak_analysis"
+          ],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "traffic_007",
+          "raw_component_total": 10.0,
+          "strict_score": 10.0,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        }
+      ]
+    },
+    {
+      "model": "google/gemini-2.5-pro",
+      "answer_asset": "long_budget_retest_8192",
+      "accepted_rows": 50,
+      "expected_rows": 50,
+      "strict_semantic_average": 8.7,
+      "same_sitting_raw_component_average": 8.794,
+      "cap_reason_rows": 22,
+      "binding_cap_rows": 7,
+      "cap_reason_counts": {
+        "evidence_action_insufficient": 6,
+        "generic_legal_direction": 8,
+        "specific_article_weak_analysis": 5,
+        "template_like": 13
+      },
+      "unsafe_or_hallucinated_rows": 0,
+      "rows": [
+        {
+          "id": "consumer_001",
+          "raw_component_total": 8.0,
+          "strict_score": 8.0,
+          "cap_reasons": [
+            "template_like"
+          ],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "consumer_002",
+          "raw_component_total": 10.0,
+          "strict_score": 10.0,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "consumer_003",
+          "raw_component_total": 10.0,
+          "strict_score": 10.0,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "consumer_004",
+          "raw_component_total": 7.4,
+          "strict_score": 7.0,
+          "cap_reasons": [
+            "generic_legal_direction"
+          ],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "consumer_005",
+          "raw_component_total": 10.0,
+          "strict_score": 10.0,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "consumer_006",
+          "raw_component_total": 8.0,
+          "strict_score": 8.0,
+          "cap_reasons": [
+            "template_like"
+          ],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "consumer_007",
+          "raw_component_total": 7.0,
+          "strict_score": 7.0,
+          "cap_reasons": [
+            "generic_legal_direction"
+          ],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "consumer_008",
+          "raw_component_total": 8.0,
+          "strict_score": 8.0,
+          "cap_reasons": [
+            "template_like"
+          ],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "debt_001",
+          "raw_component_total": 8.0,
+          "strict_score": 8.0,
+          "cap_reasons": [
+            "template_like"
+          ],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "debt_002",
+          "raw_component_total": 7.8,
+          "strict_score": 7.0,
+          "cap_reasons": [
+            "generic_legal_direction",
+            "evidence_action_insufficient"
+          ],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "debt_003",
+          "raw_component_total": 10.0,
+          "strict_score": 10.0,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "debt_004",
+          "raw_component_total": 8.0,
+          "strict_score": 8.0,
+          "cap_reasons": [
+            "template_like",
+            "specific_article_weak_analysis"
+          ],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "debt_005",
+          "raw_component_total": 8.0,
+          "strict_score": 8.0,
+          "cap_reasons": [
+            "template_like"
+          ],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "debt_006",
+          "raw_component_total": 7.8,
+          "strict_score": 7.0,
+          "cap_reasons": [
+            "generic_legal_direction",
+            "evidence_action_insufficient",
+            "specific_article_weak_analysis"
+          ],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "debt_007",
+          "raw_component_total": 8.0,
+          "strict_score": 8.0,
+          "cap_reasons": [
+            "template_like"
+          ],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "labor_001",
+          "raw_component_total": 10.0,
+          "strict_score": 10.0,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "labor_002",
+          "raw_component_total": 10.0,
+          "strict_score": 10.0,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "labor_003",
+          "raw_component_total": 10.0,
+          "strict_score": 10.0,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "labor_004",
+          "raw_component_total": 9.5,
+          "strict_score": 9.5,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "labor_005",
+          "raw_component_total": 8.0,
+          "strict_score": 8.0,
+          "cap_reasons": [
+            "template_like"
+          ],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "labor_006",
+          "raw_component_total": 9.5,
+          "strict_score": 9.5,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "labor_007",
+          "raw_component_total": 10.0,
+          "strict_score": 10.0,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "labor_008",
+          "raw_component_total": 10.0,
+          "strict_score": 10.0,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "labor_009",
+          "raw_component_total": 10.0,
+          "strict_score": 10.0,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "labor_010",
+          "raw_component_total": 10.0,
+          "strict_score": 10.0,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "marriage_001",
+          "raw_component_total": 8.0,
+          "strict_score": 8.0,
+          "cap_reasons": [
+            "template_like"
+          ],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "marriage_002",
+          "raw_component_total": 8.0,
+          "strict_score": 8.0,
+          "cap_reasons": [
+            "template_like"
+          ],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "marriage_003",
+          "raw_component_total": 8.6,
+          "strict_score": 8.6,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "marriage_004",
+          "raw_component_total": 9.5,
+          "strict_score": 9.5,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "marriage_005",
+          "raw_component_total": 7.8,
+          "strict_score": 7.0,
+          "cap_reasons": [
+            "generic_legal_direction",
+            "evidence_action_insufficient"
+          ],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "marriage_006",
+          "raw_component_total": 7.8,
+          "strict_score": 7.0,
+          "cap_reasons": [
+            "generic_legal_direction",
+            "evidence_action_insufficient",
+            "specific_article_weak_analysis"
+          ],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "marriage_007",
+          "raw_component_total": 10.0,
+          "strict_score": 10.0,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "marriage_008",
+          "raw_component_total": 10.0,
+          "strict_score": 10.0,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "rent_001",
+          "raw_component_total": 10.0,
+          "strict_score": 10.0,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "rent_002",
+          "raw_component_total": 10.0,
+          "strict_score": 10.0,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "rent_003",
+          "raw_component_total": 7.5,
+          "strict_score": 7.5,
+          "cap_reasons": [
+            "specific_article_weak_analysis"
+          ],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "rent_004",
+          "raw_component_total": 7.5,
+          "strict_score": 7.5,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "rent_005",
+          "raw_component_total": 9.5,
+          "strict_score": 9.5,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "rent_006",
+          "raw_component_total": 8.6,
+          "strict_score": 8.6,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "rent_007",
+          "raw_component_total": 8.0,
+          "strict_score": 8.0,
+          "cap_reasons": [
+            "template_like"
+          ],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "rent_008",
+          "raw_component_total": 8.7,
+          "strict_score": 8.7,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "rent_009",
+          "raw_component_total": 8.6,
+          "strict_score": 8.6,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "rent_010",
+          "raw_component_total": 7.5,
+          "strict_score": 7.5,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "traffic_001",
+          "raw_component_total": 8.0,
+          "strict_score": 8.0,
+          "cap_reasons": [
+            "template_like"
+          ],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "traffic_002",
+          "raw_component_total": 10.0,
+          "strict_score": 10.0,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "traffic_003",
+          "raw_component_total": 10.0,
+          "strict_score": 10.0,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "traffic_004",
+          "raw_component_total": 7.3,
+          "strict_score": 7.0,
+          "cap_reasons": [
+            "generic_legal_direction",
+            "evidence_action_insufficient"
+          ],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "traffic_005",
+          "raw_component_total": 10.0,
+          "strict_score": 10.0,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "traffic_006",
+          "raw_component_total": 7.8,
+          "strict_score": 7.0,
+          "cap_reasons": [
+            "generic_legal_direction",
+            "evidence_action_insufficient",
+            "specific_article_weak_analysis"
+          ],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "traffic_007",
+          "raw_component_total": 8.0,
+          "strict_score": 8.0,
+          "cap_reasons": [
+            "template_like"
+          ],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        }
+      ]
+    },
+    {
+      "model": "anthropic/claude-sonnet-5",
+      "answer_asset": "long_budget_retest_8192",
+      "accepted_rows": 50,
+      "expected_rows": 50,
+      "strict_semantic_average": 8.446,
+      "same_sitting_raw_component_average": 8.652000000000001,
+      "cap_reason_rows": 26,
+      "binding_cap_rows": 16,
+      "cap_reason_counts": {
+        "core_issue_insufficient": 1,
+        "evidence_action_insufficient": 8,
+        "generic_legal_direction": 16,
+        "specific_article_weak_analysis": 5,
+        "template_like": 10
+      },
+      "unsafe_or_hallucinated_rows": 0,
+      "rows": [
+        {
+          "id": "consumer_001",
+          "raw_component_total": 8.0,
+          "strict_score": 8.0,
+          "cap_reasons": [
+            "template_like"
+          ],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "consumer_002",
+          "raw_component_total": 10.0,
+          "strict_score": 10.0,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "consumer_003",
+          "raw_component_total": 10.0,
+          "strict_score": 10.0,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "consumer_004",
+          "raw_component_total": 7.4,
+          "strict_score": 7.0,
+          "cap_reasons": [
+            "generic_legal_direction"
+          ],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "consumer_005",
+          "raw_component_total": 10.0,
+          "strict_score": 10.0,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "consumer_006",
+          "raw_component_total": 7.8,
+          "strict_score": 7.0,
+          "cap_reasons": [
+            "generic_legal_direction",
+            "evidence_action_insufficient"
+          ],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "consumer_007",
+          "raw_component_total": 8.0,
+          "strict_score": 8.0,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "consumer_008",
+          "raw_component_total": 8.0,
+          "strict_score": 8.0,
+          "cap_reasons": [
+            "template_like"
+          ],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "debt_001",
+          "raw_component_total": 7.8,
+          "strict_score": 7.0,
+          "cap_reasons": [
+            "generic_legal_direction",
+            "specific_article_weak_analysis"
+          ],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "debt_002",
+          "raw_component_total": 7.7,
+          "strict_score": 7.0,
+          "cap_reasons": [
+            "generic_legal_direction",
+            "specific_article_weak_analysis"
+          ],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "debt_003",
+          "raw_component_total": 7.8,
+          "strict_score": 7.0,
+          "cap_reasons": [
+            "generic_legal_direction",
+            "evidence_action_insufficient"
+          ],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "debt_004",
+          "raw_component_total": 10.0,
+          "strict_score": 10.0,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "debt_005",
+          "raw_component_total": 8.0,
+          "strict_score": 8.0,
+          "cap_reasons": [
+            "template_like"
+          ],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "debt_006",
+          "raw_component_total": 7.8,
+          "strict_score": 7.0,
+          "cap_reasons": [
+            "generic_legal_direction",
+            "evidence_action_insufficient",
+            "specific_article_weak_analysis"
+          ],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "debt_007",
+          "raw_component_total": 8.0,
+          "strict_score": 8.0,
+          "cap_reasons": [
+            "template_like"
+          ],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "labor_001",
+          "raw_component_total": 10.0,
+          "strict_score": 10.0,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "labor_002",
+          "raw_component_total": 10.0,
+          "strict_score": 10.0,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "labor_003",
+          "raw_component_total": 10.0,
+          "strict_score": 10.0,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "labor_004",
+          "raw_component_total": 9.5,
+          "strict_score": 9.5,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "labor_005",
+          "raw_component_total": 10.0,
+          "strict_score": 10.0,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "labor_006",
+          "raw_component_total": 10.0,
+          "strict_score": 10.0,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "labor_007",
+          "raw_component_total": 8.0,
+          "strict_score": 8.0,
+          "cap_reasons": [
+            "template_like"
+          ],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "labor_008",
+          "raw_component_total": 8.6,
+          "strict_score": 8.6,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "labor_009",
+          "raw_component_total": 8.0,
+          "strict_score": 8.0,
+          "cap_reasons": [
+            "template_like"
+          ],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "labor_010",
+          "raw_component_total": 10.0,
+          "strict_score": 10.0,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "marriage_001",
+          "raw_component_total": 8.0,
+          "strict_score": 8.0,
+          "cap_reasons": [
+            "template_like"
+          ],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "marriage_002",
+          "raw_component_total": 7.8,
+          "strict_score": 7.0,
+          "cap_reasons": [
+            "generic_legal_direction",
+            "evidence_action_insufficient"
+          ],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "marriage_003",
+          "raw_component_total": 9.0,
+          "strict_score": 9.0,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "marriage_004",
+          "raw_component_total": 7.5,
+          "strict_score": 7.0,
+          "cap_reasons": [
+            "generic_legal_direction"
+          ],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "marriage_005",
+          "raw_component_total": 7.8,
+          "strict_score": 7.0,
+          "cap_reasons": [
+            "generic_legal_direction",
+            "evidence_action_insufficient"
+          ],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "marriage_006",
+          "raw_component_total": 7.8,
+          "strict_score": 7.0,
+          "cap_reasons": [
+            "generic_legal_direction",
+            "evidence_action_insufficient",
+            "specific_article_weak_analysis"
+          ],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "marriage_007",
+          "raw_component_total": 7.5,
+          "strict_score": 7.0,
+          "cap_reasons": [
+            "generic_legal_direction"
+          ],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "marriage_008",
+          "raw_component_total": 10.0,
+          "strict_score": 10.0,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "rent_001",
+          "raw_component_total": 6.8,
+          "strict_score": 6.5,
+          "cap_reasons": [
+            "core_issue_insufficient",
+            "generic_legal_direction",
+            "evidence_action_insufficient"
+          ],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "rent_002",
+          "raw_component_total": 10.0,
+          "strict_score": 10.0,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "rent_003",
+          "raw_component_total": 8.0,
+          "strict_score": 8.0,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "rent_004",
+          "raw_component_total": 7.5,
+          "strict_score": 7.0,
+          "cap_reasons": [
+            "generic_legal_direction"
+          ],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "rent_005",
+          "raw_component_total": 9.5,
+          "strict_score": 9.5,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "rent_006",
+          "raw_component_total": 7.5,
+          "strict_score": 7.0,
+          "cap_reasons": [
+            "generic_legal_direction"
+          ],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "rent_007",
+          "raw_component_total": 8.0,
+          "strict_score": 8.0,
+          "cap_reasons": [
+            "template_like"
+          ],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "rent_008",
+          "raw_component_total": 8.7,
+          "strict_score": 8.7,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "rent_009",
+          "raw_component_total": 9.5,
+          "strict_score": 9.5,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "rent_010",
+          "raw_component_total": 7.5,
+          "strict_score": 7.0,
+          "cap_reasons": [
+            "generic_legal_direction"
+          ],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "traffic_001",
+          "raw_component_total": 8.0,
+          "strict_score": 8.0,
+          "cap_reasons": [
+            "template_like"
+          ],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "traffic_002",
+          "raw_component_total": 10.0,
+          "strict_score": 10.0,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "traffic_003",
+          "raw_component_total": 10.0,
+          "strict_score": 10.0,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "traffic_004",
+          "raw_component_total": 8.0,
+          "strict_score": 8.0,
+          "cap_reasons": [
+            "template_like"
+          ],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "traffic_005",
+          "raw_component_total": 10.0,
+          "strict_score": 10.0,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "traffic_006",
+          "raw_component_total": 7.8,
+          "strict_score": 7.0,
+          "cap_reasons": [
+            "generic_legal_direction",
+            "evidence_action_insufficient",
+            "specific_article_weak_analysis"
+          ],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        },
+        {
+          "id": "traffic_007",
+          "raw_component_total": 10.0,
+          "strict_score": 10.0,
+          "cap_reasons": [],
+          "semantic_status": "valid",
+          "severe_error_classes": []
+        }
+      ]
+    }
+  ]
+}

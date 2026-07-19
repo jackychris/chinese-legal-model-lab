@@ -1,0 +1,548 @@
+{
+  "schema_version": "public_risk_flag_sensitivity_v1",
+  "evidence_role": "posthoc_archived_review_calibration_only",
+  "decision_rewritten": false,
+  "rules": {
+    "a_prefix_actual": "archived rule: false for null/empty or strings beginning with 无/没有/未发现/不存在/否; otherwise true",
+    "b_anywhere_negative": "false when a Chinese or English negative marker appears anywhere in the string",
+    "c_boolean_only": "only explicit booleans count; strings and nulls abstain; majority is computed among explicit boolean votes"
+  },
+  "arms": [
+    {
+      "arm": "arm_a",
+      "requests": 252,
+      "flag_value_types": {
+        "string": 689,
+        "bool": 318,
+        "null": 1
+      },
+      "flag_value_types_by_reviewer": {
+        "flash_r1": {
+          "string": 176,
+          "bool": 160
+        },
+        "flash_r2": {
+          "string": 177,
+          "bool": 158,
+          "null": 1
+        },
+        "pro_r3": {
+          "string": 336
+        }
+      },
+      "field_format_stats": {
+        "major_error": {
+          "nonempty_text_values": 302,
+          "nonempty_text_positive": 222,
+          "empty_or_null_values": 44,
+          "boolean_values": 158,
+          "boolean_positive": 3
+        },
+        "high_risk": {
+          "nonempty_text_values": 302,
+          "nonempty_text_positive": 212,
+          "empty_or_null_values": 42,
+          "boolean_values": 160,
+          "boolean_positive": 5
+        }
+      },
+      "field_format_stats_by_reviewer": {
+        "flash_r1": {
+          "major_error": {
+            "nonempty_text_values": 82,
+            "nonempty_text_positive": 57,
+            "empty_or_null_values": 6,
+            "boolean_values": 80,
+            "boolean_positive": 2
+          },
+          "high_risk": {
+            "nonempty_text_values": 81,
+            "nonempty_text_positive": 58,
+            "empty_or_null_values": 7,
+            "boolean_values": 80,
+            "boolean_positive": 2
+          }
+        },
+        "flash_r2": {
+          "major_error": {
+            "nonempty_text_values": 80,
+            "nonempty_text_positive": 62,
+            "boolean_values": 78,
+            "boolean_positive": 1,
+            "empty_or_null_values": 10
+          },
+          "high_risk": {
+            "nonempty_text_values": 79,
+            "nonempty_text_positive": 59,
+            "boolean_values": 80,
+            "boolean_positive": 3,
+            "empty_or_null_values": 9
+          }
+        },
+        "pro_r3": {
+          "major_error": {
+            "nonempty_text_values": 140,
+            "nonempty_text_positive": 103,
+            "empty_or_null_values": 28
+          },
+          "high_risk": {
+            "nonempty_text_values": 142,
+            "nonempty_text_positive": 95,
+            "empty_or_null_values": 26
+          }
+        }
+      },
+      "rules": {
+        "a_prefix_actual": {
+          "base_major_error": 32,
+          "pilot_major_error": 34,
+          "base_high_risk": 33,
+          "pilot_high_risk": 33,
+          "major_delta": 2,
+          "high_delta": 0,
+          "major_non_regression": false,
+          "high_non_regression": true
+        },
+        "b_anywhere_negative": {
+          "base_major_error": 20,
+          "pilot_major_error": 23,
+          "base_high_risk": 27,
+          "pilot_high_risk": 25,
+          "major_delta": 3,
+          "high_delta": -2,
+          "major_non_regression": false,
+          "high_non_regression": true
+        },
+        "c_boolean_only": {
+          "base_major_error": 1,
+          "pilot_major_error": 1,
+          "base_high_risk": 1,
+          "pilot_high_risk": 1,
+          "major_delta": 0,
+          "high_delta": 0,
+          "major_non_regression": true,
+          "high_non_regression": true
+        }
+      },
+      "prefix_false_positive_examples": [
+        {
+          "request_id": "arm_a__grpo_dev84_1_01__flash_r1",
+          "field": "major_error_a",
+          "value": "引用了《民法典》第712、713、714条，这些条款与押金退还问题无关，属于法律适用错误。"
+        },
+        {
+          "request_id": "arm_a__grpo_dev84_1_05__flash_r1",
+          "field": "major_error_b",
+          "value": "回答B在合并审理部分错误地认为法院可以基于同一法律关系合并审理，但本案仅有一个诉讼请求，不存在合并审理的对象；合并审理通常适用于多个请求或反诉，而非单一请求。"
+        },
+        {
+          "request_id": "arm_a__grpo_dev84_1_05__flash_r1",
+          "field": "major_error_a",
+          "value": "回答A在合并审理部分错误地认为本案无需合并审理，与题目中'无法和解'的前提矛盾，且未正确解释合并审理适用于同一原告对同一被告的多个请求或反诉，而非仅指多个案件。"
+        },
+        {
+          "request_id": "arm_a__grpo_dev84_1_08__flash_r1",
+          "field": "major_error_a",
+          "value": "回答A错误地认为提前一个月通知即无违约行为，忽略了合同一年期未满即搬走本身构成违约，且未分析押金条款是否属于违约金性质。"
+        },
+        {
+          "request_id": "arm_a__grpo_dev84_1_08__flash_r1",
+          "field": "major_error_b",
+          "value": "回答B同样错误地认为提前一个月通知即无违约行为，且未分析押金条款是否属于违约金性质，对水电费的分析过于简单。"
+        },
+        {
+          "request_id": "arm_a__grpo_dev84_1_14__flash_r1",
+          "field": "major_error_a",
+          "value": "回答A引用了《劳动法》第十三条（性别平等），与租赁纠纷完全无关，属于严重法律引用错误。"
+        },
+        {
+          "request_id": "arm_a__grpo_dev84_1_14__flash_r1",
+          "field": "high_risk_a",
+          "value": "回答A建议‘不要轻易搬离，否则可能被视为违约’，但房东卖房要求搬离属于合法解除合同（买卖不破租赁原则下，新房东需继续履行，但原房东卖房本身不构成违约），此建议可能误导用户对抗合法要求，增加法律风险。"
+        },
+        {
+          "request_id": "arm_a__grpo_dev84_2_09__flash_r1",
+          "field": "major_error_b",
+          "value": "回答B在分析合作协议效力时引用了《劳动合同法》第28条关于劳动合同被确认无效后支付劳动报酬的规定，但该条主要适用于劳动合同无效的情形，而合作协议是否属于劳动合同存在争议，引用不够精准。"
+        },
+        {
+          "request_id": "arm_a__grpo_dev84_2_09__flash_r1",
+          "field": "major_error_a",
+          "value": "回答A在分析合作协议效力时引用了《劳动合同法》第26条关于欺诈、胁迫导致合同无效的规定，但题目中用户并未明确提及被强迫或误导签署协议，该引用可能不准确，属于事实认定上的轻微错误。"
+        },
+        {
+          "request_id": "arm_a__grpo_dev84_2_09__flash_r1",
+          "field": "high_risk_b",
+          "value": "回答B在主张双倍工资时，同样未明确区分未签劳动合同与签署合作协议后的不同阶段，且提到“从第8个月起有权要求无固定期限劳动合同”，但用户已工作7个月后签署协议，该建议可能不适用，存在误导风险。"
+        },
+        {
+          "request_id": "arm_a__grpo_dev84_2_10__flash_r1",
+          "field": "major_error_b",
+          "value": "回答B在辞退部分同样错误引用了《劳动合同法》第三十九条、第四十条、第四十一条，并直接得出“辞退不合法”的结论，但未考虑兼职员工可能不适用全职员工的解除规则，且未分析请假两天是否构成严重违纪。"
+        },
+        {
+          "request_id": "arm_a__grpo_dev84_2_10__flash_r1",
+          "field": "major_error_a",
+          "value": "回答A在辞退部分错误引用了《劳动合同法》第三十九条、第四十条、第四十一条，并直接得出“辞退不合法”的结论，但未考虑兼职员工可能不适用全职员工的解除规则，且未分析请假两天是否构成严重违纪。"
+        }
+      ]
+    },
+    {
+      "arm": "arm_a_dose600",
+      "requests": 252,
+      "flag_value_types": {
+        "string": 630,
+        "bool": 378
+      },
+      "flag_value_types_by_reviewer": {
+        "flash_r1": {
+          "string": 138,
+          "bool": 198
+        },
+        "flash_r2": {
+          "string": 156,
+          "bool": 180
+        },
+        "pro_r3": {
+          "string": 336
+        }
+      },
+      "field_format_stats": {
+        "major_error": {
+          "nonempty_text_values": 278,
+          "nonempty_text_positive": 202,
+          "boolean_values": 188,
+          "boolean_positive": 7,
+          "empty_or_null_values": 38
+        },
+        "high_risk": {
+          "nonempty_text_values": 275,
+          "nonempty_text_positive": 197,
+          "boolean_values": 190,
+          "boolean_positive": 3,
+          "empty_or_null_values": 39
+        }
+      },
+      "field_format_stats_by_reviewer": {
+        "flash_r1": {
+          "major_error": {
+            "nonempty_text_values": 67,
+            "nonempty_text_positive": 51,
+            "boolean_values": 98,
+            "boolean_positive": 4,
+            "empty_or_null_values": 3
+          },
+          "high_risk": {
+            "nonempty_text_values": 65,
+            "nonempty_text_positive": 49,
+            "boolean_values": 100,
+            "boolean_positive": 1,
+            "empty_or_null_values": 3
+          }
+        },
+        "flash_r2": {
+          "major_error": {
+            "nonempty_text_values": 72,
+            "nonempty_text_positive": 53,
+            "boolean_values": 90,
+            "boolean_positive": 3,
+            "empty_or_null_values": 6
+          },
+          "high_risk": {
+            "nonempty_text_values": 72,
+            "nonempty_text_positive": 55,
+            "boolean_values": 90,
+            "boolean_positive": 2,
+            "empty_or_null_values": 6
+          }
+        },
+        "pro_r3": {
+          "major_error": {
+            "nonempty_text_values": 139,
+            "nonempty_text_positive": 98,
+            "empty_or_null_values": 29
+          },
+          "high_risk": {
+            "nonempty_text_values": 138,
+            "nonempty_text_positive": 93,
+            "empty_or_null_values": 30
+          }
+        }
+      },
+      "rules": {
+        "a_prefix_actual": {
+          "base_major_error": 31,
+          "pilot_major_error": 32,
+          "base_high_risk": 29,
+          "pilot_high_risk": 32,
+          "major_delta": 1,
+          "high_delta": 3,
+          "major_non_regression": false,
+          "high_non_regression": false
+        },
+        "b_anywhere_negative": {
+          "base_major_error": 18,
+          "pilot_major_error": 16,
+          "base_high_risk": 20,
+          "pilot_high_risk": 20,
+          "major_delta": -2,
+          "high_delta": 0,
+          "major_non_regression": true,
+          "high_non_regression": true
+        },
+        "c_boolean_only": {
+          "base_major_error": 3,
+          "pilot_major_error": 0,
+          "base_high_risk": 1,
+          "pilot_high_risk": 0,
+          "major_delta": -3,
+          "high_delta": -1,
+          "major_non_regression": true,
+          "high_non_regression": true
+        }
+      },
+      "prefix_false_positive_examples": [
+        {
+          "request_id": "arm_a_dose600__grpo_dev84_1_01__flash_r1",
+          "field": "major_error_a",
+          "value": "引用《民法典》第712、713、714条与押金争议无关，属于法律适用错误。"
+        },
+        {
+          "request_id": "arm_a_dose600__grpo_dev84_1_08__flash_r1",
+          "field": "major_error_b",
+          "value": "回答B同样错误地认为提前一个月通知即无违约行为，忽略了合同未到期提前解约本身构成违约，且错误引用第577条作为无违约依据。"
+        },
+        {
+          "request_id": "arm_a_dose600__grpo_dev84_1_08__flash_r1",
+          "field": "major_error_a",
+          "value": "回答A错误地认为提前一个月通知即无违约行为，忽略了合同未到期提前解约本身构成违约，且错误引用第577条作为无违约依据。"
+        },
+        {
+          "request_id": "arm_a_dose600__grpo_dev84_1_11__flash_r1",
+          "field": "major_error_a",
+          "value": "回答A错误地认定用户‘不存在违约行为’，但提前退租本身构成违约，只是合同未约定押金处理方式，用户仍需承担违约责任（如赔偿房东实际损失）。"
+        },
+        {
+          "request_id": "arm_a_dose600__grpo_dev84_1_11__flash_r1",
+          "field": "major_error_b",
+          "value": "回答B同样错误地认定用户‘没有违约行为’，与法律事实不符。"
+        },
+        {
+          "request_id": "arm_a_dose600__grpo_dev84_1_12__flash_r1",
+          "field": "major_error_a",
+          "value": "回答A在解读《民法典》第七百零九条时，错误地暗示承租人可能因未按约定使用而承担责任，但题目中无此争议；且未明确指出房东的举证责任，法律分析不够精准。"
+        },
+        {
+          "request_id": "arm_a_dose600__grpo_dev84_1_12__flash_r1",
+          "field": "high_risk_b",
+          "value": "回答B建议“提起诉讼”，但未充分提示诉讼成本、时间及举证困难（用户无照片证据），可能高估用户胜诉概率。"
+        },
+        {
+          "request_id": "arm_a_dose600__grpo_dev84_1_14__flash_r1",
+          "field": "major_error_b",
+          "value": "回答B未发现明显法律错误，但分析较为泛化。"
+        },
+        {
+          "request_id": "arm_a_dose600__grpo_dev84_1_14__flash_r1",
+          "field": "major_error_a",
+          "value": "回答A错误引用了《劳动法》第13条（妇女就业平等），与租赁纠纷完全无关，属于严重法律方向错误。"
+        },
+        {
+          "request_id": "arm_a_dose600__grpo_dev84_2_09__flash_r1",
+          "field": "major_error_b",
+          "value": "回答B在主张双倍工资时，错误地声称“从第8个月起，你有权要求无固定期限劳动合同，并继续主张双倍工资”。根据《劳动合同法》第82条，双倍工资最多主张11个月（从用工第2个月至第12个月），第8个月起仍可主张双倍工资，但“继续主张”表述不准确；且无固定期限劳动合同的推定（第14条）与双倍工资是不同制度，不应混为一谈。"
+        },
+        {
+          "request_id": "arm_a_dose600__grpo_dev84_2_09__flash_r1",
+          "field": "major_error_a",
+          "value": "回答A在分析合作协议效力时，引用了《劳动合同法》第28条（劳动合同无效后劳动报酬），但该条适用于合同被确认无效后的报酬支付，而非直接判断合作协议是否有效。更准确的应引用《劳动合同法》第7条（事实劳动关系）及《关于确立劳动关系有关事项的通知》（劳社部发〔2005〕12号）来判断劳动关系是否被协议改变。"
+        },
+        {
+          "request_id": "arm_a_dose600__grpo_dev84_2_09__flash_r1",
+          "field": "high_risk_a",
+          "value": "回答A建议“申请支付令”作为首要行动，但支付令在劳动报酬争议中适用有限（需无其他争议），且未提示支付令可能因异议而失效的风险，可能误导用户选择低效路径。"
+        }
+      ]
+    },
+    {
+      "arm": "raft_e_strict",
+      "requests": 252,
+      "flag_value_types": {
+        "string": 676,
+        "bool": 330,
+        "null": 2
+      },
+      "flag_value_types_by_reviewer": {
+        "flash_r1": {
+          "string": 174,
+          "bool": 160,
+          "null": 2
+        },
+        "flash_r2": {
+          "string": 166,
+          "bool": 170
+        },
+        "pro_r3": {
+          "string": 336
+        }
+      },
+      "field_format_stats": {
+        "major_error": {
+          "nonempty_text_values": 285,
+          "nonempty_text_positive": 216,
+          "boolean_values": 162,
+          "boolean_positive": 5,
+          "empty_or_null_values": 57
+        },
+        "high_risk": {
+          "nonempty_text_values": 276,
+          "nonempty_text_positive": 210,
+          "boolean_values": 168,
+          "boolean_positive": 3,
+          "empty_or_null_values": 60
+        }
+      },
+      "field_format_stats_by_reviewer": {
+        "flash_r1": {
+          "major_error": {
+            "nonempty_text_values": 80,
+            "nonempty_text_positive": 67,
+            "boolean_values": 78,
+            "boolean_positive": 3,
+            "empty_or_null_values": 10
+          },
+          "high_risk": {
+            "nonempty_text_values": 77,
+            "nonempty_text_positive": 63,
+            "boolean_values": 82,
+            "boolean_positive": 2,
+            "empty_or_null_values": 9
+          }
+        },
+        "flash_r2": {
+          "major_error": {
+            "nonempty_text_values": 76,
+            "nonempty_text_positive": 64,
+            "boolean_values": 84,
+            "boolean_positive": 2,
+            "empty_or_null_values": 8
+          },
+          "high_risk": {
+            "nonempty_text_values": 74,
+            "nonempty_text_positive": 67,
+            "boolean_values": 86,
+            "boolean_positive": 1,
+            "empty_or_null_values": 8
+          }
+        },
+        "pro_r3": {
+          "major_error": {
+            "nonempty_text_values": 129,
+            "nonempty_text_positive": 85,
+            "empty_or_null_values": 39
+          },
+          "high_risk": {
+            "nonempty_text_values": 125,
+            "nonempty_text_positive": 80,
+            "empty_or_null_values": 43
+          }
+        }
+      },
+      "rules": {
+        "a_prefix_actual": {
+          "base_major_error": 35,
+          "pilot_major_error": 35,
+          "base_high_risk": 34,
+          "pilot_high_risk": 33,
+          "major_delta": 0,
+          "high_delta": -1,
+          "major_non_regression": true,
+          "high_non_regression": true
+        },
+        "b_anywhere_negative": {
+          "base_major_error": 21,
+          "pilot_major_error": 23,
+          "base_high_risk": 22,
+          "pilot_high_risk": 21,
+          "major_delta": 2,
+          "high_delta": -1,
+          "major_non_regression": false,
+          "high_non_regression": true
+        },
+        "c_boolean_only": {
+          "base_major_error": 0,
+          "pilot_major_error": 3,
+          "base_high_risk": 0,
+          "pilot_high_risk": 1,
+          "major_delta": 3,
+          "high_delta": 1,
+          "major_non_regression": false,
+          "high_non_regression": false
+        }
+      },
+      "prefix_false_positive_examples": [
+        {
+          "request_id": "raft_e_strict__grpo_dev84_1_01__flash_r1",
+          "field": "major_error_a",
+          "value": "回答A引用了《民法典》第712、713、714条，这些条款与押金退还问题无关，属于法律引用错误。"
+        },
+        {
+          "request_id": "raft_e_strict__grpo_dev84_1_01__flash_r1",
+          "field": "major_error_b",
+          "value": "回答B引用了《民法典》第500、509、563条，这些条款与押金退还问题无关，属于法律引用错误。"
+        },
+        {
+          "request_id": "raft_e_strict__grpo_dev84_1_02__flash_r1",
+          "field": "major_error_a",
+          "value": "回答A引用民法典第713条时，将不可抗力等情形混入租赁物质量问题，法律适用不准确；且未区分二房东转租的特殊性（如二房东是否有权出租、原房东态度等），可能误导用户。"
+        },
+        {
+          "request_id": "raft_e_strict__grpo_dev84_1_02__flash_r1",
+          "field": "high_risk_b",
+          "value": "回答B建议用户通过投诉或起诉维权，但未提示用户二房东可能失联或无力赔偿的风险，也未说明押金超过一个月租金可能违法（《民法典》第708条？实际为《民法典》第708条无此规定，但《商品房屋租赁管理办法》规定押金不超过一个月租金，但该办法效力较低），存在风险提示不足。"
+        },
+        {
+          "request_id": "raft_e_strict__grpo_dev84_1_05__flash_r1",
+          "field": "major_error_b",
+          "value": "回答B同样错误引用《民事诉讼法》第150条，且对合并审理的适用条件（同一事实或法律关系）理解有误，本案仅为一个租赁合同纠纷，不存在多个案件需要合并。"
+        },
+        {
+          "request_id": "raft_e_strict__grpo_dev84_1_05__flash_r1",
+          "field": "high_risk_a",
+          "value": "回答A错误建议合并审理，可能误导用户认为法院会主动合并不存在的多个案件。"
+        },
+        {
+          "request_id": "raft_e_strict__grpo_dev84_1_08__flash_r1",
+          "field": "major_error_a",
+          "value": "回答A错误地认为提前一个月通知即不构成违约，忽略了合同一年期提前解除本身即构成违约（除非合同另有约定），且错误引用第577条作为无违约依据。"
+        },
+        {
+          "request_id": "raft_e_strict__grpo_dev84_1_08__flash_r1",
+          "field": "major_error_b",
+          "value": "回答B同样错误地认为提前一个月通知即合法解除、不构成违约，忽略了合同期限约束，且对水电费分析逻辑混乱（如‘房东应自行处理’无依据）。"
+        },
+        {
+          "request_id": "raft_e_strict__grpo_dev84_1_11__flash_r1",
+          "field": "major_error_a",
+          "value": "回答A错误地认为提前一个月通知且无损坏即不构成违约，忽略了提前退租本身可能构成违约（即使合同未明确押金处理），且未引用《民法典》第563条或第577条关于违约解除的规则。"
+        },
+        {
+          "request_id": "raft_e_strict__grpo_dev84_1_11__flash_r1",
+          "field": "major_error_b",
+          "value": "回答B同样错误地认为提前通知和无损坏即不构成违约，未分析提前退租是否属于违约行为，且未区分押金与违约金的性质。"
+        },
+        {
+          "request_id": "raft_e_strict__grpo_dev84_1_11__flash_r1",
+          "field": "high_risk_a",
+          "value": "回答A建议用户主张房东构成不当得利，但未分析用户提前退租是否构成违约，可能误导用户认为押金必然返还，实际诉讼中可能因用户违约而败诉。"
+        },
+        {
+          "request_id": "raft_e_strict__grpo_dev84_1_14__flash_r1",
+          "field": "major_error_a",
+          "value": "回答A引用了劳动法第13条（性别平等），与租赁纠纷完全无关，属于明显错误引用。"
+        }
+      ]
+    }
+  ],
+  "conclusion": "The major/high count gates are normalization-sensitive and do not support row-level +/-1 to 3 claims. Score floors and all archived overall decisions remain unchanged."
+}

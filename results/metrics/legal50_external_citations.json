@@ -1,0 +1,627 @@
+{
+  "schema_version": "public_legal50_external_citations_v1",
+  "metric_semantics": {
+    "unsupported": "citation marker appears in the answer but not in the canonical question",
+    "primary_order": "unsupported_named_article_rows, then unsupported_article_rows, then unsupported_citation_rows; all ascending",
+    "fabrication_claim": "not established; unsupported means no question-context support, not necessarily legally false",
+    "llm_judge_used": false
+  },
+  "ranking": [
+    {
+      "model": "openai/gpt-5.5",
+      "expected_rows": 50,
+      "observed_rows": 50,
+      "output_citation_rows": 0,
+      "output_citation_markers": 0,
+      "unsupported_citation_rows": 0,
+      "unsupported_citation_row_rate": 0.0,
+      "unsupported_citation_markers": 0,
+      "unsupported_article_rows": 0,
+      "unsupported_article_row_rate": 0.0,
+      "unsupported_named_article_rows": 0,
+      "unsupported_named_article_row_rate": 0.0,
+      "top_output_markers": [],
+      "top_unsupported_markers": []
+    },
+    {
+      "model": "anthropic/claude-fable-5",
+      "expected_rows": 50,
+      "observed_rows": 50,
+      "output_citation_rows": 2,
+      "output_citation_markers": 2,
+      "unsupported_citation_rows": 2,
+      "unsupported_citation_row_rate": 0.04,
+      "unsupported_citation_markers": 2,
+      "unsupported_article_rows": 0,
+      "unsupported_article_row_rate": 0.0,
+      "unsupported_named_article_rows": 0,
+      "unsupported_named_article_row_rate": 0.0,
+      "top_output_markers": [
+        [
+          "《消费者权益保护法》",
+          1
+        ],
+        [
+          "《劳动合同法》",
+          1
+        ]
+      ],
+      "top_unsupported_markers": [
+        [
+          "《消费者权益保护法》",
+          1
+        ],
+        [
+          "《劳动合同法》",
+          1
+        ]
+      ]
+    },
+    {
+      "model": "anthropic/claude-opus-4.8",
+      "expected_rows": 50,
+      "observed_rows": 50,
+      "output_citation_rows": 6,
+      "output_citation_markers": 8,
+      "unsupported_citation_rows": 6,
+      "unsupported_citation_row_rate": 0.12,
+      "unsupported_citation_markers": 8,
+      "unsupported_article_rows": 0,
+      "unsupported_article_row_rate": 0.0,
+      "unsupported_named_article_rows": 0,
+      "unsupported_named_article_row_rate": 0.0,
+      "top_output_markers": [
+        [
+          "《民法典》",
+          4
+        ],
+        [
+          "《消费者权益保护法》",
+          3
+        ],
+        [
+          "《劳动合同法》",
+          1
+        ]
+      ],
+      "top_unsupported_markers": [
+        [
+          "《民法典》",
+          4
+        ],
+        [
+          "《消费者权益保护法》",
+          3
+        ],
+        [
+          "《劳动合同法》",
+          1
+        ]
+      ]
+    },
+    {
+      "model": "anthropic/claude-sonnet-5",
+      "expected_rows": 50,
+      "observed_rows": 50,
+      "output_citation_rows": 6,
+      "output_citation_markers": 8,
+      "unsupported_citation_rows": 6,
+      "unsupported_citation_row_rate": 0.12,
+      "unsupported_citation_markers": 8,
+      "unsupported_article_rows": 1,
+      "unsupported_article_row_rate": 0.02,
+      "unsupported_named_article_rows": 0,
+      "unsupported_named_article_row_rate": 0.0,
+      "top_output_markers": [
+        [
+          "《民法典》",
+          3
+        ],
+        [
+          "《消费者权益保护法》",
+          2
+        ],
+        [
+          "《消保法》",
+          1
+        ],
+        [
+          "《劳动合同法》",
+          1
+        ],
+        [
+          "《住房租赁管理条例》",
+          1
+        ]
+      ],
+      "top_unsupported_markers": [
+        [
+          "《民法典》",
+          3
+        ],
+        [
+          "《消费者权益保护法》",
+          2
+        ],
+        [
+          "《消保法》",
+          1
+        ],
+        [
+          "《劳动合同法》",
+          1
+        ],
+        [
+          "《住房租赁管理条例》",
+          1
+        ]
+      ]
+    },
+    {
+      "model": "bailian/qwen3.7-max",
+      "expected_rows": 50,
+      "observed_rows": 50,
+      "output_citation_rows": 17,
+      "output_citation_markers": 21,
+      "unsupported_citation_rows": 17,
+      "unsupported_citation_row_rate": 0.34,
+      "unsupported_citation_markers": 21,
+      "unsupported_article_rows": 1,
+      "unsupported_article_row_rate": 0.02,
+      "unsupported_named_article_rows": 0,
+      "unsupported_named_article_row_rate": 0.0,
+      "top_output_markers": [
+        [
+          "《消费者权益保护法》",
+          7
+        ],
+        [
+          "《民法典》",
+          7
+        ],
+        [
+          "《中华人民共和国劳动合同法》",
+          3
+        ],
+        [
+          "《单用途预付卡管理条例》",
+          1
+        ],
+        [
+          "《治安管理处罚法》",
+          1
+        ],
+        [
+          "《劳动合同法》",
+          1
+        ],
+        [
+          "《因果关系鉴定意见》",
+          1
+        ]
+      ],
+      "top_unsupported_markers": [
+        [
+          "《消费者权益保护法》",
+          7
+        ],
+        [
+          "《民法典》",
+          7
+        ],
+        [
+          "《中华人民共和国劳动合同法》",
+          3
+        ],
+        [
+          "《单用途预付卡管理条例》",
+          1
+        ],
+        [
+          "《治安管理处罚法》",
+          1
+        ],
+        [
+          "《劳动合同法》",
+          1
+        ],
+        [
+          "《因果关系鉴定意见》",
+          1
+        ]
+      ]
+    },
+    {
+      "model": "moonshotai/kimi-k2.6",
+      "expected_rows": 50,
+      "observed_rows": 50,
+      "output_citation_rows": 19,
+      "output_citation_markers": 27,
+      "unsupported_citation_rows": 19,
+      "unsupported_citation_row_rate": 0.38,
+      "unsupported_citation_markers": 27,
+      "unsupported_article_rows": 2,
+      "unsupported_article_row_rate": 0.04,
+      "unsupported_named_article_rows": 0,
+      "unsupported_named_article_row_rate": 0.0,
+      "top_output_markers": [
+        [
+          "《消费者权益保护法》",
+          7
+        ],
+        [
+          "《民法典》",
+          7
+        ],
+        [
+          "《劳动合同法》",
+          6
+        ],
+        [
+          "《网络购买商品七日无理由退货暂行办法》",
+          1
+        ],
+        [
+          "《治安管理处罚法》",
+          1
+        ],
+        [
+          "《社会保险法》",
+          1
+        ],
+        [
+          "《住房公积金管理条例》",
+          1
+        ],
+        [
+          "《劳动法》",
+          1
+        ],
+        [
+          "第85条",
+          1
+        ],
+        [
+          "《中华人民共和国民法典》",
+          1
+        ]
+      ],
+      "top_unsupported_markers": [
+        [
+          "《消费者权益保护法》",
+          7
+        ],
+        [
+          "《民法典》",
+          7
+        ],
+        [
+          "《劳动合同法》",
+          6
+        ],
+        [
+          "《网络购买商品七日无理由退货暂行办法》",
+          1
+        ],
+        [
+          "《治安管理处罚法》",
+          1
+        ],
+        [
+          "《社会保险法》",
+          1
+        ],
+        [
+          "《住房公积金管理条例》",
+          1
+        ],
+        [
+          "《劳动法》",
+          1
+        ],
+        [
+          "第85条",
+          1
+        ],
+        [
+          "《中华人民共和国民法典》",
+          1
+        ]
+      ]
+    },
+    {
+      "model": "google/gemini-2.5-pro",
+      "expected_rows": 50,
+      "observed_rows": 50,
+      "output_citation_rows": 25,
+      "output_citation_markers": 44,
+      "unsupported_citation_rows": 25,
+      "unsupported_citation_row_rate": 0.5,
+      "unsupported_citation_markers": 44,
+      "unsupported_article_rows": 2,
+      "unsupported_article_row_rate": 0.04,
+      "unsupported_named_article_rows": 0,
+      "unsupported_named_article_row_rate": 0.0,
+      "top_output_markers": [
+        [
+          "《民法典》",
+          9
+        ],
+        [
+          "《中华人民共和国民法典》",
+          8
+        ],
+        [
+          "《劳动合同法》",
+          6
+        ],
+        [
+          "《中华人民共和国消费者权益保护法》",
+          4
+        ],
+        [
+          "《消费者权益保护法》",
+          4
+        ],
+        [
+          "《中华人民共和国劳动合同法》",
+          4
+        ],
+        [
+          "《网络购买商品七日无理由退货暂行办法》",
+          1
+        ],
+        [
+          "《消法》",
+          1
+        ],
+        [
+          "《中华人民共和国社会保险法》",
+          1
+        ],
+        [
+          "第4条",
+          1
+        ]
+      ],
+      "top_unsupported_markers": [
+        [
+          "《民法典》",
+          9
+        ],
+        [
+          "《中华人民共和国民法典》",
+          8
+        ],
+        [
+          "《劳动合同法》",
+          6
+        ],
+        [
+          "《中华人民共和国消费者权益保护法》",
+          4
+        ],
+        [
+          "《消费者权益保护法》",
+          4
+        ],
+        [
+          "《中华人民共和国劳动合同法》",
+          4
+        ],
+        [
+          "《网络购买商品七日无理由退货暂行办法》",
+          1
+        ],
+        [
+          "《消法》",
+          1
+        ],
+        [
+          "《中华人民共和国社会保险法》",
+          1
+        ],
+        [
+          "第4条",
+          1
+        ]
+      ]
+    },
+    {
+      "model": "z-ai/glm-5.2",
+      "expected_rows": 50,
+      "observed_rows": 50,
+      "output_citation_rows": 21,
+      "output_citation_markers": 31,
+      "unsupported_citation_rows": 21,
+      "unsupported_citation_row_rate": 0.42,
+      "unsupported_citation_markers": 31,
+      "unsupported_article_rows": 6,
+      "unsupported_article_row_rate": 0.12,
+      "unsupported_named_article_rows": 5,
+      "unsupported_named_article_row_rate": 0.1,
+      "top_output_markers": [
+        [
+          "《民法典》",
+          7
+        ],
+        [
+          "《消费者权益保护法》",
+          5
+        ],
+        [
+          "《最高人民法院关于审理涉彩礼纠纷案件适用法律若干问题的规定》",
+          3
+        ],
+        [
+          "《中华人民共和国民法典》",
+          2
+        ],
+        [
+          "《民事诉讼法》",
+          2
+        ],
+        [
+          "《中华人民共和国消费者权益保护法》",
+          2
+        ],
+        [
+          "《劳动合同法》第三十八条",
+          2
+        ],
+        [
+          "《中华人民共和国劳动合同法》第十九条",
+          1
+        ],
+        [
+          "《劳动合同法》第八十三条",
+          1
+        ],
+        [
+          "《劳动合同法》",
+          1
+        ]
+      ],
+      "top_unsupported_markers": [
+        [
+          "《民法典》",
+          7
+        ],
+        [
+          "《消费者权益保护法》",
+          5
+        ],
+        [
+          "《最高人民法院关于审理涉彩礼纠纷案件适用法律若干问题的规定》",
+          3
+        ],
+        [
+          "《中华人民共和国民法典》",
+          2
+        ],
+        [
+          "《民事诉讼法》",
+          2
+        ],
+        [
+          "《中华人民共和国消费者权益保护法》",
+          2
+        ],
+        [
+          "《劳动合同法》第三十八条",
+          2
+        ],
+        [
+          "《中华人民共和国劳动合同法》第十九条",
+          1
+        ],
+        [
+          "《劳动合同法》第八十三条",
+          1
+        ],
+        [
+          "《劳动合同法》",
+          1
+        ]
+      ]
+    },
+    {
+      "model": "deepseek/deepseek-v4-pro",
+      "expected_rows": 50,
+      "observed_rows": 50,
+      "output_citation_rows": 28,
+      "output_citation_markers": 58,
+      "unsupported_citation_rows": 28,
+      "unsupported_citation_row_rate": 0.56,
+      "unsupported_citation_markers": 58,
+      "unsupported_article_rows": 14,
+      "unsupported_article_row_rate": 0.28,
+      "unsupported_named_article_rows": 11,
+      "unsupported_named_article_row_rate": 0.22,
+      "top_output_markers": [
+        [
+          "《民法典》",
+          5
+        ],
+        [
+          "《消费者权益保护法》",
+          4
+        ],
+        [
+          "《中华人民共和国消费者权益保护法》",
+          2
+        ],
+        [
+          "第一条",
+          2
+        ],
+        [
+          "《劳动合同法》",
+          2
+        ],
+        [
+          "《中华人民共和国劳动合同法》第四十六条",
+          2
+        ],
+        [
+          "劳动者依照本法第三十八条",
+          2
+        ],
+        [
+          "用人单位依照本法第三十六条",
+          2
+        ],
+        [
+          "用人单位依照本法第四十条",
+          2
+        ],
+        [
+          "用人单位依照本法第四十一条",
+          2
+        ]
+      ],
+      "top_unsupported_markers": [
+        [
+          "《民法典》",
+          5
+        ],
+        [
+          "《消费者权益保护法》",
+          4
+        ],
+        [
+          "《中华人民共和国消费者权益保护法》",
+          2
+        ],
+        [
+          "第一条",
+          2
+        ],
+        [
+          "《劳动合同法》",
+          2
+        ],
+        [
+          "《中华人民共和国劳动合同法》第四十六条",
+          2
+        ],
+        [
+          "劳动者依照本法第三十八条",
+          2
+        ],
+        [
+          "用人单位依照本法第三十六条",
+          2
+        ],
+        [
+          "用人单位依照本法第四十条",
+          2
+        ],
+        [
+          "用人单位依照本法第四十一条",
+          2
+        ]
+      ]
+    }
+  ]
+}

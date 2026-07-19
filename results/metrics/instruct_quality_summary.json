@@ -1,0 +1,28 @@
+{
+  "schema_version": "public_instruct_quality_summary_v1",
+  "dev60": {
+    "base": {
+      "unsupported_citation_rows": 36,
+      "unsupported_article_rows": 14
+    },
+    "sft": {
+      "unsupported_citation_rows": 37,
+      "unsupported_article_rows": 15,
+      "score_delta": -0.056,
+      "major_rows": 2
+    },
+    "dpo": {
+      "unsupported_citation_rows": 35,
+      "unsupported_article_rows": 15,
+      "score_delta": 0.0,
+      "major_rows": 5
+    },
+    "dpo_r64_high": {
+      "unsupported_citation_rows": 29,
+      "unsupported_article_rows": 14,
+      "score_delta": -0.111,
+      "major_rows": 4
+    }
+  },
+  "status": "no_promoted_weight_internalization_arm"
+}

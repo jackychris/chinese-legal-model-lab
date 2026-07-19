@@ -1,0 +1,28 @@
+{
+  "schema_version": "public_judge_pairwise_probe_v1",
+  "pairs": 896,
+  "atomic_judgments": 21504,
+  "gates": {
+    "tie_rate": {
+      "value": 0.9375,
+      "maximum": 0.45,
+      "passed": false
+    },
+    "self_consistency": {
+      "value": 0.8470982142857143,
+      "minimum": 0.75,
+      "passed": true
+    },
+    "position_flip": {
+      "value": 0.9409412202380952,
+      "maximum": 0.2,
+      "passed": false
+    },
+    "content_shuffle_flip": {
+      "value": 0.3270089285714286,
+      "maximum": 0.2,
+      "passed": false
+    }
+  },
+  "decision": "CAI_JUDGE_LOW_RESOLUTION"
+}

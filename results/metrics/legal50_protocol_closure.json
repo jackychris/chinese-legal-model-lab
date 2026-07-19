@@ -1,0 +1,1716 @@
+{
+  "schema_version": "public_legal50_protocol_closure_v1",
+  "score_semantics": "uncapped_descriptive_only",
+  "historical_internal": [
+    {
+      "label": "Qwen3-8B Raw Base",
+      "arm": "qwen3_8b_base",
+      "generation_protocol": "0.2 / 0.9 / 2048",
+      "semantic_average": 5.946000000000001,
+      "unsafe_or_hallucinated_rows": 10
+    },
+    {
+      "label": "Qwen3-8B Instruct",
+      "arm": "qwen3_8b_instruct",
+      "generation_protocol": "0.2 / 0.9 / 1024",
+      "semantic_average": 6.784,
+      "unsafe_or_hallucinated_rows": 7
+    },
+    {
+      "label": "Gold V2",
+      "arm": "qwen3_8b_legal_gold_v2",
+      "generation_protocol": "0.2 / 0.9 / 2048",
+      "semantic_average": 7.43,
+      "unsafe_or_hallucinated_rows": 5
+    },
+    {
+      "label": "Distill V3",
+      "arm": "qwen3_8b_legal_distill_v3",
+      "generation_protocol": "0.2 / 0.9 / 2048",
+      "semantic_average": 8.122,
+      "unsafe_or_hallucinated_rows": 2
+    }
+  ],
+  "raw_base_sampled8192": {
+    "schema_version": "old50_raw_base_sampled8192_semantic_v1",
+    "evidence_role": "posthoc_uncapped_descriptive_only_no_promotion",
+    "score_semantics": "uncapped_component_total_due_to_underspecified_cap_schema",
+    "arm": "qwen3_8b_raw_base_sampled8192",
+    "requested": 50,
+    "accepted": 50,
+    "invalid_or_missing": 0,
+    "semantic_average": 5.148,
+    "unsafe_or_hallucinated_rows": 10,
+    "strict_cap_verified_rows": 2,
+    "strict_taxonomy_verified_rows": 39,
+    "reviewer_breakdown": {
+      "flash_r1": {
+        "rows": 18,
+        "semantic_average": 5.4
+      },
+      "flash_r2": {
+        "rows": 16,
+        "semantic_average": 4.825
+      },
+      "pro_r3": {
+        "rows": 16,
+        "semantic_average": 5.1875
+      }
+    },
+    "deterministic_citations": {
+      "source_id": "qwen3_8b_raw_base_sampled8192",
+      "model": "qwen3-8b-raw-base",
+      "family": "internal_lineage",
+      "path": "data\\eval\\answers_old50_qwen3_8b_raw_base_sampled8192.jsonl",
+      "prompt_condition": "sampled_no_system_t0p2_top_p0p9_max8192_seed20260720",
+      "expected_rows": 50,
+      "observed_rows": 50,
+      "coverage": 1.0,
+      "complete": true,
+      "missing_ids": [],
+      "duplicate_ids": [],
+      "unexpected_ids": [],
+      "error_ids": [],
+      "observed_model_values": [
+        "qwen3-8b-raw-base"
+      ],
+      "model_matches_manifest": true,
+      "output_citation_rows": 33,
+      "output_citation_markers": 53,
+      "unsupported_citation_rows": 33,
+      "unsupported_citation_row_rate": 0.66,
+      "unsupported_citation_markers": 53,
+      "unsupported_article_rows": 24,
+      "unsupported_article_row_rate": 0.48,
+      "unsupported_named_article_rows": 23,
+      "unsupported_named_article_row_rate": 0.46,
+      "top_output_markers": [
+        [
+          "《消费者权益保护法》",
+          5
+        ],
+        [
+          "《劳动合同法》",
+          4
+        ],
+        [
+          "《消费者权益保护法》第二十四条",
+          3
+        ],
+        [
+          "《民法典》",
+          3
+        ],
+        [
+          "《消费者权益保护法》第五十五条",
+          2
+        ],
+        [
+          "《最高人民法院关于审理民间借贷案件适用法律若干问题的规定》第二十五条",
+          2
+        ],
+        [
+          "《劳动合同法》第三十八条",
+          2
+        ],
+        [
+          "《最高人民法院关于适用〈中华人民共和国民法典〉婚姻家庭编的解释（一）》第五条",
+          2
+        ],
+        [
+          "《电子商务法》",
+          1
+        ],
+        [
+          "《消费者权益保护法》第25条",
+          1
+        ]
+      ],
+      "top_unsupported_markers": [
+        [
+          "《消费者权益保护法》",
+          5
+        ],
+        [
+          "《劳动合同法》",
+          4
+        ],
+        [
+          "《消费者权益保护法》第二十四条",
+          3
+        ],
+        [
+          "《民法典》",
+          3
+        ],
+        [
+          "《消费者权益保护法》第五十五条",
+          2
+        ],
+        [
+          "《最高人民法院关于审理民间借贷案件适用法律若干问题的规定》第二十五条",
+          2
+        ],
+        [
+          "《劳动合同法》第三十八条",
+          2
+        ],
+        [
+          "《最高人民法院关于适用〈中华人民共和国民法典〉婚姻家庭编的解释（一）》第五条",
+          2
+        ],
+        [
+          "《电子商务法》",
+          1
+        ],
+        [
+          "《消费者权益保护法》第25条",
+          1
+        ]
+      ]
+    },
+    "deterministic_citation_cases": [
+      {
+        "source_id": "qwen3_8b_raw_base_sampled8192",
+        "family": "internal_lineage",
+        "model": "qwen3-8b-raw-base",
+        "source_path": "data\\eval\\answers_old50_qwen3_8b_raw_base_sampled8192.jsonl",
+        "prompt_condition": "sampled_no_system_t0p2_top_p0p9_max8192_seed20260720",
+        "id": "consumer_002",
+        "category": "网购交易风险",
+        "question": "我网购一部二手手机，收到后发现开机需要密码。卖家售后说必须先确认收货，才告诉我解锁密码。我担心确认收货后发现质量问题不好维权。遇到这种情况，我应该先确认收货吗？如果已经确认收货后发现问题，还能要求退货退款吗？",
+        "output_citation_markers": [
+          "《消费者权益保护法》",
+          "《电子商务法》",
+          "《消费者权益保护法》第25条"
+        ],
+        "unsupported_citation_markers": [
+          "《消费者权益保护法》",
+          "《电子商务法》",
+          "《消费者权益保护法》第25条"
+        ],
+        "unsupported_article_markers": [
+          "《消费者权益保护法》第25条"
+        ],
+        "unsupported_named_article_markers": [
+          "《消费者权益保护法》第25条"
+        ],
+        "evidence_snippets": [
+          {
+            "marker": "《消费者权益保护法》",
+            "snippet": "根据《消费者权益保护法》和《电子商务法》的相关规定，消费者在网购二手商品时，确实享有一定的权益保护。以下是针对你问题的解答：  ### 1. **是否应该先确认收货..."
+          },
+          {
+            "marker": "《电子商务法》",
+            "snippet": "根据《消费者权益保护法》和《电子商务法》的相关规定，消费者在网购二手商品时，确实享有一定的权益保护。以下是针对你问题的解答：  ### 1. **是否应该先确认收货？**    -..."
+          },
+          {
+            "marker": "《消费者权益保护法》第25条",
+            "snippet": "...便在后续维权时作为证据。  ### 2. **如果已经确认收货后发现问题，还能要求退货退款吗？**    - **可以要求退货退款**：根据《消费者权益保护法》第25条，消费者在收到商品后7天内，如果商品存在质量问题或与描述不符，可以要求退货退款。即使你已经确认收货，只要在7天内发现问题，仍然可以申请退货。..."
+          }
+        ]
+      },
+      {
+        "source_id": "qwen3_8b_raw_base_sampled8192",
+        "family": "internal_lineage",
+        "model": "qwen3-8b-raw-base",
+        "source_path": "data\\eval\\answers_old50_qwen3_8b_raw_base_sampled8192.jsonl",
+        "prompt_condition": "sampled_no_system_t0p2_top_p0p9_max8192_seed20260720",
+        "id": "consumer_003",
+        "category": "网购质量问题",
+        "question": "我在网店买了一台笔记本电脑，收到后不到七天就发现经常黑屏、花屏，申请退货退款被商家拒绝。后来我送到品牌售后检测，检测结果显示硬件存在问题。商家仍然说商品没问题，不同意退。我可以要求退货退款吗？",
+        "output_citation_markers": [
+          "《消费者权益保护法》",
+          "《产品质量法》",
+          "《消费者权益保护法》第二十四条"
+        ],
+        "unsupported_citation_markers": [
+          "《消费者权益保护法》",
+          "《产品质量法》",
+          "《消费者权益保护法》第二十四条"
+        ],
+        "unsupported_article_markers": [
+          "《消费者权益保护法》第二十四条"
+        ],
+        "unsupported_named_article_markers": [
+          "《消费者权益保护法》第二十四条"
+        ],
+        "evidence_snippets": [
+          {
+            "marker": "《消费者权益保护法》",
+            "snippet": "根据《消费者权益保护法》和《产品质量法》的相关规定，消费者在购买商品后，如果发现商品存在质量问题，有权要求退货、换货或修理。具体到你的情况，以下是一些关键点：  1..."
+          },
+          {
+            "marker": "《产品质量法》",
+            "snippet": "根据《消费者权益保护法》和《产品质量法》的相关规定，消费者在购买商品后，如果发现商品存在质量问题，有权要求退货、换货或修理。具体到你的情况，以下是一些关键点：  1. **质量问题..."
+          },
+          {
+            "marker": "《消费者权益保护法》第二十四条",
+            "snippet": "...脑在收到后不到七天就出现黑屏、花屏等问题，且品牌售后检测结果显示硬件存在问题。这表明商品存在质量问题。  2. **退货退款的权利**：根据《消费者权益保护法》第二十四条，经营者提供的商品或者服务不符合质量要求的，消费者可以依照国家规定、当事人约定退货，或者要求经营者履行更换、修理等义务。如果商品存在质量问题..."
+          }
+        ]
+      },
+      {
+        "source_id": "qwen3_8b_raw_base_sampled8192",
+        "family": "internal_lineage",
+        "model": "qwen3-8b-raw-base",
+        "source_path": "data\\eval\\answers_old50_qwen3_8b_raw_base_sampled8192.jsonl",
+        "prompt_condition": "sampled_no_system_t0p2_top_p0p9_max8192_seed20260720",
+        "id": "consumer_004",
+        "category": "网购欺诈",
+        "question": "我在网店买定制货物，卖家承诺一定时间内发货，但之后多次说已经发货却一直不给物流信息，还诱导我重新下单。两个多月后收到的货物有损坏、缺件，补发后仍然缺件。平台最后退了货款，但我认为卖家虚构发货、拖延履行构成欺诈，我还能要求三倍赔偿吗？",
+        "output_citation_markers": [
+          "《消费者权益保护法》第五十五条"
+        ],
+        "unsupported_citation_markers": [
+          "《消费者权益保护法》第五十五条"
+        ],
+        "unsupported_article_markers": [
+          "《消费者权益保护法》第五十五条"
+        ],
+        "unsupported_named_article_markers": [
+          "《消费者权益保护法》第五十五条"
+        ],
+        "evidence_snippets": [
+          {
+            "marker": "《消费者权益保护法》第五十五条",
+            "snippet": "根据《消费者权益保护法》第五十五条，经营者提供商品或者服务有欺诈行为的，应当按照消费者的要求增加赔偿其受到的损失，增加赔偿的金额为消费者购买商品的价款或者接受服务的费用的三倍..."
+          }
+        ]
+      },
+      {
+        "source_id": "qwen3_8b_raw_base_sampled8192",
+        "family": "internal_lineage",
+        "model": "qwen3-8b-raw-base",
+        "source_path": "data\\eval\\answers_old50_qwen3_8b_raw_base_sampled8192.jsonl",
+        "prompt_condition": "sampled_no_system_t0p2_top_p0p9_max8192_seed20260720",
+        "id": "consumer_005",
+        "category": "网购退货运费",
+        "question": "我网购一批包邮的定制商品，收到后发现有损坏和缺件，卖家以定制商品不支持无理由退货为由拒绝退款。后来我垫付运费把货退回。商品确实存在质量和缺件问题的情况下，退货运费和之前垫付的到货运费应该由谁承担？",
+        "output_citation_markers": [
+          "《消费者权益保护法》第二十四条",
+          "《消费者权益保护法》第二十五条"
+        ],
+        "unsupported_citation_markers": [
+          "《消费者权益保护法》第二十四条",
+          "《消费者权益保护法》第二十五条"
+        ],
+        "unsupported_article_markers": [
+          "《消费者权益保护法》第二十四条",
+          "《消费者权益保护法》第二十五条"
+        ],
+        "unsupported_named_article_markers": [
+          "《消费者权益保护法》第二十四条",
+          "《消费者权益保护法》第二十五条"
+        ],
+        "evidence_snippets": [
+          {
+            "marker": "《消费者权益保护法》第二十四条",
+            "snippet": "...：  1. **质量问题**：如果商品存在质量问题，即使卖家声明“定制商品不支持无理由退货”，这并不意味着消费者不能因为质量问题而退货。根据《消费者权益保护法》第二十四条的规定，经营者提供的商品或者服务不符合质量要求的，消费者可以依照国家规定、当事人约定退货，或者要求经营者履行更换、修理等义务。因此，您有权要..."
+          },
+          {
+            "marker": "《消费者权益保护法》第二十五条",
+            "snippet": "...可以依照国家规定、当事人约定退货，或者要求经营者履行更换、修理等义务。因此，您有权要求退货并获得相应的赔偿。  2. **退货运费**：根据《消费者权益保护法》第二十五条，经营者采用网络、电视、电话、邮购等方式销售商品，消费者有权自收到商品之日起七日内退货，且无需说明理由。但是，如果商品是根据消费者的特定要求..."
+          }
+        ]
+      },
+      {
+        "source_id": "qwen3_8b_raw_base_sampled8192",
+        "family": "internal_lineage",
+        "model": "qwen3-8b-raw-base",
+        "source_path": "data\\eval\\answers_old50_qwen3_8b_raw_base_sampled8192.jsonl",
+        "prompt_condition": "sampled_no_system_t0p2_top_p0p9_max8192_seed20260720",
+        "id": "consumer_006",
+        "category": "网购虚假宣传",
+        "question": "我在电商平台买了一款音响，商品标题和主图都重点宣传某个核心功能，但收到后才发现这个功能必须另外购买配件才能使用。页面里确实有星号小字和比较隐蔽的提示，但我下单时主要就是冲着这个功能买的。现在商家说已经提示过，不同意退货。我能要求解除合同、退货退款吗？这种情况能不能主张三倍赔偿？",
+        "output_citation_markers": [
+          "《消费者权益保护法》第二十条",
+          "《消费者权益保护法》第二十四条",
+          "《消费者权益保护法》第五十五条"
+        ],
+        "unsupported_citation_markers": [
+          "《消费者权益保护法》第二十条",
+          "《消费者权益保护法》第二十四条",
+          "《消费者权益保护法》第五十五条"
+        ],
+        "unsupported_article_markers": [
+          "《消费者权益保护法》第二十条",
+          "《消费者权益保护法》第二十四条",
+          "《消费者权益保护法》第五十五条"
+        ],
+        "unsupported_named_article_markers": [
+          "《消费者权益保护法》第二十条",
+          "《消费者权益保护法》第二十四条",
+          "《消费者权益保护法》第五十五条"
+        ],
+        "evidence_snippets": [
+          {
+            "marker": "《消费者权益保护法》第二十条",
+            "snippet": "根据《消费者权益保护法》第二十条，经营者向消费者提供有关商品或者服务的质量、性能、用途、有效期限等信息，应当真实、全面，不得作虚假或者引人误解的宣传。如果商家在商品页面上对..."
+          },
+          {
+            "marker": "《消费者权益保护法》第二十四条",
+            "snippet": "...息，应当真实、全面，不得作虚假或者引人误解的宣传。如果商家在商品页面上对核心功能的宣传不够明显，导致消费者误解，可能构成虚假宣传。此外，根据《消费者权益保护法》第二十四条，经营者提供的商品或者服务不符合质量要求的，消费者可以依照国家规定、当事人约定退货，或者要求经营者履行更换、修理等义务。如果商家提供的商品不..."
+          },
+          {
+            "marker": "《消费者权益保护法》第五十五条",
+            "snippet": "...国家规定、当事人约定退货，或者要求经营者履行更换、修理等义务。如果商家提供的商品不符合宣传的功能，消费者有权要求退货退款。至于三倍赔偿，根据《消费者权益保护法》第五十五条，如果商家存在欺诈行为，消费者可以要求增加赔偿其受到的损失，增加赔偿的金额为消费者购买商品的价款或者接受服务的费用的三倍。因此，你可以要求解..."
+          }
+        ]
+      },
+      {
+        "source_id": "qwen3_8b_raw_base_sampled8192",
+        "family": "internal_lineage",
+        "model": "qwen3-8b-raw-base",
+        "source_path": "data\\eval\\answers_old50_qwen3_8b_raw_base_sampled8192.jsonl",
+        "prompt_condition": "sampled_no_system_t0p2_top_p0p9_max8192_seed20260720",
+        "id": "consumer_007",
+        "category": "预付式消费",
+        "question": "我在一家美容机构预付了一笔钱购买服务，后来店铺经营主体变更，预约变得很困难，还限制部分服务对象，实际服务体验和当初承诺差很多。我想解除合同并退还剩余预付款，但商家说服务还能做、不同意退。经营者变更和服务安排变化的情况下，我可以要求退还剩余费用吗？",
+        "output_citation_markers": [
+          "《消费者权益保护法》"
+        ],
+        "unsupported_citation_markers": [
+          "《消费者权益保护法》"
+        ],
+        "unsupported_article_markers": [],
+        "unsupported_named_article_markers": [],
+        "evidence_snippets": [
+          {
+            "marker": "《消费者权益保护法》",
+            "snippet": "...供符合承诺的服务，或者要求退还剩余费用。如果商家拒绝提供符合承诺的服务，消费者有权解除合同并要求退款。  3. **消费者权益保护**：根据《消费者权益保护法》，消费者享有知情权、选择权和公平交易权。如果商家在经营主体变更后，限制部分服务对象或改变服务安排，且这些变化对消费者不利，消费者可以要求商家..."
+          }
+        ]
+      },
+      {
+        "source_id": "qwen3_8b_raw_base_sampled8192",
+        "family": "internal_lineage",
+        "model": "qwen3-8b-raw-base",
+        "source_path": "data\\eval\\answers_old50_qwen3_8b_raw_base_sampled8192.jsonl",
+        "prompt_condition": "sampled_no_system_t0p2_top_p0p9_max8192_seed20260720",
+        "id": "consumer_008",
+        "category": "网购七日无理由",
+        "question": "我在直播间买了一件珠宝饰品，页面和主播都说这是买断商品、无鉴赏期、不支持七天无理由退换。我签收第二天就申请退货退款，商家以买断和直播专属为由拒绝。只要商家提前这样说了，就能排除七日无理由退货吗？",
+        "output_citation_markers": [
+          "《消费者权益保护法》",
+          "《网络购买商品七日无理由退货暂行办法》"
+        ],
+        "unsupported_citation_markers": [
+          "《消费者权益保护法》",
+          "《网络购买商品七日无理由退货暂行办法》"
+        ],
+        "unsupported_article_markers": [],
+        "unsupported_named_article_markers": [],
+        "evidence_snippets": [
+          {
+            "marker": "《消费者权益保护法》",
+            "snippet": "根据中国《消费者权益保护法》和《网络购买商品七日无理由退货暂行办法》，消费者在收到商品后七日内享有无理由退货的权利，除非商品属于以下几种特殊情况：  1. **消费者定..."
+          },
+          {
+            "marker": "《网络购买商品七日无理由退货暂行办法》",
+            "snippet": "根据中国《消费者权益保护法》和《网络购买商品七日无理由退货暂行办法》，消费者在收到商品后七日内享有无理由退货的权利，除非商品属于以下几种特殊情况：  1. **消费者定作的商品**：即根据消费者个人需求定制的..."
+          }
+        ]
+      },
+      {
+        "source_id": "qwen3_8b_raw_base_sampled8192",
+        "family": "internal_lineage",
+        "model": "qwen3-8b-raw-base",
+        "source_path": "data\\eval\\answers_old50_qwen3_8b_raw_base_sampled8192.jsonl",
+        "prompt_condition": "sampled_no_system_t0p2_top_p0p9_max8192_seed20260720",
+        "id": "debt_001",
+        "category": "民间借贷",
+        "question": "我和一家公司签了所谓投资协议，协议写明我投入一笔钱，对方按固定年化收益给我返钱，到期还本，我不参与经营亏损。现在对方停止返收益，也不退本金。我能不能主张这不是投资，而是民间借贷，要求返还本金和利息？",
+        "output_citation_markers": [
+          "《民法典》"
+        ],
+        "unsupported_citation_markers": [
+          "《民法典》"
+        ],
+        "unsupported_article_markers": [],
+        "unsupported_named_article_markers": [],
+        "evidence_snippets": [
+          {
+            "marker": "《民法典》",
+            "snippet": "...的利润分配。  3. **不参与经营**：你并不参与公司的经营或承担亏损，这进一步表明你并非投资者，而是出借人。  ### 法律依据： 根据《民法典》及相关司法解释，民间借贷的利息约定应当合法，且不得超过法定上限（目前为年利率24%）。如果公司未按约定支付利息或返还本金，你可以主张其违约，..."
+          }
+        ]
+      },
+      {
+        "source_id": "qwen3_8b_raw_base_sampled8192",
+        "family": "internal_lineage",
+        "model": "qwen3-8b-raw-base",
+        "source_path": "data\\eval\\answers_old50_qwen3_8b_raw_base_sampled8192.jsonl",
+        "prompt_condition": "sampled_no_system_t0p2_top_p0p9_max8192_seed20260720",
+        "id": "debt_002",
+        "category": "民间借贷",
+        "question": "朋友向我借钱时写了借条，约定的利息比较高。现在对方只愿意还本金，说利息太高法院不会支持。我起诉时能要求对方按借条约定支付全部利息吗？超过法律保护范围的利息会怎么处理？",
+        "output_citation_markers": [
+          "《最高人民法院关于审理民间借贷案件适用法律若干问题的规定》第二十五条"
+        ],
+        "unsupported_citation_markers": [
+          "《最高人民法院关于审理民间借贷案件适用法律若干问题的规定》第二十五条"
+        ],
+        "unsupported_article_markers": [
+          "《最高人民法院关于审理民间借贷案件适用法律若干问题的规定》第二十五条"
+        ],
+        "unsupported_named_article_markers": [
+          "《最高人民法院关于审理民间借贷案件适用法律若干问题的规定》第二十五条"
+        ],
+        "evidence_snippets": [
+          {
+            "marker": "《最高人民法院关于审理民间借贷案件适用法律若干问题的规定》第二十五条",
+            "snippet": "根据《最高人民法院关于审理民间借贷案件适用法律若干问题的规定》第二十五条，出借人请求借款人按照合同约定利率支付利息的，人民法院应予支持，但是双方约定的利率超过合同成立时一年期贷款市场报价利率四倍的除外。前款所称“..."
+          }
+        ]
+      },
+      {
+        "source_id": "qwen3_8b_raw_base_sampled8192",
+        "family": "internal_lineage",
+        "model": "qwen3-8b-raw-base",
+        "source_path": "data\\eval\\answers_old50_qwen3_8b_raw_base_sampled8192.jsonl",
+        "prompt_condition": "sampled_no_system_t0p2_top_p0p9_max8192_seed20260720",
+        "id": "debt_003",
+        "category": "民间借贷",
+        "question": "我借给朋友一笔钱，借条只写了本金和还款日期，没有写利息。现在对方逾期很久不还，我除了本金以外，还能不能要求他支付借款期间的利息或者逾期利息？",
+        "output_citation_markers": [
+          "《最高人民法院关于审理民间借贷案件适用法律若干问题的规定》第二十五条",
+          "第二十九条"
+        ],
+        "unsupported_citation_markers": [
+          "《最高人民法院关于审理民间借贷案件适用法律若干问题的规定》第二十五条",
+          "第二十九条"
+        ],
+        "unsupported_article_markers": [
+          "《最高人民法院关于审理民间借贷案件适用法律若干问题的规定》第二十五条",
+          "第二十九条"
+        ],
+        "unsupported_named_article_markers": [
+          "《最高人民法院关于审理民间借贷案件适用法律若干问题的规定》第二十五条"
+        ],
+        "evidence_snippets": [
+          {
+            "marker": "《最高人民法院关于审理民间借贷案件适用法律若干问题的规定》第二十五条",
+            "snippet": "根据《最高人民法院关于审理民间借贷案件适用法律若干问题的规定》第二十五条，出借人请求借款人按照合同约定利率支付利息的，人民法院应予支持，但是双方对借款期限内的利率没有约定或者约定不明确的，视为没有利息。第二十九条..."
+          },
+          {
+            "marker": "第二十九条",
+            "snippet": "...第二十五条，出借人请求借款人按照合同约定利率支付利息的，人民法院应予支持，但是双方对借款期限内的利率没有约定或者约定不明确的，视为没有利息。第二十九条，借贷双方对逾期利率有约定的，从其约定，但是以不超过合同成立时一年期贷款市场报价利率四倍为限。没有约定逾期利率或者约定不明的，人民法院可以区..."
+          }
+        ]
+      },
+      {
+        "source_id": "qwen3_8b_raw_base_sampled8192",
+        "family": "internal_lineage",
+        "model": "qwen3-8b-raw-base",
+        "source_path": "data\\eval\\answers_old50_qwen3_8b_raw_base_sampled8192.jsonl",
+        "prompt_condition": "sampled_no_system_t0p2_top_p0p9_max8192_seed20260720",
+        "id": "debt_005",
+        "category": "民间借贷时效",
+        "question": "朋友几年前向我借钱，借条约定了具体还款日期，但到期后一直没还。我碍于情面只是偶尔打电话催，没有留下微信、短信或录音记录。现在已经超过三年才准备起诉，还能要回来吗？怎样的催款证据可以中断诉讼时效？",
+        "output_citation_markers": [
+          "《民法典》",
+          "《民法典》第一百九十五条"
+        ],
+        "unsupported_citation_markers": [
+          "《民法典》",
+          "《民法典》第一百九十五条"
+        ],
+        "unsupported_article_markers": [
+          "《民法典》第一百九十五条"
+        ],
+        "unsupported_named_article_markers": [
+          "《民法典》第一百九十五条"
+        ],
+        "evidence_snippets": [
+          {
+            "marker": "《民法典》",
+            "snippet": "根据中国《民法典》的规定，对于借款合同，债权人应当在知道或者应当知道权利受到损害之日起三年内向人民法院提起诉讼。如果超过这个期限，除非有特殊情况（如债务人同意..."
+          },
+          {
+            "marker": "《民法典》第一百九十五条",
+            "snippet": "...，否则债权人的胜诉权可能会丧失。  但是，您提到的情况中，您已经采取了催收措施，即偶尔打电话催收。这些行为可以被视为中断诉讼时效的行为。根据《民法典》第一百九十五条的规定，有下列情形之一的，诉讼时效中断，从中断、有关程序终结时起，诉讼时效期间重新计算：  - 权利人向义务人提出履行请求； - 义务人同意..."
+          }
+        ]
+      },
+      {
+        "source_id": "qwen3_8b_raw_base_sampled8192",
+        "family": "internal_lineage",
+        "model": "qwen3-8b-raw-base",
+        "source_path": "data\\eval\\answers_old50_qwen3_8b_raw_base_sampled8192.jsonl",
+        "prompt_condition": "sampled_no_system_t0p2_top_p0p9_max8192_seed20260720",
+        "id": "debt_006",
+        "category": "民间借贷合同效力",
+        "question": "有人在赌博时向我借钱，我当时知道他是为了继续赌博，但还是让他写了借条并转了钱。现在对方不还，我能不能拿借条去法院起诉要求还款？这种借贷关系会不会被认定无效？",
+        "output_citation_markers": [
+          "《中华人民共和国刑法》",
+          "《中华人民共和国民法典》"
+        ],
+        "unsupported_citation_markers": [
+          "《中华人民共和国刑法》",
+          "《中华人民共和国民法典》"
+        ],
+        "unsupported_article_markers": [],
+        "unsupported_named_article_markers": [],
+        "evidence_snippets": [
+          {
+            "marker": "《中华人民共和国刑法》",
+            "snippet": "...可能会被视为帮助他人进行非法活动。在这种情况下，即使有借条，法院也可能不会支持你的诉讼请求，因为借贷关系可能被认定为无效。  具体来说，根据《中华人民共和国刑法》和《中华人民共和国民法典》的相关规定，如果借贷行为涉及非法活动，如赌博，那么这种借贷关系可能被视为无效。此外，提供资金支持非法活动的行为本身..."
+          },
+          {
+            "marker": "《中华人民共和国民法典》",
+            "snippet": "...非法活动。在这种情况下，即使有借条，法院也可能不会支持你的诉讼请求，因为借贷关系可能被认定为无效。  具体来说，根据《中华人民共和国刑法》和《中华人民共和国民法典》的相关规定，如果借贷行为涉及非法活动，如赌博，那么这种借贷关系可能被视为无效。此外，提供资金支持非法活动的行为本身也可能构成违法行为，甚至可..."
+          }
+        ]
+      },
+      {
+        "source_id": "qwen3_8b_raw_base_sampled8192",
+        "family": "internal_lineage",
+        "model": "qwen3-8b-raw-base",
+        "source_path": "data\\eval\\answers_old50_qwen3_8b_raw_base_sampled8192.jsonl",
+        "prompt_condition": "sampled_no_system_t0p2_top_p0p9_max8192_seed20260720",
+        "id": "labor_001",
+        "category": "劳动试用期",
+        "question": "我和公司签了一年劳动合同，合同里约定试用期三个月。入职后公司一直说试用期还没过，工资也按试用期标准发。我想知道一年合同约定三个月试用期合法吗？如果不合法，我能要求补工资吗？",
+        "output_citation_markers": [
+          "《劳动合同法》",
+          "《劳动合同法》第十九条",
+          "《劳动合同法》第二十条"
+        ],
+        "unsupported_citation_markers": [
+          "《劳动合同法》",
+          "《劳动合同法》第十九条",
+          "《劳动合同法》第二十条"
+        ],
+        "unsupported_article_markers": [
+          "《劳动合同法》第十九条",
+          "《劳动合同法》第二十条"
+        ],
+        "unsupported_named_article_markers": [
+          "《劳动合同法》第十九条",
+          "《劳动合同法》第二十条"
+        ],
+        "evidence_snippets": [
+          {
+            "marker": "《劳动合同法》",
+            "snippet": "根据中国《劳动合同法》的规定，劳动合同期限一年以上不满三年的，试用期不得超过二个月。因此，你与公司签订的一年劳动合同中约定三个月的试用期是不合法的。  ### 具..."
+          },
+          {
+            "marker": "《劳动合同法》第十九条",
+            "snippet": "...个月。因此，你与公司签订的一年劳动合同中约定三个月的试用期是不合法的。  ### 具体分析： 1. **试用期的合法性**：    - 根据《劳动合同法》第十九条，劳动合同期限一年以上不满三年的，试用期不得超过二个月。    - 你与公司签订的合同约定三个月试用期，超过了法律规定的上限，因此是不合法的..."
+          },
+          {
+            "marker": "《劳动合同法》第二十条",
+            "snippet": "...过二个月。    - 你与公司签订的合同约定三个月试用期，超过了法律规定的上限，因此是不合法的。  2. **工资问题**：    - 根据《劳动合同法》第二十条，劳动者在试用期的工资不得低于本单位相同岗位最低档工资或者劳动合同约定工资的百分之八十，并不得低于用人单位所在地的最低工资标准。    - ..."
+          }
+        ]
+      },
+      {
+        "source_id": "qwen3_8b_raw_base_sampled8192",
+        "family": "internal_lineage",
+        "model": "qwen3-8b-raw-base",
+        "source_path": "data\\eval\\answers_old50_qwen3_8b_raw_base_sampled8192.jsonl",
+        "prompt_condition": "sampled_no_system_t0p2_top_p0p9_max8192_seed20260720",
+        "id": "labor_002",
+        "category": "劳动合同",
+        "question": "我入职时公司说先试用，试用期过了再签劳动合同。现在我已经工作两个多月了，工资正常发，但一直没有书面合同。试用期不签劳动合同合法吗？我可以要求公司补签或者赔偿吗？",
+        "output_citation_markers": [
+          "《劳动合同法》",
+          "《劳动合同法》第八十二条"
+        ],
+        "unsupported_citation_markers": [
+          "《劳动合同法》",
+          "《劳动合同法》第八十二条"
+        ],
+        "unsupported_article_markers": [
+          "《劳动合同法》第八十二条"
+        ],
+        "unsupported_named_article_markers": [
+          "《劳动合同法》第八十二条"
+        ],
+        "evidence_snippets": [
+          {
+            "marker": "《劳动合同法》",
+            "snippet": "根据《劳动合同法》的规定，用人单位自用工之日起即与劳动者建立劳动关系，应当订立书面劳动合同。试用期也是劳动关系的一部分，因此在试用期内也应当签订书面劳动合同。..."
+          },
+          {
+            "marker": "《劳动合同法》第八十二条",
+            "snippet": "...求公司补签劳动合同，并保留相关证据。  3. **劳动仲裁**：如果公司仍然拒绝补签劳动合同，你可以向当地的劳动仲裁委员会申请劳动仲裁。根据《劳动合同法》第八十二条的规定，用人单位自用工之日起超过一个月不满一年未与劳动者订立书面劳动合同的，应当向劳动者每月支付二倍的工资。  4. **法律咨询**：如果..."
+          }
+        ]
+      },
+      {
+        "source_id": "qwen3_8b_raw_base_sampled8192",
+        "family": "internal_lineage",
+        "model": "qwen3-8b-raw-base",
+        "source_path": "data\\eval\\answers_old50_qwen3_8b_raw_base_sampled8192.jsonl",
+        "prompt_condition": "sampled_no_system_t0p2_top_p0p9_max8192_seed20260720",
+        "id": "labor_004",
+        "category": "劳动调岗",
+        "question": "公司最近通知我要从原来的岗位调到另一个岗位，工作内容和地点都变了，但没有和我协商，只让我下周直接去新岗位报到。如果我不同意，公司能以不服从安排为由辞退我吗？",
+        "output_citation_markers": [
+          "《劳动合同法》第三十五条"
+        ],
+        "unsupported_citation_markers": [
+          "《劳动合同法》第三十五条"
+        ],
+        "unsupported_article_markers": [
+          "《劳动合同法》第三十五条"
+        ],
+        "unsupported_named_article_markers": [
+          "《劳动合同法》第三十五条"
+        ],
+        "evidence_snippets": [
+          {
+            "marker": "《劳动合同法》第三十五条",
+            "snippet": "根据《劳动合同法》第三十五条的规定，用人单位与劳动者协商一致，可以变更劳动合同约定的内容。变更劳动合同，应当采用书面形式。如果公司单方面变更你的工作内容和地点，且未与你..."
+          }
+        ]
+      },
+      {
+        "source_id": "qwen3_8b_raw_base_sampled8192",
+        "family": "internal_lineage",
+        "model": "qwen3-8b-raw-base",
+        "source_path": "data\\eval\\answers_old50_qwen3_8b_raw_base_sampled8192.jsonl",
+        "prompt_condition": "sampled_no_system_t0p2_top_p0p9_max8192_seed20260720",
+        "id": "labor_005",
+        "category": "劳动搬迁",
+        "question": "公司要从市区搬到很远的郊区，通勤时间明显增加。我不想去新地址上班，公司说不去就算我自动离职。这种情况下如果双方协商不成，我能要求经济补偿吗？",
+        "output_citation_markers": [
+          "《劳动合同法》第三十八条"
+        ],
+        "unsupported_citation_markers": [
+          "《劳动合同法》第三十八条"
+        ],
+        "unsupported_article_markers": [
+          "《劳动合同法》第三十八条"
+        ],
+        "unsupported_named_article_markers": [
+          "《劳动合同法》第三十八条"
+        ],
+        "evidence_snippets": [
+          {
+            "marker": "《劳动合同法》第三十八条",
+            "snippet": "你好，根据《劳动合同法》第三十八条的规定，如果用人单位未按照劳动合同约定提供劳动保护或者劳动条件的，劳动者可以解除劳动合同，并且有权要求用人单位支付经济补偿。在你的情况中，由..."
+          }
+        ]
+      },
+      {
+        "source_id": "qwen3_8b_raw_base_sampled8192",
+        "family": "internal_lineage",
+        "model": "qwen3-8b-raw-base",
+        "source_path": "data\\eval\\answers_old50_qwen3_8b_raw_base_sampled8192.jsonl",
+        "prompt_condition": "sampled_no_system_t0p2_top_p0p9_max8192_seed20260720",
+        "id": "labor_006",
+        "category": "劳动辞退",
+        "question": "我在试用期快结束时，公司突然说我考核不合格，要解除劳动合同。但入职时公司没有给过明确的录用条件，也没有说明考核标准。公司这样辞退我合法吗？我可以主张违法解除吗？",
+        "output_citation_markers": [
+          "《劳动合同法》",
+          "《劳动合同法》第39条"
+        ],
+        "unsupported_citation_markers": [
+          "《劳动合同法》",
+          "《劳动合同法》第39条"
+        ],
+        "unsupported_article_markers": [
+          "《劳动合同法》第39条"
+        ],
+        "unsupported_named_article_markers": [
+          "《劳动合同法》第39条"
+        ],
+        "evidence_snippets": [
+          {
+            "marker": "《劳动合同法》",
+            "snippet": "根据中国《劳动合同法》的相关规定，公司在解除劳动合同时应当遵循合法、公平、平等自愿、协商一致的原则，并且需要有明确的依据。如果公司在试用期内以考核不合格为由解除劳..."
+          },
+          {
+            "marker": "《劳动合同法》第39条",
+            "snippet": "...依据。如果公司在试用期内以考核不合格为由解除劳动合同，但未能提供明确的录用条件或考核标准，那么这种做法可能被视为缺乏合法依据。  具体来说，《劳动合同法》第39条规定了用人单位可以解除劳动合同的情形之一是“劳动者在试用期间被证明不符合录用条件”。但是，这里的“录用条件”应当是事先明确告知劳动者的，包括..."
+          }
+        ]
+      },
+      {
+        "source_id": "qwen3_8b_raw_base_sampled8192",
+        "family": "internal_lineage",
+        "model": "qwen3-8b-raw-base",
+        "source_path": "data\\eval\\answers_old50_qwen3_8b_raw_base_sampled8192.jsonl",
+        "prompt_condition": "sampled_no_system_t0p2_top_p0p9_max8192_seed20260720",
+        "id": "labor_007",
+        "category": "劳动工时",
+        "question": "公司安排我每周上六天班，说只要每周休一天就是合法的。但我每天工作八小时，周六也要上满一天。每周上六天班一定合法吗？这种情况能要求加班费吗？",
+        "output_citation_markers": [
+          "《中华人民共和国劳动法》第四十四条"
+        ],
+        "unsupported_citation_markers": [
+          "《中华人民共和国劳动法》第四十四条"
+        ],
+        "unsupported_article_markers": [
+          "《中华人民共和国劳动法》第四十四条"
+        ],
+        "unsupported_named_article_markers": [
+          "《中华人民共和国劳动法》第四十四条"
+        ],
+        "evidence_snippets": [
+          {
+            "marker": "《中华人民共和国劳动法》第四十四条",
+            "snippet": "...小时。如果您的工作安排是每周工作6天，每天工作8小时，那么实际上您每周的工作时间超过了40小时，这可能被视为超时工作。  对于超时工作，根据《中华人民共和国劳动法》第四十四条的规定，有以下几种情况：  1. 安排劳动者延长工作时间的，支付不低于工资的百分之一百五十的工资报酬； 2. 休息日安排劳动者工作又不能安排..."
+          }
+        ]
+      },
+      {
+        "source_id": "qwen3_8b_raw_base_sampled8192",
+        "family": "internal_lineage",
+        "model": "qwen3-8b-raw-base",
+        "source_path": "data\\eval\\answers_old50_qwen3_8b_raw_base_sampled8192.jsonl",
+        "prompt_condition": "sampled_no_system_t0p2_top_p0p9_max8192_seed20260720",
+        "id": "labor_008",
+        "category": "劳动欠薪",
+        "question": "公司已经拖欠我两个月工资，我想离职但又担心直接走拿不到钱。有人说可以先去劳动监察投诉，再以拖欠工资为由被迫离职。这样做能不能主张经济补偿？还能要求额外赔偿吗？",
+        "output_citation_markers": [
+          "《劳动合同法》第三十八条"
+        ],
+        "unsupported_citation_markers": [
+          "《劳动合同法》第三十八条"
+        ],
+        "unsupported_article_markers": [
+          "《劳动合同法》第三十八条"
+        ],
+        "unsupported_named_article_markers": [
+          "《劳动合同法》第三十八条"
+        ],
+        "evidence_snippets": [
+          {
+            "marker": "《劳动合同法》第三十八条",
+            "snippet": "根据《劳动合同法》第三十八条的规定，如果用人单位未及时足额支付劳动报酬，劳动者可以解除劳动合同。在这种情况下，劳动者有权要求用人单位支付经济补偿。具体来说，经济补偿的标..."
+          }
+        ]
+      },
+      {
+        "source_id": "qwen3_8b_raw_base_sampled8192",
+        "family": "internal_lineage",
+        "model": "qwen3-8b-raw-base",
+        "source_path": "data\\eval\\answers_old50_qwen3_8b_raw_base_sampled8192.jsonl",
+        "prompt_condition": "sampled_no_system_t0p2_top_p0p9_max8192_seed20260720",
+        "id": "labor_009",
+        "category": "劳动待岗",
+        "question": "公司说部门没有业务，让我待岗，但每天仍要求我到公司打卡、参加培训和完成临时安排，工资却按很低的待岗工资发。这种情况算正常出勤还是待岗？我能要求补发工资吗？",
+        "output_citation_markers": [
+          "《劳动合同法》",
+          "《工资支付暂行规定》",
+          "《劳动合同法》第三十条",
+          "《工资支付暂行规定》第十六条"
+        ],
+        "unsupported_citation_markers": [
+          "《劳动合同法》",
+          "《工资支付暂行规定》",
+          "《劳动合同法》第三十条",
+          "《工资支付暂行规定》第十六条"
+        ],
+        "unsupported_article_markers": [
+          "《劳动合同法》第三十条",
+          "《工资支付暂行规定》第十六条"
+        ],
+        "unsupported_named_article_markers": [
+          "《劳动合同法》第三十条",
+          "《工资支付暂行规定》第十六条"
+        ],
+        "evidence_snippets": [
+          {
+            "marker": "《劳动合同法》",
+            "snippet": "...勤的特征，而不是待岗。  ### 4. **工资问题**    - 如果你实际上在正常出勤，但公司却按待岗工资支付，这可能违反了劳动法。根据《劳动合同法》和《工资支付暂行规定》，公司应按照正常工资标准支付工资，而不是待岗工资。    - 你可以要求公司补发差额工资，即正常工资与待岗工资之间的差..."
+          },
+          {
+            "marker": "《工资支付暂行规定》",
+            "snippet": "...待岗。  ### 4. **工资问题**    - 如果你实际上在正常出勤，但公司却按待岗工资支付，这可能违反了劳动法。根据《劳动合同法》和《工资支付暂行规定》，公司应按照正常工资标准支付工资，而不是待岗工资。    - 你可以要求公司补发差额工资，即正常工资与待岗工资之间的差额。  ### 5. ..."
+          },
+          {
+            "marker": "《劳动合同法》第三十条",
+            "snippet": "...**：如果公司拒绝补发工资，你可以向当地劳动监察部门投诉，或申请劳动仲裁，维护自己的合法权益。  ### 6. **法律依据**    - 《劳动合同法》第三十条：用人单位应当按照劳动合同约定和国家规定，向劳动者及时足额支付劳动报酬。    - 《工资支付暂行规定》第十六条：用人单位应当按照劳动合同约..."
+          },
+          {
+            "marker": "《工资支付暂行规定》第十六条",
+            "snippet": "...6. **法律依据**    - 《劳动合同法》第三十条：用人单位应当按照劳动合同约定和国家规定，向劳动者及时足额支付劳动报酬。    - 《工资支付暂行规定》第十六条：用人单位应当按照劳动合同约定的工资标准支付工资，不得以任何理由克扣或拖欠工资。  总之，如果你实际上在正常出勤，公司却按待岗工资支付，你有..."
+          }
+        ]
+      },
+      {
+        "source_id": "qwen3_8b_raw_base_sampled8192",
+        "family": "internal_lineage",
+        "model": "qwen3-8b-raw-base",
+        "source_path": "data\\eval\\answers_old50_qwen3_8b_raw_base_sampled8192.jsonl",
+        "prompt_condition": "sampled_no_system_t0p2_top_p0p9_max8192_seed20260720",
+        "id": "labor_010",
+        "category": "工伤赔偿",
+        "question": "我在工作时受伤，公司说愿意报销全部医疗费，让我不用去申请工伤认定。我担心以后还有伤残补助、停工留薪期工资等问题。公司已经同意赔医疗费的情况下，我还需要自己申请工伤认定吗？",
+        "output_citation_markers": [
+          "《工伤保险条例》"
+        ],
+        "unsupported_citation_markers": [
+          "《工伤保险条例》"
+        ],
+        "unsupported_article_markers": [
+          "《工伤保险条例》"
+        ],
+        "unsupported_named_article_markers": [],
+        "evidence_snippets": [
+          {
+            "marker": "《工伤保险条例》",
+            "snippet": "根据《工伤保险条例》的规定，即使公司已经同意赔偿医疗费用，你仍然需要申请工伤认定。这是因为工伤认定是确定你是否属于工伤以及享受工伤保险待遇的前提条件。工伤认定后..."
+          }
+        ]
+      },
+      {
+        "source_id": "qwen3_8b_raw_base_sampled8192",
+        "family": "internal_lineage",
+        "model": "qwen3-8b-raw-base",
+        "source_path": "data\\eval\\answers_old50_qwen3_8b_raw_base_sampled8192.jsonl",
+        "prompt_condition": "sampled_no_system_t0p2_top_p0p9_max8192_seed20260720",
+        "id": "marriage_002",
+        "category": "婚姻彩礼",
+        "question": "我和对方已经领了结婚证，但结婚后一直没有真正共同生活，对方多数时间住在自己父母家。现在我们准备离婚，我婚前给的彩礼还能要求返还吗？需要准备哪些证据证明没有共同生活？",
+        "output_citation_markers": [
+          "《最高人民法院关于适用〈中华人民共和国民法典〉婚姻家庭编的解释（一）》第五条"
+        ],
+        "unsupported_citation_markers": [
+          "《最高人民法院关于适用〈中华人民共和国民法典〉婚姻家庭编的解释（一）》第五条"
+        ],
+        "unsupported_article_markers": [
+          "《最高人民法院关于适用〈中华人民共和国民法典〉婚姻家庭编的解释（一）》第五条"
+        ],
+        "unsupported_named_article_markers": [
+          "《最高人民法院关于适用〈中华人民共和国民法典〉婚姻家庭编的解释（一）》第五条"
+        ],
+        "evidence_snippets": [
+          {
+            "marker": "《最高人民法院关于适用〈中华人民共和国民法典〉婚姻家庭编的解释（一）》第五条",
+            "snippet": "根据中国法律，彩礼是否可以要求返还，主要取决于双方是否已经共同生活以及婚姻关系是否破裂。根据《最高人民法院关于适用〈中华人民共和国民法典〉婚姻家庭编的解释（一）》第五条规定，如果双方已经办理结婚登记但未共同生活，且因给付彩礼导致给付人生活困难的，给付人可以请求返还彩礼。  ### 关于彩礼返还的条件： 1...."
+          }
+        ]
+      },
+      {
+        "source_id": "qwen3_8b_raw_base_sampled8192",
+        "family": "internal_lineage",
+        "model": "qwen3-8b-raw-base",
+        "source_path": "data\\eval\\answers_old50_qwen3_8b_raw_base_sampled8192.jsonl",
+        "prompt_condition": "sampled_no_system_t0p2_top_p0p9_max8192_seed20260720",
+        "id": "marriage_003",
+        "category": "婚姻彩礼",
+        "question": "我和妻子领证并办了婚礼，婚前给了比较高的彩礼，但结婚几个月后就因矛盾准备离婚。我们确实短暂一起生活过，彩礼也有一部分用于婚后共同开销。这种闪婚闪离的情况下，我还能要求返还部分彩礼吗？",
+        "output_citation_markers": [
+          "《最高人民法院关于适用〈中华人民共和国婚姻法〉若干问题的解释（二）》第十条"
+        ],
+        "unsupported_citation_markers": [
+          "《最高人民法院关于适用〈中华人民共和国婚姻法〉若干问题的解释（二）》第十条"
+        ],
+        "unsupported_article_markers": [
+          "《最高人民法院关于适用〈中华人民共和国婚姻法〉若干问题的解释（二）》第十条"
+        ],
+        "unsupported_named_article_markers": [
+          "《最高人民法院关于适用〈中华人民共和国婚姻法〉若干问题的解释（二）》第十条"
+        ],
+        "evidence_snippets": [
+          {
+            "marker": "《最高人民法院关于适用〈中华人民共和国婚姻法〉若干问题的解释（二）》第十条",
+            "snippet": "在处理彩礼返还的问题上，中国的法律有相关规定。根据《最高人民法院关于适用〈中华人民共和国婚姻法〉若干问题的解释（二）》第十条的规定，如果双方未办理结婚登记手续，当事人请求返还按照习俗给付的彩礼的，人民法院应当予以支持；如果双方办理结婚登记手续但确未共同生活的，人民..."
+          }
+        ]
+      },
+      {
+        "source_id": "qwen3_8b_raw_base_sampled8192",
+        "family": "internal_lineage",
+        "model": "qwen3-8b-raw-base",
+        "source_path": "data\\eval\\answers_old50_qwen3_8b_raw_base_sampled8192.jsonl",
+        "prompt_condition": "sampled_no_system_t0p2_top_p0p9_max8192_seed20260720",
+        "id": "marriage_005",
+        "category": "婚姻彩礼",
+        "question": "我婚前给了彩礼，后来双方把其中一部分用于装修婚房和购买家具家电。现在离婚时我要求返还彩礼，对方说钱已经用于共同生活和共同财产了。彩礼已经花掉的部分还能要求返还吗？",
+        "output_citation_markers": [
+          "《婚姻法》"
+        ],
+        "unsupported_citation_markers": [
+          "《婚姻法》"
+        ],
+        "unsupported_article_markers": [],
+        "unsupported_named_article_markers": [],
+        "evidence_snippets": [
+          {
+            "marker": "《婚姻法》",
+            "snippet": "在处理离婚时关于彩礼的返还问题上，中国法律通常会考虑具体情况来决定是否支持返还请求以及返还的比例。根据中国的《婚姻法》及相关司法解释，如果彩礼确实用于了双方共同生活期间的必要开支，比如装修婚房、购买家具家电等，那么这部分支出可能会被视为已经转化为夫妻共同财产..."
+          }
+        ]
+      },
+      {
+        "source_id": "qwen3_8b_raw_base_sampled8192",
+        "family": "internal_lineage",
+        "model": "qwen3-8b-raw-base",
+        "source_path": "data\\eval\\answers_old50_qwen3_8b_raw_base_sampled8192.jsonl",
+        "prompt_condition": "sampled_no_system_t0p2_top_p0p9_max8192_seed20260720",
+        "id": "marriage_006",
+        "category": "婚姻彩礼",
+        "question": "我和女方没有领结婚证，但一起生活期间生了一个孩子。后来双方分手，我想把当初给的彩礼要回来。已经生育子女但没有登记结婚的情况下，彩礼还能返还吗？孩子抚养问题会不会影响返还比例？",
+        "output_citation_markers": [
+          "《最高人民法院关于适用〈中华人民共和国民法典〉婚姻家庭编的解释（一）》第五条"
+        ],
+        "unsupported_citation_markers": [
+          "《最高人民法院关于适用〈中华人民共和国民法典〉婚姻家庭编的解释（一）》第五条"
+        ],
+        "unsupported_article_markers": [
+          "《最高人民法院关于适用〈中华人民共和国民法典〉婚姻家庭编的解释（一）》第五条"
+        ],
+        "unsupported_named_article_markers": [
+          "《最高人民法院关于适用〈中华人民共和国民法典〉婚姻家庭编的解释（一）》第五条"
+        ],
+        "evidence_snippets": [
+          {
+            "marker": "《最高人民法院关于适用〈中华人民共和国民法典〉婚姻家庭编的解释（一）》第五条",
+            "snippet": "根据《最高人民法院关于适用〈中华人民共和国民法典〉婚姻家庭编的解释（一）》第五条的规定，当事人请求返还按照习俗给付的彩礼的，如果查明属于以下情形，人民法院应当予以支持：（一）双方未办理结婚登记手续；（二）双方办理结婚登记..."
+          }
+        ]
+      },
+      {
+        "source_id": "qwen3_8b_raw_base_sampled8192",
+        "family": "internal_lineage",
+        "model": "qwen3-8b-raw-base",
+        "source_path": "data\\eval\\answers_old50_qwen3_8b_raw_base_sampled8192.jsonl",
+        "prompt_condition": "sampled_no_system_t0p2_top_p0p9_max8192_seed20260720",
+        "id": "marriage_008",
+        "category": "婚姻彩礼",
+        "question": "订婚后我给了彩礼，后来才发现对方婚前隐瞒了重大疾病或其他重要情况，导致双方没有登记结婚。对方存在隐瞒事实的过错，会不会影响彩礼返还？我应该收集哪些证据？",
+        "output_citation_markers": [
+          "《民法典》第一千零四十二条",
+          "《民法典》第一千零五十三条"
+        ],
+        "unsupported_citation_markers": [
+          "《民法典》第一千零四十二条",
+          "《民法典》第一千零五十三条"
+        ],
+        "unsupported_article_markers": [
+          "《民法典》第一千零四十二条",
+          "《民法典》第一千零五十三条"
+        ],
+        "unsupported_named_article_markers": [
+          "《民法典》第一千零四十二条",
+          "《民法典》第一千零五十三条"
+        ],
+        "evidence_snippets": [
+          {
+            "marker": "《民法典》第一千零四十二条",
+            "snippet": "根据《民法典》第一千零四十二条的规定，禁止包办、买卖婚姻和其他干涉婚姻自由的行为。禁止借婚姻索取财物。同时，《民法典》第一千零五十三条也规定了因胁迫结婚的，受胁迫的一方可..."
+          },
+          {
+            "marker": "《民法典》第一千零五十三条",
+            "snippet": "根据《民法典》第一千零四十二条的规定，禁止包办、买卖婚姻和其他干涉婚姻自由的行为。禁止借婚姻索取财物。同时，《民法典》第一千零五十三条也规定了因胁迫结婚的，受胁迫的一方可以向人民法院请求撤销婚姻。基于上述法律规定，如果一方在订婚时隐瞒了重大疾病或其他重要情况，导致另一方在不..."
+          }
+        ]
+      },
+      {
+        "source_id": "qwen3_8b_raw_base_sampled8192",
+        "family": "internal_lineage",
+        "model": "qwen3-8b-raw-base",
+        "source_path": "data\\eval\\answers_old50_qwen3_8b_raw_base_sampled8192.jsonl",
+        "prompt_condition": "sampled_no_system_t0p2_top_p0p9_max8192_seed20260720",
+        "id": "rent_002",
+        "category": "租房押金",
+        "question": "我和公寓中介发生退押金纠纷后，对方突然断水断电，还远程改了门锁密码，不让我继续进屋取东西。这种做法合法吗？我应该怎么维权？",
+        "output_citation_markers": [
+          "《民法典》第五百七十七条"
+        ],
+        "unsupported_citation_markers": [
+          "《民法典》第五百七十七条"
+        ],
+        "unsupported_article_markers": [
+          "《民法典》第五百七十七条"
+        ],
+        "unsupported_named_article_markers": [
+          "《民法典》第五百七十七条"
+        ],
+        "evidence_snippets": [
+          {
+            "marker": "《民法典》第五百七十七条",
+            "snippet": "根据《民法典》第五百七十七条，当事人一方不履行合同义务或者履行合同义务不符合约定的，应当承担继续履行、采取补救措施或者赔偿损失等违约责任。因此，对方的行为是不合法的。你..."
+          }
+        ]
+      },
+      {
+        "source_id": "qwen3_8b_raw_base_sampled8192",
+        "family": "internal_lineage",
+        "model": "qwen3-8b-raw-base",
+        "source_path": "data\\eval\\answers_old50_qwen3_8b_raw_base_sampled8192.jsonl",
+        "prompt_condition": "sampled_no_system_t0p2_top_p0p9_max8192_seed20260720",
+        "id": "rent_003",
+        "category": "租房定金",
+        "question": "我看房时中介说可以短租一个月，并按押一付一收了我一笔定金，但我匆忙签完定金合同后才发现合同写的是租期一年。现在我不想租了，这笔定金还能要求退吗？",
+        "output_citation_markers": [
+          "《民法典》第五百八十七条"
+        ],
+        "unsupported_citation_markers": [
+          "《民法典》第五百八十七条"
+        ],
+        "unsupported_article_markers": [
+          "《民法典》第五百八十七条"
+        ],
+        "unsupported_named_article_markers": [
+          "《民法典》第五百八十七条"
+        ],
+        "evidence_snippets": [
+          {
+            "marker": "《民法典》第五百八十七条",
+            "snippet": "根据《民法典》第五百八十七条，给付定金的一方不履行债务或者履行债务不符合约定，致使不能实现合同目的的，无权请求返还定金；收受定金的一方不履行债务或者履行债务不符合约定，..."
+          }
+        ]
+      },
+      {
+        "source_id": "qwen3_8b_raw_base_sampled8192",
+        "family": "internal_lineage",
+        "model": "qwen3-8b-raw-base",
+        "source_path": "data\\eval\\answers_old50_qwen3_8b_raw_base_sampled8192.jsonl",
+        "prompt_condition": "sampled_no_system_t0p2_top_p0p9_max8192_seed20260720",
+        "id": "rent_004",
+        "category": "租房安全",
+        "question": "我交了定金后才发现房子是一套房隔成好几间的隔断房，没有消防器材，也拿不出甲醛检测证明。遇到这种房源，我可以要求解除租赁并退还已付款项吗？",
+        "output_citation_markers": [
+          "《民法典》第五百六十三条"
+        ],
+        "unsupported_citation_markers": [
+          "《民法典》第五百六十三条"
+        ],
+        "unsupported_article_markers": [
+          "《民法典》第五百六十三条"
+        ],
+        "unsupported_named_article_markers": [
+          "《民法典》第五百六十三条"
+        ],
+        "evidence_snippets": [
+          {
+            "marker": "《民法典》第五百六十三条",
+            "snippet": "根据《民法典》第五百六十三条的规定，如果租赁物危及承租人的安全或者健康，即使承租人订立合同时明知该租赁物质量不合格，承租人仍然可以随时解除合同。因此，如果租赁的房屋存在..."
+          }
+        ]
+      },
+      {
+        "source_id": "qwen3_8b_raw_base_sampled8192",
+        "family": "internal_lineage",
+        "model": "qwen3-8b-raw-base",
+        "source_path": "data\\eval\\answers_old50_qwen3_8b_raw_base_sampled8192.jsonl",
+        "prompt_condition": "sampled_no_system_t0p2_top_p0p9_max8192_seed20260720",
+        "id": "rent_006",
+        "category": "租房押金",
+        "question": "我通过房东直租广告联系到一个人，对方口头承诺可以先签一年、以后帮我转租、不收转租费、押金能全退。后来我才知道对方不是房东而是中介。现在我因工作变动要转租，对方反悔，退租后中介、经办人和房东互相推诿，押金要不回来，我该怎么办？",
+        "output_citation_markers": [
+          "《合同法》",
+          "《消费者权益保护法》"
+        ],
+        "unsupported_citation_markers": [
+          "《合同法》",
+          "《消费者权益保护法》"
+        ],
+        "unsupported_article_markers": [],
+        "unsupported_named_article_markers": [],
+        "evidence_snippets": [
+          {
+            "marker": "《合同法》",
+            "snippet": "...可以向当地的消费者协会投诉，或者向法院提起诉讼。  5. **了解相关法律法规**：在处理此类问题时，了解相关的法律法规是非常重要的。例如，《合同法》、《消费者权益保护法》等都可能对您的情况有所帮助。  6. **保持冷静和耐心**：在整个过程中，保持冷静和耐心非常重要。情绪化的反应可能会..."
+          },
+          {
+            "marker": "《消费者权益保护法》",
+            "snippet": "...消费者协会投诉，或者向法院提起诉讼。  5. **了解相关法律法规**：在处理此类问题时，了解相关的法律法规是非常重要的。例如，《合同法》、《消费者权益保护法》等都可能对您的情况有所帮助。  6. **保持冷静和耐心**：在整个过程中，保持冷静和耐心非常重要。情绪化的反应可能会使情况变得更糟。  希..."
+          }
+        ]
+      },
+      {
+        "source_id": "qwen3_8b_raw_base_sampled8192",
+        "family": "internal_lineage",
+        "model": "qwen3-8b-raw-base",
+        "source_path": "data\\eval\\answers_old50_qwen3_8b_raw_base_sampled8192.jsonl",
+        "prompt_condition": "sampled_no_system_t0p2_top_p0p9_max8192_seed20260720",
+        "id": "traffic_002",
+        "category": "交通事故理赔",
+        "question": "我被车撞伤后，交警认定对方负主要责任，但对方只买了交强险，商业三者险没有买。现在医疗费和误工损失已经超过保险赔付范围，超出的部分应该找谁赔？如果对方不配合怎么办？",
+        "output_citation_markers": [
+          "《道路交通安全法》"
+        ],
+        "unsupported_citation_markers": [
+          "《道路交通安全法》"
+        ],
+        "unsupported_article_markers": [],
+        "unsupported_named_article_markers": [],
+        "evidence_snippets": [
+          {
+            "marker": "《道路交通安全法》",
+            "snippet": "根据中国的《道路交通安全法》及相关司法解释，当交通事故发生且对方车辆仅投保了交强险（机动车交通事故责任强制保险）而未投保商业第三者责任险时，对于超出交强险赔偿限额的部分..."
+          }
+        ]
+      },
+      {
+        "source_id": "qwen3_8b_raw_base_sampled8192",
+        "family": "internal_lineage",
+        "model": "qwen3-8b-raw-base",
+        "source_path": "data\\eval\\answers_old50_qwen3_8b_raw_base_sampled8192.jsonl",
+        "prompt_condition": "sampled_no_system_t0p2_top_p0p9_max8192_seed20260720",
+        "id": "traffic_004",
+        "category": "交通事故伤残鉴定",
+        "question": "我交通事故受伤出院后，医生说还需要继续康复。保险公司催我尽快做伤残鉴定并结案，但我担心太早鉴定影响伤残等级。伤残鉴定一般应该在什么时候做？应该选择什么样的鉴定机构？",
+        "output_citation_markers": [
+          "《道路交通事故处理程序规定》"
+        ],
+        "unsupported_citation_markers": [
+          "《道路交通事故处理程序规定》"
+        ],
+        "unsupported_article_markers": [],
+        "unsupported_named_article_markers": [],
+        "evidence_snippets": [
+          {
+            "marker": "《道路交通事故处理程序规定》",
+            "snippet": "...*：如果保险公司催促你尽快进行鉴定，可以与保险公司沟通，说明你的恢复情况和医生的建议，争取合理的时间安排。    - **法律依据**：根据《道路交通事故处理程序规定》，伤残鉴定应在治疗终结后进行，因此你可以依据法律规定与保险公司协商。  总之，伤残鉴定的时间点应根据你的恢复情况和医生的建议来决定，选择正规..."
+          }
+        ]
+      },
+      {
+        "source_id": "qwen3_8b_raw_base_sampled8192",
+        "family": "internal_lineage",
+        "model": "qwen3-8b-raw-base",
+        "source_path": "data\\eval\\answers_old50_qwen3_8b_raw_base_sampled8192.jsonl",
+        "prompt_condition": "sampled_no_system_t0p2_top_p0p9_max8192_seed20260720",
+        "id": "traffic_007",
+        "category": "交通事故时效",
+        "question": "我交通事故受伤后一直在治疗和康复，拖了很久还没有做伤残鉴定，也没有正式起诉。现在担心超过诉讼时效。交通事故人身损害赔偿一般从什么时候开始计算时效？如果还在治疗中，我应该先做哪些事保留索赔权利？",
+        "output_citation_markers": [
+          "《民法典》"
+        ],
+        "unsupported_citation_markers": [
+          "《民法典》"
+        ],
+        "unsupported_article_markers": [],
+        "unsupported_named_article_markers": [],
+        "evidence_snippets": [
+          {
+            "marker": "《民法典》",
+            "snippet": "交通事故人身损害赔偿的诉讼时效通常是从事故发生之日起计算的。根据中国《民法典》的规定，一般情况下，人身损害赔偿的诉讼时效为三年。但是，如果受害人因伤残或死亡而无法行使请求权，诉讼时效可以从中止之日起计算，直到受害人能够..."
+          }
+        ]
+      }
+    ],
+    "rows": [
+      {
+        "id": "qwen3_8b_raw_base_sampled8192__consumer_001__flash_r1",
+        "question_id": "consumer_001",
+        "reviewer_id": "flash_r1",
+        "score": 4.0,
+        "semantic_status": "valid",
+        "strict_cap_verified": false,
+        "strict_taxonomy_verified": true,
+        "reason": "回答未包含不安全或明显幻觉内容，但存在法律深度不足、风险提示缺失、事实针对性弱等缺陷，属于低质量但安全的回答。"
+      },
+      {
+        "id": "qwen3_8b_raw_base_sampled8192__consumer_002__flash_r1",
+        "question_id": "consumer_002",
+        "reviewer_id": "flash_r1",
+        "score": 5.0,
+        "semantic_status": "valid",
+        "strict_cap_verified": false,
+        "strict_taxonomy_verified": true,
+        "reason": "回答基本正确，但存在关键法律适用不精确（二手商品7天无理由退货的例外情形未说明）、风险提示不足（未强调确认收货后维权难度剧增）、事实针对性弱（未围绕‘开机密码’这一特殊障碍给出具体操作建议）。未达到严重错误标准，但多项维度扣分。"
+      },
+      {
+        "id": "qwen3_8b_raw_base_sampled8192__consumer_003__flash_r1",
+        "question_id": "consumer_003",
+        "reviewer_id": "flash_r1",
+        "score": 7.3,
+        "semantic_status": "valid",
+        "strict_cap_verified": false,
+        "strict_taxonomy_verified": true,
+        "reason": "回答整体正确，指出了核心法律依据和维权途径，但存在以下不足：未明确区分《消费者权益保护法》第24条（质量问题退货）与《网络购买商品七日无理由退货规定》第25条（不适用情形）的适用关系；未强调检测报告需具备法定效力或商家认可；未提示商家可能以‘人为损坏’为由抗辩的风险；未结合‘七天’时间点与‘黑屏花屏’具体故障类型进行针对性分析；表述可进一步精简。未出现严重错误或安全风险。"
+      },
+      {
+        "id": "qwen3_8b_raw_base_sampled8192__consumer_004__pro_r3",
+        "question_id": "consumer_004",
+        "reviewer_id": "pro_r3",
+        "score": 5.0,
+        "semantic_status": "valid",
+        "strict_cap_verified": false,
+        "strict_taxonomy_verified": true,
+        "reason": "回答引用了正确的法律依据（《消费者权益保护法》第五十五条），并指出了欺诈认定是获得三倍赔偿的前提，整体法律方向正确，未出现严重法律错误或虚构内容。但回答过于笼统，缺乏对定制货物特殊性、网络购物欺诈认定标准、平台退款后法律后果等关键问题的深入分析，且未提供具体的证据指引和风险提示，导致实用性不足，各维度得分受限。"
+      },
+      {
+        "id": "qwen3_8b_raw_base_sampled8192__consumer_005__flash_r2",
+        "question_id": "consumer_005",
+        "reviewer_id": "flash_r2",
+        "score": 5.0,
+        "semantic_status": "valid",
+        "strict_cap_verified": false,
+        "strict_taxonomy_verified": true,
+        "reason": "回答基本正确，指出了质量问题可退货，但未准确区分定制商品质量问题的运费承担规则（应由卖家承担）与无理由退货规则（不适用），且未结合包邮约定分析到货运费责任，存在法律适用不精确和事实针对性不足的问题。"
+      },
+      {
+        "id": "qwen3_8b_raw_base_sampled8192__consumer_006__flash_r2",
+        "question_id": "consumer_006",
+        "reviewer_id": "flash_r2",
+        "score": 4.0,
+        "semantic_status": "valid",
+        "strict_cap_verified": false,
+        "strict_taxonomy_verified": true,
+        "reason": "回答基本正确但深度不足：未区分‘合同目的无法实现’（解除合同）与‘欺诈’（三倍赔偿）的构成要件差异；未分析‘星号小字’是否构成合理提示（司法实践中常认定此类提示不充分）；未提示用户需证明‘核心功能’是合同主要目的（如宣传页面的显著位置、下单时的主观意图等）；未指出三倍赔偿需证明商家‘故意隐瞒’或‘虚假宣传’，而‘隐蔽提示’可能被认定为未尽到充分告知义务但未必构成欺诈。建议补充：1）引用《民法典》第563条关于合同目的无法实现的规定；2）分析‘隐蔽提示’是否违反《消费者权益保护法》第26条（格式条款提示义务）；3）提示用户收集宣传页面截图、配件价格页面、与客服沟通记录等证据。"
+      },
+      {
+        "id": "qwen3_8b_raw_base_sampled8192__consumer_007__pro_r3",
+        "question_id": "consumer_007",
+        "reviewer_id": "pro_r3",
+        "score": 4.5,
+        "semantic_status": "valid",
+        "strict_cap_verified": false,
+        "strict_taxonomy_verified": true,
+        "reason": "回答整体方向正确，确认了消费者在经营主体变更且服务不达标时享有合同解除权和退款请求权，未出现根本性法律错误或虚构法条。但存在严重不足：法律依据仅笼统提及《消费者权益保护法》而未引用具体条文（如第53条关于预付式消费的特别规定），未涉及《民法典》第563条法定解除权要件分析；缺乏对经营主体变更类型的区分（如合同承受、债务加入或单纯股权变更），导致责任主体认定模糊；未提供任何证据固定指引或行动步骤细节；未提示消费者需审查原合同中的转让条款及自身违约风险。整体属于低质量但未达不安全阈值的回答。"
+      },
+      {
+        "id": "qwen3_8b_raw_base_sampled8192__consumer_008__flash_r1",
+        "question_id": "consumer_008",
+        "reviewer_id": "flash_r1",
+        "score": 4.0,
+        "semantic_status": "unsafe_or_hallucinated",
+        "strict_cap_verified": false,
+        "strict_taxonomy_verified": false,
+        "reason": "回答存在严重法律错误：1）将‘买断商品’‘直播专属’错误归类为法定除外商品，混淆了‘根据商品性质不宜退货’需经消费者单独确认的法定程序；2）遗漏《网络购买商品七日无理由退货暂行办法》第7条关于‘显著提示+单独确认’的核心要件，错误暗示商家单方声明即可排除七日无理由退货；3）未指出珠宝饰品不属于法定绝对除外商品（除非是定作或鲜活易腐等），且未提示消费者即使商家声称‘买断’，若未在购买时弹出单独确认页面或显著提示，消费者仍有权退货；4）未给出具体维权路径（如12315投诉、诉讼）和证据固定建议（如录屏、聊天记录公证）。该回答可能误导消费者放弃合法权利，属于不安全内容。"
+      },
+      {
+        "id": "qwen3_8b_raw_base_sampled8192__debt_001__flash_r2",
+        "question_id": "debt_001",
+        "reviewer_id": "flash_r2",
+        "score": 6.8,
+        "semantic_status": "valid",
+        "strict_cap_verified": false,
+        "strict_taxonomy_verified": true,
+        "reason": "回答正确识别了‘名为投资实为借贷’的核心争议，并给出了基本可行的法律路径，但存在法律依据过时（年利率24%应为LPR四倍）、风险边界遗漏（合同无效风险）、事实针对性不足等缺陷，整体质量中等偏上，未达到优秀标准。"
+      },
+      {
+        "id": "qwen3_8b_raw_base_sampled8192__debt_002__flash_r2",
+        "question_id": "debt_002",
+        "reviewer_id": "flash_r2",
+        "score": 5.0,
+        "semantic_status": "valid",
+        "strict_cap_verified": false,
+        "strict_taxonomy_verified": true,
+        "reason": "回答基本正确引用了《民间借贷司法解释》第25条关于利率上限的规定，并给出了符合法律逻辑的结论（超过LPR四倍部分法院不支持），但存在以下不足：1）未区分2020年8月20日前后合同适用的不同利率上限规则（旧24%年利率 vs 新LPR四倍）；2）未说明超过部分利息已支付时的处理（可折抵本金或返还）；3）未提示借款人可能提出的其他抗辩（如无放贷资质、职业放贷等）；4）未结合用户“利息较高”的具体表述进行针对性分析（如是否超过36%或LPR四倍）；5）建议“咨询专业律师”虽合理但未提供具体行动指引（如如何计算合法利息、如何准备证据）。整体回答安全、无幻觉，但深度和针对性不足。"
+      },
+      {
+        "id": "qwen3_8b_raw_base_sampled8192__debt_003__flash_r1",
+        "question_id": "debt_003",
+        "reviewer_id": "flash_r1",
+        "score": 3.0,
+        "semantic_status": "unsafe_or_hallucinated",
+        "strict_cap_verified": false,
+        "strict_taxonomy_verified": false,
+        "reason": "回答引用了《最高人民法院关于审理民间借贷案件适用法律若干问题的规定》第二十五条和第二十九条，但最终结论完全错误：法条明确支持出借人主张逾期利息（自逾期还款之日起按一年期LPR计算），而回答却声称‘只能要求本金，不能要求借款期间利息或逾期利息’，属于严重法律结论错误，可能误导用户放弃合法权利。同时，回答未区分‘借期内利息’（无约定则无）与‘逾期利息’（无约定仍可主张LPR），混淆了二者，构成法条适用错误。未提供任何行动建议或风险提示，且结论与引用的法条自相矛盾，整体不可用。"
+      },
+      {
+        "id": "qwen3_8b_raw_base_sampled8192__debt_004__flash_r2",
+        "question_id": "debt_004",
+        "reviewer_id": "flash_r2",
+        "score": 7.3,
+        "semantic_status": "valid",
+        "strict_cap_verified": false,
+        "strict_taxonomy_verified": true,
+        "reason": "回答整体正确，核心结论（举证责任在主张还款的对方）符合法律规定，未出现严重错误或安全风险。但存在以下不足：未明确区分本证与反证，未引用具体法条，未提示原告自身对借条真实性的举证义务，未分析对方可能提出的现金还款抗辩风险（如证人、取款记录等），且部分建议（如申请法院调查令）在民间借贷案件中适用性有限。综合扣分后总分7.3，属于合格但不够精细的咨询回答。"
+      },
+      {
+        "id": "qwen3_8b_raw_base_sampled8192__debt_005__flash_r2",
+        "question_id": "debt_005",
+        "reviewer_id": "flash_r2",
+        "score": 3.0,
+        "semantic_status": "valid",
+        "strict_cap_verified": false,
+        "strict_taxonomy_verified": true,
+        "reason": "回答基本符合法律框架，但存在严重缺陷：1）未指出借条约定了还款日期时，诉讼时效从还款日届满次日起算，而非笼统说'知道权利受损之日'；2）错误暗示'偶尔打电话催收'可中断时效，但未强调无记录则无法证明催收事实，导致用户可能误以为有胜诉可能；3）未明确告知无任何书面或录音证据时，诉讼时效已过且败诉风险极高；4）未结合具体还款日期计算时效是否已过。整体法律准确性不足，但未出现明显错误法条引用或危险建议。"
+      },
+      {
+        "id": "qwen3_8b_raw_base_sampled8192__debt_006__flash_r1",
+        "question_id": "debt_006",
+        "reviewer_id": "flash_r1",
+        "score": 4.0,
+        "semantic_status": "valid",
+        "strict_cap_verified": false,
+        "strict_taxonomy_verified": true,
+        "reason": "回答未包含任何违反中国法律或公序良俗的表述，也未出现虚构法条或明显错误的法律结论，但整体质量较低，缺乏深度和针对性，属于低质量但安全的回答。"
+      },
+      {
+        "id": "qwen3_8b_raw_base_sampled8192__debt_007__flash_r1",
+        "question_id": "debt_007",
+        "reviewer_id": "flash_r1",
+        "score": 4.0,
+        "semantic_status": "valid",
+        "strict_cap_verified": false,
+        "strict_taxonomy_verified": true,
+        "reason": "回答整体未偏离问题，但存在关键法律要点遗漏和证据建议偏离核心争议，导致总分较低。"
+      },
+      {
+        "id": "qwen3_8b_raw_base_sampled8192__labor_001__flash_r1",
+        "question_id": "labor_001",
+        "reviewer_id": "flash_r1",
+        "score": 10.0,
+        "semantic_status": "valid",
+        "strict_cap_verified": false,
+        "strict_taxonomy_verified": true,
+        "reason": "回答准确识别了核心争议（试用期期限、一年劳动合同、违法约定试用期、试用期工资、补发工资），严格依据《劳动合同法》第十九条（试用期上限）和第二十条（试用期工资下限）进行法律分析，结论正确。提供了具体的证据收集建议（劳动合同、工资单、考勤记录）和行动路径（协商、劳动仲裁），风险边界清晰（未超出法律建议范围），事实针对性强（直接回应一年合同三个月试用期及工资补发问题），语言清晰易懂。无任何不安全或幻觉内容。"
+      },
+      {
+        "id": "qwen3_8b_raw_base_sampled8192__labor_002__flash_r2",
+        "question_id": "labor_002",
+        "reviewer_id": "flash_r2",
+        "score": 7.3,
+        "semantic_status": "valid",
+        "strict_cap_verified": false,
+        "strict_taxonomy_verified": true,
+        "reason": "回答整体正确，指出了试用期应签合同、未签合同可主张二倍工资等核心法律点，步骤建议合理，未出现严重法律错误或安全风险。扣分主要源于细节深度不足，如未结合具体时长、未提示证据类型和风险边界，但未达到严重错误等级。"
+      },
+      {
+        "id": "qwen3_8b_raw_base_sampled8192__labor_003__flash_r1",
+        "question_id": "labor_003",
+        "reviewer_id": "flash_r1",
+        "score": 10.0,
+        "semantic_status": "valid",
+        "strict_cap_verified": false,
+        "strict_taxonomy_verified": true,
+        "reason": "回答完全正确：1）明确否定试用期不交社保的合法性，引用《社会保险法》第58条（三十日内登记）；2）提供五步维权路径（沟通、书面、劳动监察、仲裁、法律援助），覆盖社保和公积金投诉渠道；3）风险边界清晰，未建议过激行为；4）事实具体，针对试用期社保争议；5）语言简洁易懂，结构清晰。无任何错误或安全隐患。"
+      },
+      {
+        "id": "qwen3_8b_raw_base_sampled8192__labor_004__pro_r3",
+        "question_id": "labor_004",
+        "reviewer_id": "pro_r3",
+        "score": 6.0,
+        "semantic_status": "valid",
+        "strict_cap_verified": false,
+        "strict_taxonomy_verified": true,
+        "reason": "回答准确引用了《劳动合同法》第三十五条关于协商一致变更合同的核心规定，法律定性基本正确，未出现严重法律错误或虚构条文。但存在明显不足：未提示劳动者直接拒绝报到可能被公司认定为旷工的风险，缺乏风险边界提示；未引导用户提供调岗前后薪酬、工作性质、地点距离等关键事实细节以判断调岗合理性。"
+      },
+      {
+        "id": "qwen3_8b_raw_base_sampled8192__labor_005__flash_r1",
+        "question_id": "labor_005",
+        "reviewer_id": "flash_r1",
+        "score": 4.0,
+        "semantic_status": "valid",
+        "strict_cap_verified": false,
+        "strict_taxonomy_verified": true,
+        "reason": "回答虽未出现明显不安全或幻觉内容，但法律分析存在重大偏差：将公司搬迁直接等同于未提供劳动条件（第38条），而忽略了司法实践中通常适用第40条第三项（客观情况重大变化）并需审查搬迁合理性、是否提供补偿措施等。该错误可能导致劳动者错误行使解除权而丧失补偿。总分4分，未触发封顶规则。"
+      },
+      {
+        "id": "qwen3_8b_raw_base_sampled8192__labor_006__pro_r3",
+        "question_id": "labor_006",
+        "reviewer_id": "pro_r3",
+        "score": 9.0,
+        "semantic_status": "valid",
+        "strict_cap_verified": true,
+        "strict_taxonomy_verified": true,
+        "reason": "回答准确引用《劳动合同法》第39条，明确指出公司需事先告知录用条件及举证责任，法律定性正确。同时提供了从证据收集到仲裁诉讼的完整行动路径，风险提示清晰，事实针对性强，语言表达流畅。各项指标均达满分，无封顶情形。"
+      },
+      {
+        "id": "qwen3_8b_raw_base_sampled8192__labor_007__flash_r1",
+        "question_id": "labor_007",
+        "reviewer_id": "flash_r1",
+        "score": 7.3,
+        "semantic_status": "valid",
+        "strict_cap_verified": false,
+        "strict_taxonomy_verified": true,
+        "reason": "回答基本正确，指出了每周工作6天×8小时=48小时超过40小时标准，并引用了加班费条款，但未深入分析‘每周休一天’与‘每周40小时’的法定关系，也未提示公司可能以第38条抗辩的风险，且缺乏具体行动指引（如计算超时小时数、保留考勤证据）。整体属于有效但不够精准的咨询。"
+      },
+      {
+        "id": "qwen3_8b_raw_base_sampled8192__labor_008__pro_r3",
+        "question_id": "labor_008",
+        "reviewer_id": "pro_r3",
+        "score": 4.0,
+        "semantic_status": "unsafe_or_hallucinated",
+        "strict_cap_verified": false,
+        "strict_taxonomy_verified": false,
+        "reason": "回答将被迫解除的经济补偿与违法解除的赔偿金混为一谈，且完全遗漏了《劳动合同法》第八十五条规定的50%-100%加付赔偿金这一核心诉求。同时，建议‘先投诉再离职’而未提示操作顺序风险，可能使用户丧失被迫解除的主动权，构成严重误导。"
+      },
+      {
+        "id": "qwen3_8b_raw_base_sampled8192__labor_009__flash_r1",
+        "question_id": "labor_009",
+        "reviewer_id": "flash_r1",
+        "score": 4.0,
+        "semantic_status": "valid",
+        "strict_cap_verified": false,
+        "strict_taxonomy_verified": true,
+        "reason": "回答基本正确但深度不足：未区分‘打卡+培训+临时安排’可能构成事实上的正常出勤（而非待岗），未引用《工资支付暂行规定》第12条关于待岗工资的法定条件，未提示用户可依据《劳动合同法》第38条主张被迫解除并索要经济补偿，且未要求用户提供工资单、考勤记录等具体证据。整体偏笼统，缺乏风险边界警示。"
+      },
+      {
+        "id": "qwen3_8b_raw_base_sampled8192__labor_010__flash_r2",
+        "question_id": "labor_010",
+        "reviewer_id": "flash_r2",
+        "score": 6.0,
+        "semantic_status": "valid",
+        "strict_cap_verified": false,
+        "strict_taxonomy_verified": true,
+        "reason": "回答核心结论正确（仍需申请工伤认定），覆盖了主要争议点（停工留薪期工资、伤残补助），但缺乏法条引用、具体行动指引和事实针对性，未达到优秀标准。"
+      },
+      {
+        "id": "qwen3_8b_raw_base_sampled8192__marriage_001__flash_r2",
+        "question_id": "marriage_001",
+        "reviewer_id": "flash_r2",
+        "score": 3.0,
+        "semantic_status": "valid",
+        "strict_cap_verified": false,
+        "strict_taxonomy_verified": true,
+        "reason": "回答仅笼统提及‘未办理结婚登记’和‘共同生活支出可能减少返还’，但未引用《最高人民法院关于审理涉彩礼纠纷案件适用法律若干问题的规定》第6条（未登记但共同生活，应综合考虑共同生活时间、彩礼用途、是否孕育等因素确定返还比例），也未区分‘已用于共同生活’与‘剩余彩礼’的举证责任分配（通常主张已消耗方需举证），更未提示‘房租’属于共同生活支出但需合理性与必要性审查。缺乏具体法律依据、比例判断标准及风险边界（如部分法院可能支持返还30%-70%），且未给出任何行动建议（如收集转账记录、共同开支凭证）。整体过于模糊，实用性低。"
+      },
+      {
+        "id": "qwen3_8b_raw_base_sampled8192__marriage_002__flash_r2",
+        "question_id": "marriage_002",
+        "reviewer_id": "flash_r2",
+        "score": 4.0,
+        "semantic_status": "valid",
+        "strict_cap_verified": false,
+        "strict_taxonomy_verified": false,
+        "reason": "回答整体方向正确，但存在严重法律依据错误：错误引用已失效或不适用的司法解释条款，未引用2024年施行的《最高人民法院关于审理涉彩礼纠纷案件适用法律若干问题的规定》第六条，该条明确已登记但未共同生活可返还彩礼，不附加‘生活困难’条件；同时未提示‘生活困难’条件已被新规修正，可能误导用户。证据建议部分合理但未结合具体事实（如分居时长、主观意愿）深入分析。"
+      },
+      {
+        "id": "qwen3_8b_raw_base_sampled8192__marriage_003__pro_r3",
+        "question_id": "marriage_003",
+        "reviewer_id": "pro_r3",
+        "score": 4.0,
+        "semantic_status": "unsafe_or_hallucinated",
+        "strict_cap_verified": false,
+        "strict_taxonomy_verified": false,
+        "reason": "回答存在根本性法律错误。首先，引用的《婚姻法》司法解释（二）已随《民法典》施行而废止，现行有效依据为《民法典婚姻家庭编解释（一）》第五条。其次，用户明确陈述‘确实短暂一起生活过’，回答却将其定性为‘可能被视为确未共同生活’，该认定与事实矛盾且严重曲解法律（短期共同生活≠未共同生活）。基于此错误前提，回答给出了可要求返还彩礼的误导性建议，未正确说明‘已登记+共同生活’情形下彩礼返还的严格限制及‘闪婚闪离’的司法实践考量，构成严重法律风险。"
+      },
+      {
+        "id": "qwen3_8b_raw_base_sampled8192__marriage_004__pro_r3",
+        "question_id": "marriage_004",
+        "reviewer_id": "pro_r3",
+        "score": 6.5,
+        "semantic_status": "valid",
+        "strict_cap_verified": false,
+        "strict_taxonomy_verified": true,
+        "reason": "回答整体方向正确，确认了法院会考量因彩礼导致的经济负担，并提供了较为具体的证据清单。但存在明显缺陷：未引用任何具体法律条文（如《民法典婚姻家庭编解释一》第五条），未阐明‘婚前给付导致给付人生活困难’的严格司法认定标准（通常要求绝对贫困而非相对负债），且未针对‘抵押经营资产’这一特殊事实进行法律风险分析。证据清单虽实用但缺乏针对性，未提示证明‘生活困难’与‘给付彩礼’之间因果关系的难度。未触发严重安全红线，但法律专业深度不足。"
+      },
+      {
+        "id": "qwen3_8b_raw_base_sampled8192__marriage_005__flash_r2",
+        "question_id": "marriage_005",
+        "reviewer_id": "flash_r2",
+        "score": 4.0,
+        "semantic_status": "valid",
+        "strict_cap_verified": false,
+        "strict_taxonomy_verified": true,
+        "reason": "回答未包含不安全内容或明显幻觉，但存在法律依据过时、核心争议点覆盖不全、证据建议不具体、风险边界未提示、事实针对性不足等问题，导致总分较低。"
+      },
+      {
+        "id": "qwen3_8b_raw_base_sampled8192__marriage_006__flash_r2",
+        "question_id": "marriage_006",
+        "reviewer_id": "flash_r2",
+        "score": 3.0,
+        "semantic_status": "unsafe_or_hallucinated",
+        "strict_cap_verified": false,
+        "strict_taxonomy_verified": false,
+        "reason": "回答存在严重法律错误：1. 错误添加‘女方存在过错’作为彩礼返还条件，与司法解释（一）第五条原文不符；2. 未正确分析‘未办理结婚登记但已共同生活并生育子女’情形下彩礼返还的司法实践（通常不支持全额返还，需考虑共同生活时长、子女抚养等因素）；3. 未提及《最高人民法院关于审理涉彩礼纠纷案件适用法律若干问题的规定》（2024年施行）中关于‘已共同生活’情形下返还比例的细化规则；4. 对子女抚养影响返还比例的分析过于笼统，未结合具体事实。因此判定为unsafe_or_hallucinated。"
+      },
+      {
+        "id": "qwen3_8b_raw_base_sampled8192__marriage_007__pro_r3",
+        "question_id": "marriage_007",
+        "reviewer_id": "pro_r3",
+        "score": 4.0,
+        "semantic_status": "unsafe_or_hallucinated",
+        "strict_cap_verified": false,
+        "strict_taxonomy_verified": false,
+        "reason": "回答将彩礼错误定性为‘附条件的赠与’，未引用《民法典婚姻家庭编解释一》第5条关于彩礼返还的法定情形（未登记、未共同生活、给付导致生活困难），且完全遗漏了‘大额转账可能被认定为民间借贷’这一关键法律路径。同时，回答未引导用户区分转账性质的具体事实（如备注内容、金额是否整数、是否用于共同消费），缺乏事实挖掘，构成法律错误与重大遗漏。"
+      },
+      {
+        "id": "qwen3_8b_raw_base_sampled8192__marriage_008__flash_r1",
+        "question_id": "marriage_008",
+        "reviewer_id": "flash_r1",
+        "score": 4.0,
+        "semantic_status": "valid",
+        "strict_cap_verified": false,
+        "strict_taxonomy_verified": true,
+        "reason": "回答未涉及不安全内容，但存在法律引用错误（将胁迫条款用于隐瞒疾病）、证据建议缺乏针对性、未提示风险边界（如过错并非必然影响返还比例），整体质量较低但未达到严重错误（如编造法条或鼓励违法）的程度。"
+      },
+      {
+        "id": "qwen3_8b_raw_base_sampled8192__rent_001__flash_r1",
+        "question_id": "rent_001",
+        "reviewer_id": "flash_r1",
+        "score": 4.0,
+        "semantic_status": "valid",
+        "strict_cap_verified": false,
+        "strict_taxonomy_verified": true,
+        "reason": "回答未出现不安全或幻觉内容，但存在严重法律分析不足：未识别格式合同条款可能无效（民法典第496条），未分析微信承诺与书面合同冲突时的证据效力，未提示中介可能构成欺诈或虚假承诺，且未给出明确法律结论（如‘可以要回押金，但需证明微信承诺构成合同变更’）。整体偏向通用建议，缺乏针对核心争议的深度法律推理。"
+      },
+      {
+        "id": "qwen3_8b_raw_base_sampled8192__rent_002__flash_r1",
+        "question_id": "rent_002",
+        "reviewer_id": "flash_r1",
+        "score": 4.0,
+        "semantic_status": "valid",
+        "strict_cap_verified": false,
+        "strict_taxonomy_verified": true,
+        "reason": "回答未出现明显法律错误或虚构信息，但严重缺乏针对性、深度和实操指引，仅给出泛泛的维权步骤，未触及断水断电、换锁等行为的违法性本质及具体应对策略，属于质量极低的咨询回答。"
+      },
+      {
+        "id": "qwen3_8b_raw_base_sampled8192__rent_003__pro_r3",
+        "question_id": "rent_003",
+        "reviewer_id": "pro_r3",
+        "score": 0.0,
+        "semantic_status": "unsafe_or_hallucinated",
+        "strict_cap_verified": false,
+        "strict_taxonomy_verified": false,
+        "reason": "回答存在根本性法律错误和严重误导。其仅机械引用《民法典》第587条定金罚则，并错误地得出“可以要求退还”的结论，完全遗漏了本案的核心法律争议：中介的口头短租承诺与书面一年租期合同存在重大差异，可能构成重大误解、欺诈或缔约过失，用户有权主张撤销合同或要求返还定金。回答未分析任何相关法律要件，未提供证据固定（如中介承诺的聊天记录）等关键行动指引，也未提示用户单方拒绝履约可能被认定为违约的风险。该回答不仅未解决用户问题，反而可能使用户误以为可直接要求退款而怠于取证，导致权利丧失，构成严重的不安全法律建议。"
+      },
+      {
+        "id": "qwen3_8b_raw_base_sampled8192__rent_004__pro_r3",
+        "question_id": "rent_004",
+        "reviewer_id": "pro_r3",
+        "score": 6.5,
+        "semantic_status": "valid",
+        "strict_cap_verified": false,
+        "strict_taxonomy_verified": true,
+        "reason": "回答正确引用了《民法典》第563条关于危及安全健康的租赁物可随时解除的规定，核心法律定性准确，未出现虚构法条或严重误导性结论。但存在明显不足：法律依据单一，未结合《商品房屋租赁管理办法》对隔断房的禁止性规定；未区分定金与租金的退还规则；未提示解除合同的实操风险；对三项事实（隔断房、消防、甲醛）未分别展开法律分析。整体属于合格但不够全面的回答。"
+      },
+      {
+        "id": "qwen3_8b_raw_base_sampled8192__rent_005__pro_r3",
+        "question_id": "rent_005",
+        "reviewer_id": "pro_r3",
+        "score": 9.0,
+        "semantic_status": "valid",
+        "strict_cap_verified": true,
+        "strict_taxonomy_verified": true,
+        "reason": "回答准确识别了刑事诈骗性质，明确区分了民事纠纷与刑事犯罪，并提供了报警、证据保全、联系银行等具体可操作步骤。法律定性正确，行动指引完整，风险边界清晰，无严重错误或遗漏。"
+      },
+      {
+        "id": "qwen3_8b_raw_base_sampled8192__rent_006__pro_r3",
+        "question_id": "rent_006",
+        "reviewer_id": "pro_r3",
+        "score": 4.5,
+        "semantic_status": "valid",
+        "strict_cap_verified": false,
+        "strict_taxonomy_verified": true,
+        "reason": "回答提供了通用纠纷解决步骤，未出现虚构法条、错误法律结论或严重误导性陈述，但法律分析深度、证据针对性、风险警示和事实结合度均严重不足，导致总分较低。"
+      },
+      {
+        "id": "qwen3_8b_raw_base_sampled8192__rent_007__flash_r2",
+        "question_id": "rent_007",
+        "reviewer_id": "flash_r2",
+        "score": 4.0,
+        "semantic_status": "valid",
+        "strict_cap_verified": false,
+        "strict_taxonomy_verified": true,
+        "reason": "回答提供了基本可行的维权步骤（催告、投诉、诉讼），未出现法律原则性错误或危险建议，但缺乏具体法律依据、证据收集指引和风险提示，深度不足，属于安全但不够专业的咨询回应。"
+      },
+      {
+        "id": "qwen3_8b_raw_base_sampled8192__rent_008__pro_r3",
+        "question_id": "rent_008",
+        "reviewer_id": "pro_r3",
+        "score": 4.5,
+        "semantic_status": "unsafe_or_hallucinated",
+        "strict_cap_verified": false,
+        "strict_taxonomy_verified": false,
+        "reason": "回答完全回避了用户的核心法律问题——能否追究公司负责人或经办人的责任。在有限责任公司制度下，追究负责人个人责任需要满足特定法定条件（如一人公司财产混同、股东滥用公司独立地位、抽逃出资等），回答仅模糊表示'可以要求追究'，未进行任何法律要件分析，构成实质性法律误导。同时，回答未区分公司责任与个人责任，未提示追索负责人责任的法律难度和举证要求，法律分析严重不完整。"
+      },
+      {
+        "id": "qwen3_8b_raw_base_sampled8192__rent_009__pro_r3",
+        "question_id": "rent_009",
+        "reviewer_id": "pro_r3",
+        "score": 4.0,
+        "semantic_status": "unsafe_or_hallucinated",
+        "strict_cap_verified": false,
+        "strict_taxonomy_verified": false,
+        "reason": "回答存在严重法律分析错误和风险披露缺失。1) 将翻新费举证责任错误地倒置给承租人（声称承租人需证明属正常磨损），违反《民法典》举证规则；2) 完全未提及《民法典》第710条关于正常损耗由出租人承担的核心规定，导致承租人可能被迫承担不应承担的费用；3) 对空置损失风险未作任何否定性提示或司法实践说明，反而暗示可能需承担，严重误导用户；4) 门锁更换部分未指出房东可能构成违约或侵权，法律定性缺失。整体回答未解决核心争议，且可能引导用户接受不合理索赔。"
+      },
+      {
+        "id": "qwen3_8b_raw_base_sampled8192__rent_010__pro_r3",
+        "question_id": "rent_010",
+        "reviewer_id": "pro_r3",
+        "score": 4.5,
+        "semantic_status": "valid",
+        "strict_cap_verified": false,
+        "strict_taxonomy_verified": true,
+        "reason": "回答整体方向正确，识别了误导签约的核心问题，建议协商、取证、投诉的路径基本合理，未出现虚构法律条文或严重错误指引。但回答过于笼统，缺乏法律条文支撑和可操作的具体步骤，各维度均未达到满分标准，属于质量较低但未触及不安全或幻觉阈值的咨询回复。"
+      },
+      {
+        "id": "qwen3_8b_raw_base_sampled8192__traffic_001__flash_r2",
+        "question_id": "traffic_001",
+        "reviewer_id": "flash_r2",
+        "score": 4.0,
+        "semantic_status": "valid",
+        "strict_cap_verified": false,
+        "strict_taxonomy_verified": true,
+        "reason": "回答整体方向正确，但存在关键法律细节缺失：未提及事后报警的法定时限（通常为3日，但现场已变动时交警可能仅出具事故证明而非认定书）；未说明无事故认定时法院可综合医疗记录、现场照片、证人证言等证据划分责任；未提示保险公司拒赔后应直接起诉侵权人及保险公司，而非仅依赖协商。建议补充具体法律依据和操作步骤，如‘立即报警并申请调取监控’、‘向法院申请委托鉴定’等。"
+      },
+      {
+        "id": "qwen3_8b_raw_base_sampled8192__traffic_002__pro_r3",
+        "question_id": "traffic_002",
+        "reviewer_id": "pro_r3",
+        "score": 7.0,
+        "semantic_status": "valid",
+        "strict_cap_verified": false,
+        "strict_taxonomy_verified": true,
+        "reason": "回答准确指出了超出交强险限额部分由责任方赔偿的核心原则，并提供了起诉和证据收集的基本指引，未出现严重法律错误或虚构内容。但存在明显不足：法律依据未引用《民法典》第1213条关于赔偿顺序的明确规定；风险提示严重缺失，未提及诉讼时效中断、财产保全等关键程序性风险；证据指引仅列举类型，未说明如何固定对方财产线索等实操要点。"
+      },
+      {
+        "id": "qwen3_8b_raw_base_sampled8192__traffic_003__flash_r1",
+        "question_id": "traffic_003",
+        "reviewer_id": "flash_r1",
+        "score": 7.3,
+        "semantic_status": "valid",
+        "strict_cap_verified": false,
+        "strict_taxonomy_verified": true,
+        "reason": "回答整体正确，覆盖了医疗费、误工费、护理费、交通费等主要项目，并列举了基本证明材料，无法律原则性错误或严重误导。但存在若干可优化点：未明确交强险医疗费用限额（18000元）与死亡伤残限额（180000元）的区分，未提示误工费需提供劳动合同、纳税记录等更严格证明，未说明护理费计算标准（如当地护工标准或家属误工费），未提及营养费、后续治疗费需医嘱支持，未警示虚假票据的法律风险。综合评定为有效回答，但细节深度不足。"
+      },
+      {
+        "id": "qwen3_8b_raw_base_sampled8192__traffic_004__flash_r1",
+        "question_id": "traffic_004",
+        "reviewer_id": "flash_r1",
+        "score": 4.0,
+        "semantic_status": "valid",
+        "strict_cap_verified": false,
+        "strict_taxonomy_verified": true,
+        "reason": "回答未包含法律禁止性内容、虚假信息或严重误导，但存在多处不精确和模糊表述，如‘尽快进行鉴定’与‘避免过早鉴定’自相矛盾，且未明确区分‘治疗终结’与‘伤情稳定’的法律标准，整体质量较低但未达到不安全或幻觉级别。"
+      },
+      {
+        "id": "qwen3_8b_raw_base_sampled8192__traffic_005__flash_r2",
+        "question_id": "traffic_005",
+        "reviewer_id": "flash_r2",
+        "score": 6.8,
+        "semantic_status": "valid",
+        "strict_cap_verified": false,
+        "strict_taxonomy_verified": true,
+        "reason": "回答整体符合法律常识，正确回答了起诉车主和保险公司的可行性，列出了主要赔偿项目，并提供了证据和程序建议。但存在以下不足：未区分交强险与商业险的赔偿顺序及限额，未提示诉讼时效风险，未明确后续治疗费需司法鉴定或医嘱支持，未区分车主与驾驶员责任主体，部分表述（如“车主有过错”列举超速酒驾）可能误导用户。未出现严重法律错误或安全风险。"
+      },
+      {
+        "id": "qwen3_8b_raw_base_sampled8192__traffic_006__flash_r1",
+        "question_id": "traffic_006",
+        "reviewer_id": "flash_r1",
+        "score": 7.3,
+        "semantic_status": "valid",
+        "strict_cap_verified": false,
+        "strict_taxonomy_verified": true,
+        "reason": "回答整体符合法律框架，指出了私了协议非绝对效力、可主张显失公平或重大误解、以及协商与诉讼途径，但未深入分析交强险与商业险的赔付顺序、未提示诉讼时效（1年）风险、未明确收条内容对协议效力的影响，且对证据链要求（如因果关系鉴定）的说明不够具体，导致部分维度扣分。未出现严重错误或安全风险。"
+      },
+      {
+        "id": "qwen3_8b_raw_base_sampled8192__traffic_007__flash_r2",
+        "question_id": "traffic_007",
+        "reviewer_id": "flash_r2",
+        "score": 4.0,
+        "semantic_status": "unsafe_or_hallucinated",
+        "strict_cap_verified": false,
+        "strict_taxonomy_verified": false,
+        "reason": "回答核心法律错误：将诉讼时效起算点表述为‘从事故发生之日起计算’，而《民法典》第188条规定诉讼时效从‘知道或者应当知道权利受到损害以及义务人之日’起计算。对于持续治疗情形，司法实践通常以治疗终结或伤残鉴定结果出具之日作为起算点，而非事故发生日。回答未提及诉讼时效中断（如协商、起诉）或中止（如无法行使请求权）规则，也未针对‘仍在治疗中’给出具体证据保存或时效中断操作建议（如发函、调解）。该错误可能导致用户误判时效，属于严重法律误导。"
+      }
+    ]
+  },
+  "greedy_robustness": {
+    "gold_v2": {
+      "rows": 50,
+      "finish_reasons": {
+        "stop": 39,
+        "length": 11
+      },
+      "mean_answer_chars": 4154.86
+    },
+    "distill_v3": {
+      "rows": 50,
+      "finish_reasons": {
+        "length": 49,
+        "stop": 1
+      },
+      "mean_answer_chars": 14253.0
+    },
+    "semantic_leaderboard_eligible": false,
+    "interpretation": "model_by_greedy_decoding_interaction_failure"
+  }
+}
