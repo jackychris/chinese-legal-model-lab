@@ -26,7 +26,7 @@
 | GRPO-200：RAG 引用精度 | 0.7703 | 0.7874 | 改善，作为主要引用指标 |
 | GRPO-200：冻结抽取器 required 行召回 | 35/42 | 39/42 | 表面形式敏感；4 个表观新增命中里仅 1 行为纯内容新增 |
 | GRPO-600：冻结抽取器 required 行召回 | 35/42 | 37/42 | 描述性结果，不解释为纯内容剂量响应 |
-| AWQ：并发 1 输出吞吐 | 75.62 tok/s | 194.99 tok/s | 性能改善，质量不等价 |
+| Base-AWQ：并发 1 输出吞吐 | 75.62 tok/s | 194.99 tok/s | 未适配模型的部署基准；非公开 V24-AWQ 权重实测 |
 
 没有任何 RAFT 或 GRPO arm 通过全部预注册门禁。结构化模型也保持 `ARCHIVED_FINAL_FAIL`：金额抽取明显改善，但时间 F1 仅从 `0.6000` 到 `0.6159`，negative 精确率下降。
 
@@ -58,7 +58,7 @@
 | 2 | 审计后 Gold SFT | 86 条发布数据（77 训练 / 9 验证）产生项目最明确的早期咨询质量阳性结果 |
 | 3 | 引用约束 SFT 与 DPO | SFT 基本不动；高剂量 DPO 能移动行为，但伴随质量漂移 |
 | 4 | 结构化法律 Intake | rank 容量消融后提升总体与金额抽取，最终门禁仍未全部通过 |
-| 5 | AWQ 量化部署 | 模型体积与吞吐改善，自由文本引用行为发生回归 |
+| 5 | Base-AWQ 部署基准与 V24-AWQ 后验量化 | Base-AWQ 体积与吞吐改善但引用回归；发布的 V24-AWQ 另作结构化 2×2 评测 |
 | 6 | RAG 权威上下文与 Strict RAFT | 确定性引用指标改善，语义质量下降 |
 | 7 | GRPO 与 200→600 步剂量响应 | 200 步是 RAG 指标高点；增加剂量没有突破奖励结构上限 |
 
@@ -119,7 +119,7 @@ Raw Base 的长预算补测采用 `temperature=0.2, top_p=0.9, max_tokens=8192, 
 | [Qwen3-8B-LegalIntake](https://huggingface.co/haofue2i1z3/Qwen3-8B-LegalIntake) | Instruct LoRA | 未通过全部门禁 |
 | [Qwen3-8B-LegalCitation-GRPO-200](https://huggingface.co/haofue2i1z3/Qwen3-8B-LegalCitation-GRPO-200) | Instruct LoRA | 未通过全部门禁 |
 | [Qwen3-8B-LegalCitation-GRPO-600](https://huggingface.co/haofue2i1z3/Qwen3-8B-LegalCitation-GRPO-600) | GRPO-200 续训 LoRA | 未通过全部门禁 |
-| [Qwen3-8B-Legal-AWQ](https://huggingface.co/haofue2i1z3/Qwen3-8B-Legal-AWQ) | W4A16 完整权重 | 部署基准资产，质量不等价 |
+| [Qwen3-8B-Legal-AWQ](https://huggingface.co/haofue2i1z3/Qwen3-8B-Legal-AWQ) | V24 融合后 W4A16 完整权重 | 后验量化资产，未通过全部门禁 |
 
 仓库内同时保留[模型卡副本](model_cards/)，便于在模型托管页面之外复核训练目标、结果和限制。
 
